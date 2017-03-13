@@ -93,7 +93,7 @@ public class CheckinFailureDetailView extends ViewPart {
 	}
 
 	/**
-	 * Method to get count
+	 * Method to get count adding bhuvi
 	 *
 	 * @return the pCount
 	 */
