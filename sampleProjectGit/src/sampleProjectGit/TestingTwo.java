@@ -6,5 +6,7 @@ void method1(){
 	String str="testdata";
 	System.out.println("test:"+ test);
 	System.out.println("String:"+ str);
+	System.out.println("test:"+ test);
+	System.out.println("String:"+ str);
 }
 }
