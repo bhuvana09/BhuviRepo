@@ -8,5 +8,9 @@ void method1(){
 	System.out.println("String:"+ str);
 	System.out.println("test:"+ test);
 	System.out.println("String:"+ str);
+	System.out.println("test:"+ test);
+	System.out.println("String:"+ str);
+	System.out.println("test:"+ test);
+	System.out.println("String:"+ str);
 }
 }
