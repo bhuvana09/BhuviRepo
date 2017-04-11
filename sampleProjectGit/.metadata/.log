@@ -1,0 +1,2144 @@
+!SESSION 2017-04-03 12:17:12.972 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data D:\Workspace\runtime-EclipseApplication\git\BhuviRepo\sampleProjectGit -dev file:D:/Workspace/CodeBuddy_Hook_new/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.814
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.hp.hpl.jena.rdf.feature_1.1.2000.v20140124_0046.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.816
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.ccl.common.splash.feature.nl1_2.0.0.v20131216_1942.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.816
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.ccl.common.splash.feature.nl2bidi_2.0.0.v20131216_1942.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.817
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.ccl.common.splash.feature.nl2_2.0.0.v20131216_1942.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.818
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.ccl.common.splash.feature_1.2.1.v20140205_1813.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.819
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.projects.core.nls1_8.5.2.v201210101501.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.820
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.projects.core.pseudo_8.5.0.v20120502_2010.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.820
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.projects.core_8.5.0.v20120502_2010.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.821
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.toolbox.nls1_8.5.2.v201210101501.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.822
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.toolbox.pseudo_8.5.1.v20121025_2130.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.823
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.etools.iseries.toolbox_8.5.1.v20121025_2130.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.823
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.jazz.reports.ide.ui.cshelp.feature.nls1_3.0.1.v20140330_0832.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.824
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.jazz.reports.ide.ui.cshelp.feature.nls2_3.0.1.v20140403_0818.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.824
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.jazz.reports.ide.ui.cshelp.feature_3.0.1.v20140403_0818.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.825
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.buildforge.common.rtc.feature.nls1_3.0.9.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.826
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.buildforge.common.rtc.feature.nls2_3.0.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.826
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.buildforge.common.rtc.feature.pseudo_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.827
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.buildforge.common.rtc.feature_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.827
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.common.welcome.doc.feature.nl1_7.6.0.v20121105_1926.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.828
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.common.welcome.doc.feature.nl2a_7.6.0.v20130307_2119.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.829
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.common.welcome.doc.feature.nl2_7.6.0.v20130225_2211.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.830
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.common.welcome.doc.feature_7.6.0.v20130303_1747.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.831
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.common.rtc.feature.nls1_3.0.8.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.832
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.common.rtc.feature.nls2_3.0.7.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.833
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.common.rtc.feature.pseudo_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.833
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.common.rtc.feature_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.834
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.ide.rtc.feature.nls1_3.0.9.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.834
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.ide.rtc.feature.nls2_3.0.8.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.835
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.ide.rtc.feature.pseudo_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.836
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.rational.connector.cq.ide.rtc.feature_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.836
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apache.log4j.jfs.feature_1.0.1100.v20120901_0511.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.837
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apache.lucene2.jfs.feature_1.0.700.v20130320_1901.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.838
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.client.rtc.feature.nls1_3.0.7.v201310221948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.838
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.client.rtc.feature.nls2_3.0.5.v201307311242.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.838
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.client.rtc.feature.pseudo_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.839
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.client.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.840
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.common.rtc.feature.nls1_3.0.10.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.840
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.common.rtc.feature.nls2_3.0.10.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.840
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.common.rtc.feature.pseudo_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.841
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.common.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.841
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.842
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.842
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.cshelp.feature_3.0.1.v20140419_0745.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.843
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.rtc.feature.nls1_3.0.10.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.843
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.rtc.feature.nls2_3.0.10.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.844
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.rtc.feature.pseudo_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.844
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.845
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.server.shared.rtc.feature.nls1_3.0.9.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.846
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.server.shared.rtc.feature.nls2_3.0.8.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.846
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.server.shared.rtc.feature.pseudo_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.847
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.ide.server.shared.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.847
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.setup.junit.rtc.feature.nls1_3.0.8.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.848
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.setup.junit.rtc.feature.nls2_3.0.7.v201401212311.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.848
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.setup.junit.rtc.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.849
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.apt.setup.junit.rtc.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.849
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.client.rtc.feature.nls1_3.0.8.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.850
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.client.rtc.feature.nls2_3.0.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.850
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.client.rtc.feature.pseudo_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.851
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.client.rtc.feature_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.852
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.common.rtc.feature.nls1_3.1.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.852
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.common.rtc.feature.nls2_3.1.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.853
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.common.rtc.feature.pseudo_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.853
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.common.rtc.feature_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.854
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.cshelp.feature.nls1_3.0.1.v20140418_0734.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.854
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.cshelp.feature.nls2_3.0.1.v20140418_0734.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.855
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.855
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.ide.rtc.feature.nls1_3.0.10.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.856
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.ide.rtc.feature.nls2_3.0.10.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.856
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.ide.rtc.feature.pseudo_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.857
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.ide.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.857
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.setup.junit.rtc.feature.nls1_3.0.7.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.858
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.setup.junit.rtc.feature.nls2_3.0.3.v201205171415.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.858
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.setup.junit.rtc.feature.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.859
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.setup.junit.rtc.feature_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.859
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.toolkit.rtc.feature.nls1_3.0.9.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.860
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.toolkit.rtc.feature.nls2_3.0.6.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.860
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.toolkit.rtc.feature.pseudo_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.861
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.build.toolkit.rtc.feature_3.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.861
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.client.rtc.feature.nls1_3.1.3.v201307311254.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.862
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.client.rtc.feature.nls2_3.1.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.862
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.client.rtc.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.863
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.client.rtc.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.863
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.common.rtc.feature.nls1_3.1.5.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.864
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.common.rtc.feature.nls2_3.1.4.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.865
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.common.rtc.feature.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.865
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.common.rtc.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.866
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.rcp.rtc.feature.nls1_3.1.3.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.867
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.rcp.rtc.feature.nls2_3.1.3.v201401212312.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.867
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.rcp.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.868
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.calm.foundation.rcp.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.868
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.chat.rcp.jfs.feature.nls1_1.0.203.v201310221903.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.869
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.chat.rcp.jfs.feature.nls2_1.0.201.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.869
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.chat.rcp.jfs.feature.pseudo_1.0.3000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.870
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.chat.rcp.jfs.feature_1.0.3000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.870
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.cshelp.feature.nls1_3.0.1.v20140210_1646.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.870
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.871
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.871
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.jabber.rcp.rtc.feature.nls1_3.0.5.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.872
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.jabber.rcp.rtc.feature.nls2_3.0.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.872
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.jabber.rcp.rtc.feature.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.873
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.jabber.rcp.rtc.feature_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.873
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.rcp.jfs.feature.nls1_1.0.9.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.874
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.rcp.jfs.feature.nls2_1.0.8.v201401180038.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.874
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.rcp.jfs.feature.pseudo_1.0.2000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.875
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.rcp.jfs.feature_1.0.2000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.875
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.sametime.rcp.rtc.feature.nls1_3.0.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.876
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.sametime.rcp.rtc.feature.nls2_3.0.3.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.876
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.sametime.rcp.rtc.feature.nl_3.0.200.v20131025_0417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.877
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.sametime.rcp.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.877
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.collaboration.sametime.rcp.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.878
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.concert.feature.nls1_3.1.8.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.878
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.concert.feature.nls2_3.1.8.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.879
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.concert.feature.pseudo_3.1.800.v20140509_1836.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.879
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.concert.feature_3.1.800.v20140509_1836.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.880
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.client.rtc.feature.nls1_3.3.4.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.880
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.client.rtc.feature.nls2_3.3.4.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.881
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.client.rtc.feature.pseudo_3.2.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.881
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.client.rtc.feature_3.2.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.882
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.common.rtc.feature.nls1_3.0.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.882
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.common.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.883
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.common.rtc.feature.pseudo_3.1.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.883
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.common.rtc.feature_3.1.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.884
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.cq.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.885
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.cq.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.885
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.cq.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.886
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.ide.rtc.feature.nls1_3.0.10.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.887
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.ide.rtc.feature.nls2_3.0.9.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.888
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.ide.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.888
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.ide.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.889
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.scm.cc.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.889
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.scm.cc.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.890
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.connector.scm.cc.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.890
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.common.jfs.feature.nls1_1.1.1.v201310221903.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.891
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.common.jfs.feature.nls2_1.1.1.v201310221859.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.891
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.common.jfs.feature.pseudo_1.2.0.v20140309_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.892
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.common.jfs.feature_1.2.0.v20140309_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.892
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.rcp.jfs.feature.nls1_1.0.6.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.892
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.rcp.jfs.feature.nls2_1.0.6.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.893
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.rcp.jfs.feature.pseudo_1.0.3000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.893
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dashboard.rcp.jfs.feature_1.0.3000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.894
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dev.jdojo.rtc.feature.nls1_1.0.4.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.894
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dev.jdojo.rtc.feature.nls2_1.0.1.v201401212312.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.895
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dev.jdojo.rtc.feature.pseudo_1.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.895
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.dev.jdojo.rtc.feature_1.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.895
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.common.feature.nls1_3.1.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.896
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.common.feature.nls2_3.1.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.896
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.common.feature.pseudo_3.1.600.v20140501_2208.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.897
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.common.feature_3.1.600.v20140501_2208.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.897
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.ui.feature.nls1_3.1.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.898
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.ui.feature.nls2_3.1.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.898
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.ui.feature.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.899
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.automation.ui.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.899
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.common.nls1_3.0.7.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.899
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.common.nls2_3.0.7.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.900
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.common.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.900
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.common_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.901
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.ui.nls1_1.2.5.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.901
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.ui.nls2_1.2.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.902
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.ui.pseudo_1.2.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.902
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.build.feature.ui_1.2.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.902
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.client.nls1_3.1.3.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.903
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.client.nls2_3.1.3.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.903
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.client.pseudo_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.904
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.client_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.904
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.common.nls1_3.1.4.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.904
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.common.nls2_3.1.3.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.905
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.common.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.905
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildablesubset.feature.common_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.906
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.client.feature.nls1_3.1.0.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.906
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.client.feature.nls2_3.1.0.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.907
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.client.feature.pseudo_3.0.403.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.907
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.client.feature_3.0.403.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.907
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.common.feature.nls1_3.1.0.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.908
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.common.feature.nls2_3.1.0.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.909
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.common.feature.pseudo_3.1.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.909
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.buildmap.common.feature_3.1.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.910
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.common.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.911
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.common.ui.feature.nls1_3.0.6.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.911
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.common.ui.feature.nls2_3.0.7.v201310221942.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.912
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.common.ui.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.913
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.common.ui.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.913
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.definitions.ui.feature.nls1_3.0.9.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.914
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.definitions.ui.feature.nls2_3.0.7.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.915
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.definitions.ui.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.915
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.definitions.ui.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.916
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependency.util.feature.nls1_3.0.3.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.917
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependency.util.feature.nls2_3.0.2.v201205171416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.918
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependency.util.feature.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.919
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependency.util.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.920
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.client.nls1_1.0.1.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.920
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.client.nls2_1.0.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.921
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.client.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.922
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.client_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.923
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.common.nls1_1.0.5.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.924
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.common.nls2_1.0.3.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.924
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.common.pseudo_1.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.925
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.dependencyset.feature.common_1.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.926
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.client.feature.nls1_3.1.2.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.926
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.client.feature.nls2_3.1.0.v201205171416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.927
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.client.feature.pseudo_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.928
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.client.feature_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.929
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.common.feature.nls1_3.1.1.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.929
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.common.feature.nls2_3.1.0.v201205171416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.930
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.common.feature.pseudo_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.930
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.common.feature_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.931
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.ui.feature.nls1_3.1.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.931
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.ui.feature.nls2_3.1.6.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.931
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.ui.feature.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.932
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.deployment.ui.feature_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.932
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.build.feature.ui.nls1_1.0.5.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.933
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.build.feature.ui.nls2_1.0.4.v201310221942.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.933
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.build.feature.ui.pseudo_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.934
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.build.feature.ui_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.934
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.common.nls1_3.5.2.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.935
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.common.nls2_3.5.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.936
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.common.pseudo_3.5.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.936
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.common_3.5.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.937
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.toolkit.nls1_1.1.3.v201401212315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.938
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.toolkit.nls2_1.1.0.v201305091344.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.939
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.toolkit.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.939
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.toolkit_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.940
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.ui.nls1_1.0.6.v201404231318.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.941
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.ui.nls2_1.0.5.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.942
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.ui.pseudo_1.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.942
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ibmi.systemdefinition.feature.ui_1.0.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.943
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.langdef.client.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.943
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.langdef.common.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.944
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.client.feature.nls1_3.0.4.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.944
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.client.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.945
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.client.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.945
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.client.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.946
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.common.feature.nls1_3.0.3.v201205171425.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.947
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.common.feature.nls2_3.0.6.v201404231315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.947
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.common.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.948
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.common.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.948
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.ide.feature.nls1_3.0.7.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.948
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.ide.feature.nls2_3.0.5.v201305091344.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.949
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.ide.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.949
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.collection.ide.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.950
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.common.feature.nls1_3.0.8.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.950
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.common.feature.nls2_3.0.5.v201401212312.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.951
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.common.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.951
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.common.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.952
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.ui.feature.nls1_3.0.9.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.952
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.ui.feature.nls2_3.0.9.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.953
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.ui.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.954
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.query.ui.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.954
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.scanner.client.feature_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.955
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.scanner.common.feature.nls1_3.0.4.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.955
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.scanner.common.feature.nls2_3.0.3.v201205171417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.956
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.scanner.common.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.957
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.metadata.scanner.common.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.958
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.client.feature.nls1_3.1.1.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.958
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.client.feature.nls2_3.1.1.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.959
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.client.feature.pseudo_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.960
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.client.feature_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.960
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.common.feature.nls1_3.1.1.v201307311256.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.961
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.common.feature.nls2_3.1.0.v201205171417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.962
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.common.feature.pseudo_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.962
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.common.feature_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.963
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.ui.feature.nls1_3.1.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.963
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.ui.feature.nls2_3.1.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.963
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.ui.feature.pseudo_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.964
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.packaging.ui.feature_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.964
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.definitions.ide.rtc.feature.nls1_3.0.9.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.965
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.definitions.ide.rtc.feature.nls2_3.0.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.965
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.definitions.ide.rtc.feature.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.965
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.definitions.ide.rtc.feature_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.966
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.common.nls1_3.0.3.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.966
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.common.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.967
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.common.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.967
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.common_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.968
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.ui.nls1_3.0.8.v201401212315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.968
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.ui.nls2_3.0.5.v201401212312.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.968
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.ui.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.969
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.process.feature.ui_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.969
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.client.nls1_3.1.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.970
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.client.nls2_3.1.3.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.971
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.client.pseudo_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.971
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.client_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.972
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.common.nls1_3.1.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.972
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.common.nls2_3.1.0.v201205171417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.973
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.common.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.973
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.common_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.973
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.ui.nls1_3.1.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.974
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.ui.nls2_3.1.5.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.974
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.ui.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.975
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.promotion.feature.ui_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.975
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.client.feature.nls1_3.0.5.v201310221953.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.975
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.client.feature.nls2_3.0.3.v201205171417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.976
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.client.feature.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.976
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.client.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.977
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.common.feature.nls1_3.1.1.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.977
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.common.feature.nls2_3.1.0.v201205171417.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.978
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.common.feature.pseudo_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.978
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.rdf.query.common.feature_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.979
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ref.integrity.feature.nls1_1.0.5.v201401212315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.980
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ref.integrity.feature.nls2_1.0.2.v201305091345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.980
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ref.integrity.feature.pseudo_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.981
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.ref.integrity.feature_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.982
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.resourcedef.client.feature_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.982
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.resourcedef.common.feature_3.0.402.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.983
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.client.nls1_3.5.2.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.984
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.client.nls2_3.5.1.v201211091528.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.984
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.client.pseudo_3.5.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.985
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.client_3.5.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.986
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.common.nls1_3.5.4.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.987
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.common.nls2_3.5.3.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.987
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.common.pseudo_3.5.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.988
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.common_3.5.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.988
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.toolkit.nls1_1.0.3.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.989
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.toolkit.nls2_1.0.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.989
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.toolkit.pseudo_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.990
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.toolkit_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.990
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.ui.nls1_1.0.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.991
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.ui.nls2_1.0.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.991
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.ui.pseudo_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.992
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.systemdefinition.feature.ui_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.992
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.build.feature.ui_1.0.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.993
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.mapping.feature.nls1_1.0.3.v201401212315.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.993
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.mapping.feature.nls2_1.0.5.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.994
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.mapping.feature.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.994
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.mapping.feature_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.996
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.common.nls1_1.0.2.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.997
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.common.nls2_1.0.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.997
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.common.pseudo_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.998
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.common_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.998
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.toolkit.nls1_1.0.3.v201307311257.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.999
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.toolkit.nls2_1.0.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:15.999
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.toolkit.pseudo_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.000
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.toolkit_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.000
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.ui.nls1_1.0.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.001
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.ui.nls2_1.0.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.002
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.ui.pseudo_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.002
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.enterprise.zos.systemdefinition.feature.ui_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.003
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.cli.rtc.feature.nls1_3.2.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.003
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.cli.rtc.feature.nls2_3.2.2.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.004
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.cli.rtc.feature.pseudo_3.2.200.v20140426_0043.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.004
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.cli.rtc.feature_3.2.200.v20140426_0043.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.005
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.client.rtc.feature.nls1_3.2.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.006
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.client.rtc.feature.nls2_3.2.2.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.008
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.client.rtc.feature.pseudo_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.009
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.client.rtc.feature_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.009
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.common.rtc.feature.nls1_3.2.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.010
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.common.rtc.feature.nls2_3.2.0.v201310221944.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.010
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.common.rtc.feature.pseudo_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.011
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.common.rtc.feature_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.012
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.ide.rtc.feature.nls1_3.3.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.012
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.ide.rtc.feature.nls2_3.3.2.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.013
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.ide.rtc.feature.pseudo_3.3.200.v20140425_0048.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.013
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.ide.rtc.feature_3.3.200.v20140425_0048.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.014
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.rcp.rtc.feature.nls1_3.3.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.014
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.rcp.rtc.feature.nls2_3.3.2.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.015
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.rcp.rtc.feature.pseudo_3.3.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.015
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.rcp.rtc.feature_3.3.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.016
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.filesystem.setup.junit.rtc.feature_3.0.1.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.016
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.client.jfs.feature.nls1_1.0.308.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.018
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.client.jfs.feature.nls2_1.0.307.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.018
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.client.jfs.feature.pseudo_1.1.0.v20140307_1622.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.019
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.client.jfs.feature_1.1.0.v20140307_1622.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.019
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.common.jfs.feature.nls1_1.2.0.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.020
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.common.jfs.feature.nls2_1.2.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.020
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.common.jfs.feature.pseudo_1.1.0.v20140410_1632.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.021
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.foundation.common.jfs.feature_1.1.0.v20140410_1632.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.021
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.client.rtc.feature.nls1_3.0.6.v201307311258.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.022
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.client.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.022
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.client.rtc.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.023
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.client.rtc.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.023
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.common.rtc.feature.nls1_3.0.8.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.024
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.common.rtc.feature.nls2_3.0.3.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.024
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.common.rtc.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.025
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.common.rtc.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.025
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.ide.rtc.feature.nls1_3.0.9.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.026
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.ide.rtc.feature.nls2_3.0.8.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.026
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.ide.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.027
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.ide.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.028
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.rcp.rtc.feature.nls1_3.0.8.v201401212316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.028
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.rcp.rtc.feature.nls2_3.0.6.v201310221944.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.029
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.rcp.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.029
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.interop.rcp.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.030
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.jazzhub.client.feature.nls1_1.0.2.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.048
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.jazzhub.client.feature.nls2_1.0.2.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.049
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.jazzhub.client.feature.pseudo_1.0.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.050
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.jazzhub.client.feature_1.0.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.051
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.platform.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.052
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.platform.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.053
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.platform.cshelp.feature_3.0.1.v20140419_0745.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.053
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.client.jfs.feature.nls1_1.2.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.054
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.client.jfs.feature.nls2_1.2.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.055
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.client.jfs.feature.pseudo_1.2.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.056
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.client.jfs.feature_1.2.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.057
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.common.jfs.feature.nls1_1.2.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.058
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.common.jfs.feature.nls2_1.2.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.059
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.common.jfs.feature.pseudo_1.2.0.v20140408_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.059
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.common.jfs.feature_1.2.0.v20140408_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.060
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.definitions.ide.rtc.feature.nls1_3.1.5.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.060
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.definitions.ide.rtc.feature.nls2_3.1.1.v201211091529.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.061
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.definitions.ide.rtc.feature.pseudo_3.1.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.062
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.definitions.ide.rtc.feature_3.1.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.062
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.ide.jfs.feature.nls1_1.2.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.062
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.ide.jfs.feature.nls2_1.2.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.063
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.ide.jfs.feature.pseudo_1.2.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.063
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.ide.jfs.feature_1.2.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.064
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.integrations.rad.feature.nls1_3.0.6.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.064
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.integrations.rad.feature.nls2_3.0.2.v201109280231.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.065
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.integrations.rad.feature.pseudo_3.1.0.v20140307_1622.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.065
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.integrations.rad.feature_3.1.0.v20140307_1622.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.066
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.rcp.jfs.feature.nls1_1.2.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.066
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.rcp.jfs.feature.nls2_1.2.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.067
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.rcp.jfs.feature.pseudo_1.2.0.v20140316_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.067
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.process.rcp.jfs.feature_1.2.0.v20140316_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.068
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.client.jfs.feature.nls1_1.0.2.v201205171345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.068
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.client.jfs.feature.nls2_1.0.2.v201205171341.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.069
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.client.jfs.feature.pseudo_1.0.3000.v20140107_0431.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.069
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.client.jfs.feature_1.0.3000.v20140107_0431.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.069
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.jfs.feature.nls1_1.0.7.v201401180040.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.070
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.jfs.feature.nls2_1.0.6.v201401180039.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.070
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.jfs.feature.pseudo_1.1.0.v20140408_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.071
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.jfs.feature_1.1.0.v20140408_2345.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.071
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.rtc.feature.nls1_3.1.6.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.072
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.rtc.feature.nls2_3.1.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.072
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.rtc.feature.pseudo_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.072
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.common.rtc.feature_3.1.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.073
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.jfs.feature.nls1_1.0.8.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.073
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.jfs.feature.nls2_1.0.5.v201401180039.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.074
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.jfs.feature.pseudo_1.1.0.v20140322_0137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.074
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.jfs.feature_1.1.0.v20140322_0137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.075
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.rtc.feature.nls1_3.1.1.v201305091357.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.075
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.rtc.feature.nls2_3.1.0.v201205171418.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.075
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.rtc.feature.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.076
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.reports.ide.rtc.feature_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.076
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.client.jfs.feature.nls1_1.1.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.077
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.client.jfs.feature.nls2_1.1.0.v201404231307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.077
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.client.jfs.feature.pseudo_1.1.0.v20140406_2347.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.078
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.client.jfs.feature_1.1.0.v20140406_2347.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.079
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.common.jfs.feature.nls1_1.2.0.v201404231309.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.080
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.common.jfs.feature.nls2_1.2.0.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.080
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.common.jfs.feature.pseudo_1.1.0.v20140412_0000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.081
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.common.jfs.feature_1.1.0.v20140412_0000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.082
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.common.rtc.feature.nls1_3.1.5.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.082
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.common.rtc.feature.nls2_3.1.0.v201205171418.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.083
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.common.rtc.feature.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.084
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.common.rtc.feature_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.085
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.rtc.feature.nls1_3.1.5.v201401212316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.086
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.rtc.feature.nls2_3.1.3.v201307311247.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.087
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.rtc.feature.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.087
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.repository.rcp.rtc.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.088
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.client.license.feature_1.0.100.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.089
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.common.rtc.feature_3.0.1000.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.090
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.scriptengine.rtc.feature.nls1_3.0.101.v201305091357.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.091
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.scriptengine.rtc.feature.nls2_3.0.101.v201305091346.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.092
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.scriptengine.rtc.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.092
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.rtc.scriptengine.rtc.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.093
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.admin.rtc.feature.nls1_3.1.1.v201211091539.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.094
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.admin.rtc.feature.nls2_3.1.0.v201205171418.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.095
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.admin.rtc.feature.pseudo_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.096
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.admin.rtc.feature_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.096
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.client.rtc.feature.nls1_3.2.0.v201404231319.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.097
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.client.rtc.feature.nls2_3.2.0.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.097
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.client.rtc.feature.pseudo_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.098
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.client.rtc.feature_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.098
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.common.rtc.feature.nls1_3.2.0.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.099
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.common.rtc.feature.nls2_3.2.0.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.099
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.common.rtc.feature.pseudo_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.100
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.common.rtc.feature_3.2.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.100
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.cshelp.feature.nls1_3.0.1.v20140418_0734.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.101
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.101
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.102
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.client.rtc.feature.nls1_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.103
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.client.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.104
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.client.rtc.feature.pseudo_3.1.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.104
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.client.rtc.feature_3.1.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.105
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.common.rtc.feature.nls1_3.1.0.v201211091539.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.106
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.common.rtc.feature.nls2_3.1.0.v201211091530.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.106
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.common.rtc.feature.pseudo_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.107
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.common.rtc.feature_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.107
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.108
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.108
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.109
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.ide.rtc.feature.nls1_3.2.1.v201401212316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.109
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.ide.rtc.feature.nls2_3.2.1.v201401212313.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.110
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.ide.rtc.feature.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.111
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.scm.svn.ide.rtc.feature_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.111
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.svnkit.rtc.feature_1.0.100.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.112
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.client.rtc.feature.nls1_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.112
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.client.rtc.feature.nls2_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.113
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.client.rtc.feature.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.114
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.client.rtc.feature_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.114
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.common.rtc.feature.nls1_3.1.3.v201310221956.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.115
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.common.rtc.feature.nls2_3.1.2.v201310221945.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.115
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.common.rtc.feature.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.115
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.common.rtc.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.116
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.ide.rtc.feature.nls1_3.0.8.v201401212316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.116
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.ide.rtc.feature.nls2_3.0.6.v201401212313.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.117
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.ide.rtc.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.117
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.tpt.ide.rtc.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.118
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.welcome.feature.nls1_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.118
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.welcome.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.119
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.welcome.feature_3.0.1.v20140509_0750.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.119
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.client.rtc.feature.nls1_3.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.120
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.client.rtc.feature.nls2_3.1.3.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.120
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.client.rtc.feature.pseudo_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.121
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.client.rtc.feature_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.121
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.common.rtc.feature.nls1_3.2.1.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.122
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.common.rtc.feature.nls2_3.2.1.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.122
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.common.rtc.feature.pseudo_3.2.100.v20140508_1829.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.123
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.common.rtc.feature_3.2.100.v20140508_1829.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.123
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.cshelp.feature.nls1_3.0.1.v20140330_0948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.124
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.cshelp.feature.nls2_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.125
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.cshelp.feature_3.0.1.v20140403_1107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.125
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.ide.rtc.feature.nls1_3.3.3.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.127
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.ide.rtc.feature.nls2_3.2.6.v201404231316.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.128
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.ide.rtc.feature.pseudo_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.128
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.ide.rtc.feature_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.129
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.java.common.rtc.feature.nls1_3.0.3.v201307311301.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.130
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.java.common.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.131
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.java.common.rtc.feature.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.132
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.java.common.rtc.feature_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.133
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.rcp.rtc.feature.nls1_3.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.133
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.rcp.rtc.feature.nls2_3.1.6.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.134
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.rcp.rtc.feature.pseudo_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.135
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.rcp.rtc.feature_3.1.900.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.135
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.setup.junit.rtc.feature.nls1_3.0.8.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.136
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.setup.junit.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.137
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.setup.junit.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.137
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.team.workitem.setup.junit.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.138
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.aix.metadata.collection.client.feature.nls1_3.0.4.v201307311302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.139
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.aix.metadata.collection.client.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.139
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.aix.metadata.collection.client.feature.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.140
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.aix.metadata.collection.client.feature_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.140
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.common.rtc.feature.nls1_3.0.9.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.141
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.common.rtc.feature.nls2_3.0.6.v201310221946.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.142
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.common.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.142
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.common.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.143
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.ide.rtc.feature.nls1_3.0.9.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.143
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.ide.rtc.feature.nls2_3.0.7.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.143
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.ide.rtc.feature.pseudo_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.144
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.build.ide.rtc.feature_3.0.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.144
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.client.nls1_3.0.1.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.145
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.client.nls2_3.0.1.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.145
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.client.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.146
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.client_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.147
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.common.nls1_3.0.3.v201307311302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.147
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.common.nls2_3.0.1.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.148
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.common.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.148
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.dependencyset.feature.common_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.149
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.client.rtc.feature.nls1_4.0.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.149
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.client.rtc.feature.nls2_4.0.2.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.150
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.client.rtc.feature.pseudo_4.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.150
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.client.rtc.feature_4.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.151
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.common.rtc.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.151
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.ide.rtc.feature.nls1_3.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.152
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.ide.rtc.feature.nls2_3.1.3.v201310221947.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.152
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.ide.rtc.feature.pseudo_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.153
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.filesystem.ide.rtc.feature_3.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.153
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ibmi.metadata.collection.client.feature.nls1_3.0.4.v201307311303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.154
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ibmi.metadata.collection.client.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.154
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ibmi.metadata.collection.client.feature.pseudo_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.155
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ibmi.metadata.collection.client.feature_3.1.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.155
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ide.client.rtc.feature.nls1_3.0.3.v201211091542.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.156
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ide.client.rtc.feature.nls2_3.0.2.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.156
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ide.client.rtc.feature.pseudo_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.157
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.ide.client.rtc.feature_3.0.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.157
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.logging.rtc.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.158
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.query.ui.feature.nls1_3.0.4.v201307311303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.158
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.query.ui.feature.nls2_3.0.3.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.159
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.query.ui.feature.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.159
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.query.ui.feature_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.160
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.util.feature.nls1_3.0.3.v201307311303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.160
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.util.feature.nls2_3.0.2.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.161
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.util.feature.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.161
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.metadata.util.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.162
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.scm.client.rtc.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.162
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.scm.common.rtc.feature.nls1_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.163
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.scm.common.rtc.feature.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.164
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.scm.common.rtc.feature.pseudo_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.164
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamp.scm.common.rtc.feature_3.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.165
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.feature.nls1_3.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.165
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.feature.nls2_3.1.5.v201401212313.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.166
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.feature.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.167
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.feature_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.167
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.zos.feature.pseudo_1.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.167
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.ant.zos.feature_1.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.168
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.client.nls1_0.7.4.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.168
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.client.nls2_0.7.3.v201310221947.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.169
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.client.pseudo_0.7.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.169
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.client_0.7.400.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.169
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.ide.nls1_3.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.170
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.ide.nls2_3.1.4.v201310221947.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.170
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.ide.pseudo_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.170
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.build.feature.ide_3.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.171
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.client.nls1_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.171
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.client.nls2_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.172
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.client.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.172
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.client_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.172
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.common.nls1_3.0.5.v201401212317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.173
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.common.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.173
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.common.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.174
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildablesubset.feature.common_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.174
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.client.nls1_3.0.3.v201307311303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.174
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.client.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.175
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.client.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.175
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.client_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.175
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.common.nls1_3.0.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.176
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.common.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.176
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.common.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.177
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.buildmap.feature.common_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.177
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.common.feature_1.0.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.177
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.client.nls1_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.178
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.client.nls2_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.178
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.client.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.179
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.client_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.179
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.common.nls1_3.0.4.v201401212317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.179
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.common.nls2_3.0.2.v201109230811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.180
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.common.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.180
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dependencyset.feature.common_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.181
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.client.nls1_1.0.3.v201211091542.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.181
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.client.nls2_1.0.700.v201401212308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.182
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.client.pseudo_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.182
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.client_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.183
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.common.nls1_1.1.4.v201401212317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.184
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.common.nls2_1.1.0.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.184
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.common.pseudo_1.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.185
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.common_1.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.186
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.ide.nls1_1.1.6.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.186
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.ide.nls2_1.1.6.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.187
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.ide.pseudo_1.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.187
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.dsdef.feature.ide_1.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.188
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.fileagent.miner.common.feature.nls1_1.0.4.v201404231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.189
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.fileagent.miner.common.feature.nls2_1.0.0.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.190
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.fileagent.miner.common.feature.pseudo_1.0.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.190
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.fileagent.miner.common.feature_1.0.200.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.191
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.client.nls1_1.0.2.v201205171431.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.191
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.client.nls2_1.0.2.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.192
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.client.pseudo_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.192
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.client_1.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.193
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.common.nls1_1.1.2.v201310222000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.193
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.common.nls2_1.1.0.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.194
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.common.pseudo_1.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.195
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.common_1.1.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.196
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.ide.nls1_3.1.6.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.197
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.ide.nls2_3.1.6.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.197
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.ide.pseudo_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.198
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.langdef.feature.ide_3.1.700.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.199
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.mapping.feature.nls1_1.0.4.v201401212317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.200
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.mapping.feature.nls2_1.0.5.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.201
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.mapping.feature.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.202
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.mapping.feature_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.202
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.feature.nls1_1.0.5.v201307311304.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.203
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.feature.nls2_1.0.4.v201211091531.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.204
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.feature.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.204
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.feature_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.205
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.query.ui.feature.nls1_3.0.6.v201401212317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.205
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.query.ui.feature.nls2_3.0.3.v201205171420.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.206
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.query.ui.feature.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.207
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.query.ui.feature_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.207
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.scanner.client.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.208
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.metadata.scanner.common.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.208
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.migration.feature.ide.nls1_3.0.7.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.209
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.migration.feature.ide.nls2_3.0.4.v201211091532.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.209
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.migration.feature.ide.pseudo_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.210
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.migration.feature.ide_3.0.300.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.211
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.client.nls1_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.211
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.client.nls2_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.212
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.client.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.212
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.client_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.213
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.common.nls1_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.214
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.common.nls2_3.0.100.v201205171406.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.214
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.common.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.215
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.rdf.query.feature.common_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.215
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.client.feature.nls1_3.0.9.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.216
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.client.feature.nls2_3.0.7.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.217
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.client.feature.pseudo_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.218
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.client.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.218
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.server.common.feature.nls1_3.0.9.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.219
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.server.common.feature.nls2_3.0.6.v201404231317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.220
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.server.common.feature.pseudo_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.220
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.supa.server.common.feature_3.0.800.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.221
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.feature.nls1_1.0.7.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.221
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.feature.nls2_1.0.4.v201310221948.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.222
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.feature.pseudo_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.223
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.feature_1.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.223
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.ui.feature.nls1_1.1.4.v201404231321.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.224
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.ui.feature.nls2_1.1.2.v201305091349.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.224
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.ui.feature.pseudo_1.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.225
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.ibm.teamz.zcomponent.ui.feature_1.1.600.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.225
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\com.rational.clearquest.cqjni.rtc.feature_3.0.500.v20140423_2142.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.226
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.jazz.ajax.jfs.feature.nls1_1.1.5.v201401180041.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.226
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.jazz.ajax.jfs.feature.nls2_1.2.0.v201404231308.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.227
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.jazz.ajax.jfs.feature.pseudo_3.6.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.228
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.jazz.ajax.jfs.feature_3.6.0.v20140410_2348.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.228
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.oauth.jfs.feature.nls1_1.0.1.v201109280231.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.229
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.oauth.jfs.feature.nls2_1.0.1.v201109280231.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.229
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\net.oauth.jfs.feature_1.0.3000.v20131217_0302.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.230
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\org.apache.commons.httpclient.jfs.feature_1.0.1100.v20120901_0511.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.231
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\org.apache.http.jfs.feature_1.0.1200.v20130129_0138.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2017-04-03 12:17:16.236
+!MESSAGE Unable to find feature.xml in directory: D:\Downloads\eclipse-jee-mars-2-win32-x86_64_new\eclipse\features\org.tmatesoft.svnkit_1.1.4.jar
+
+!ENTRY org.eclipse.jface 2 0 2017-04-03 12:17:20.933
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-04-03 12:17:20.934
+!MESSAGE A conflict occurred for CTRL+SHIFT+F9:
+Binding(CTRL+SHIFT+F9,
+	ParameterizedCommand(Command(com.ibm.team.filesystem.ide.ui.command.checkin,Check-In,
+		Check-In,
+		Category(com.ibm.team.filesystem.ide.ui.category,Jazz Source Control,Jazz Source Control,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17179a7e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.deactivateAllTasks,Deactivate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51f91d19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-04-03 12:17:20.934
+!MESSAGE A conflict occurred for CTRL+SHIFT+F12:
+Binding(CTRL+SHIFT+F12,
+	ParameterizedCommand(Command(com.ibm.team.filesystem.ide.ui.command.accept,Accept,
+		Accept,
+		Category(com.ibm.team.filesystem.ide.ui.category,Jazz Source Control,Jazz Source Control,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ce593bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F12,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.searchForTask,Search Repository for Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b6789cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-04-03 12:17:30.393
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\368837'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl
+END
+summary.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl/summary.xsl
+END
+fancy.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl/fancy.xsl
+END
+plain.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl/plain.xsl
+END
+default.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl/default.xsl
+END
+fancy-hist.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/src/xsl/fancy-hist.xsl
+END

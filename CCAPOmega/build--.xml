@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="Omega">
+	<property environment="env" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property file="./build.properties" />
+	<property name="target" value="${target.java.version}" />
+	<property name="source" value="${source.java.version}" />
+
+
+<!-- ################################ SONAR BEGIN #################################################-->
+	  <!-- Add the Sonar task -->
+  <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+    <classpath path="path/to/sonar/ant/task/lib" /> 
+    <!-- This sonar Ant task library can also be put in the ${ANT_HOME\}/lib directory-->
+    <!-- In such case this classpath node is no more mandatory -->
+  </taskdef>
+ 
+  <!-- Out-of-the-box those parameters are optional -->
+  <!-- EXAMPLE FOR MYSQL -->
+  <property name="sonar.jdbc.url" 
+       value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8" />
+  <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+  <property name="sonar.jdbc.username" value="sonar" />
+  <property name="sonar.jdbc.password" value="sonar" />
+ 
+  <!-- SERVER ON A REMOTE HOST -->
+  <property name="sonar.host.url" value="http://localhost:9000" />
+
+
+  <!-- Add the target -->
+  <target name="sonar">
+    <!-- list of mandatories Sonar properties -->
+    <property name="sonar.sources" value="list of source directories separated by a comma" />
+ 
+    <!-- list of optional Sonar properties -->
+    <property name="sonar.projectName" value="this value overrides the name defined in Ant root node" />
+    <property name="sonar.binaries" value="list of directories which contain for example the Java bytecode" />
+    <property name="sonar.tests" value="list of test source directories separated by a comma" />
+    <property name="sonar.libraries" value="list of paths to libraries separated by a comma (These libraries are for example used by the Sonar Findbugs plugin)" />
+    ...
+ 
+    <sonar:sonar key="ASP.GTO:1234512346.12343.java" version="1.0.1" xmlns:sonar="antlib:org.sonar.ant"/>
+  </target>
+
+
+
+<!-- ################################ SONAR END #################################################-->
+
+
+
+	<path id="Web App Libraries.libraryclasspath">
+		<fileset dir="WebContent/WEB-INF/lib/" includes="**/*.jar" />
+	</path>
+	<path id="buildlib">
+		<fileset dir="${build.lib}" includes="**/*.jar" />
+	</path>
+
+	<path id="server.libraryclasspath">
+		<fileset dir="${server.lib.dir}" includes="**/*.jar" />
+	</path>
+
+	<path id="Omega.classpath">
+		<pathelement location="build/classes" />
+		<path refid="Web App Libraries.libraryclasspath" />
+		<path refid="server.libraryclasspath" />
+	</path>
+
+	<target name="clean">
+		<delete dir="build/classes" />
+	</target>
+
+
+
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${instrumented.dir}" />
+		<copy includeemptydirs="false" todir="${build.dir}">
+			<fileset dir="${source.dir}">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="${build.dir}">
+			<fileset dir="${test.dir}">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target depends="init" name="build">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="${build.dir}" source="${source}" target="${target}">
+			<src path="src" />
+			<classpath refid="Omega.classpath" />
+		</javac>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="${build.dir}" source="${source}" target="${target}">
+			<src path="test" />
+			<classpath refid="Omega.classpath" />
+		</javac>
+	</target>
+
+	<target name="javaDocs" depends="init">
+		<!-- create javadocs -->
+		<javadoc package="false" packagenames="**/*.*" sourcepath="${source.dir}" defaultexcludes="yes" destdir="${javadoc.dir}">
+			<classpath refid="server.libraryclasspath" />
+		</javadoc>
+	</target>
+
+	<target name="format" description="Format Source Code">
+		<echo>Format : Formating Souce Code</echo>
+		<jalopy loglevel="info" threads="2" failonerror="false">
+			<fileset dir="${source.dir}">
+				<include name="**/*.java" />
+			</fileset>
+		</jalopy>
+	</target>
+	<taskdef name="jalopy" classname="de.hunsicker.jalopy.plugin.ant.AntPlugin" onerror="ignore">
+		<classpath refid="buildlib" />
+		<classpath refid="Web App Libraries.libraryclasspath" />
+	</taskdef>
+
+	<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="buildlib" />
+	<target name="pmd">
+		<pmd rulesetfiles="${PMDRuleFileName}">
+			<fileset dir="${source.dir}">
+				<include name="**/*.java" />
+				<!-- Do not run rules on auto generated code -->
+
+			</fileset>
+			<formatter type="net.sourceforge.pmd.renderers.HTMLRenderer" toFile="${report.dir}/pmd/PMD-Report.html" />
+		</pmd>
+	</target>
+	<!-- Runs the Checkstyle tool on java files -->
+
+	<taskdef resource="checkstyletask.properties" classpath="${build.lib}/checkstyle-all-4.4.jar" />
+
+
+	<target name="checkstyle">
+		<checkstyle config="${checkstyle.RuleFileName}" failOnViolation="false">
+			<fileset dir="${source.dir}" includes="**/*.java" />
+			<formatter type="plain" />
+
+			<formatter type="plain" toFile="${report.dir}/checkstyle/checkstyle_errors.html" />
+		</checkstyle>
+	</target>
+
+
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" classpathref="buildlib" />
+	<target name="findbugs">
+		<findbugs home="${findbugs.home}" output="html" outputFile="${report.dir}\\bcel-fb.html" quieterrors="true">
+
+			<classpath refid="Omega.classpath" />
+			<sourcePath path="${source.dir}" />
+			<class location="${build.dir}" />
+		</findbugs>
+	</target>
+
+	<path id="cobertura.classpath">
+		<fileset dir="${cobertura.dir}">
+
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+	<target name="instrument" depends="init,build">
+		<!--
+				Remove the coverage data file and any old instrumentation.
+			-->
+		<delete file="cobertura.ser" />
+		<delete dir="${instrumented.dir}" />
+
+
+		<!--
+				Instrument the application classes, writing the
+				instrumented classes into ${build.instrumented.dir}.
+			-->
+		<cobertura-instrument todir="${instrumented.dir}">
+			<!--
+					The following line causes instrument to ignore any
+					source line containing a reference to log4j, for the
+					purposes of coverage reporting.
+				-->
+			<ignore regex="org.apache.log4j.*" />
+
+			<fileset dir="${classes.dir}">
+				<!--
+						Instrument all the application classes, but
+						don't instrument the test classes.
+					-->
+				<include name="**/*.class" />
+				<exclude name="**/*Test.class" />
+				<exclude name="**/All*.class" />
+				<exclude name="**/*Controller.class" />
+
+			</fileset>
+		</cobertura-instrument>
+	</target>
+	<target name="test" depends="init,build">
+		<junit fork="yes" dir="${basedir}" printsummary="yes" failureProperty="test.failed">
+			<!--
+					Note the classpath order: instrumented classes are before the
+					original (uninstrumented) classes.  This is important.
+				-->
+
+			<classpath location="${instrumented.dir}" />
+			<classpath location="${build.dir}" />
+			<classpath location="${build.lib}\junit-4.0.jar" />
+			<classpath refid="Omega.classpath" />
+			<!--
+					The instrumented classes reference classes used by the
+					Cobertura runtime, so Cobertura and its dependencies
+					must be on your classpath.
+				-->
+			<classpath refid="cobertura.classpath" />
+
+			<formatter type="xml" />
+			<test name="${testcase}" todir="${report.dir}/junit" if="testcase" />
+			<batchtest todir="${report.dir}/junit">
+				<fileset dir="${test.dir}">
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+
+		<junitreport todir="${report.dir}/junit">
+			<fileset dir="${report.dir}/junit">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${report.dir}/junit" />
+		</junitreport>
+	</target>
+	<!-- run junit test -->
+	<target name="UnitTest" depends="build">
+		<!-- delete the junit report folder -->
+		<delete dir="${report.dir}/junit" failonerror="true" />
+		<mkdir dir="${report.dir}/junit" />
+
+		<echo message="Running Unit Test Cases" />
+
+		<junit printsummary="yes" haltonfailure="true" fork="true">
+
+			<classpath refid="Omega.classpath" />
+			<classpath location="${build.dir}" />
+
+			<batchtest todir="${report.dir}/junit">
+				<fileset dir="test">
+					<exclude name="**/All*.java" />
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+
+			<formatter type="xml" />
+
+		</junit>
+	</target>
+
+	<target name="coverage-check">
+		<cobertura-check branchrate="34" totallinerate="100" />
+	</target>
+
+	<target name="coverage-report">
+		<!--
+				Generate an XML file containing the coverage data using
+				the "srcdir" attribute.
+			-->
+		<cobertura-report srcdir="${source.dir},${test.dir}" destdir="${report.dir}\\junitCoverage" format="xml" excludes="**/*Controller.java" />
+	</target>
+
+	<target name="summary-coverage-report">
+		<!--
+				Generate an summary XML file containing the coverage data using
+				the "srcdir" attribute.
+			-->
+		<cobertura-report srcdir="${source.dir},${test.dir}" destdir="${coverage.summaryxml.dir}" format="summaryXml" />
+	</target>
+
+	<target name="alternate-coverage-report">
+		<!--
+				Generate a series of HTML files containing the coverage
+				data in a user-readable form using nested source filesets.
+			-->
+		<cobertura-report destdir="${coverage.html.dir}">
+			<fileset dir="${source.dir}">
+				<include name="**/*.java" />
+			</fileset>
+			<fileset dir="${test.dir}">
+				<include name="**/*.java" />
+			</fileset>
+		</cobertura-report>
+	</target>
+	<target name="coverage" depends="build,instrument,test,coverage-report,summary-coverage-report,alternate-coverage-report" description="Compile, instrument ourself, run the tests and generate JUnit and coverage reports." />
+	<target name="collectEnvironment">
+		<input defaultvalue="dev" message="Please enter the environment: 1.dev 2.prod" addproperty="envr" validargs="dev,prod" />
+	</target>
+	<target name="packageWAR" depends="collectEnvironment,build,findbugs,pmd,checkstyle,coverage">
+		<delete dir="${deploy.dir}\\war">
+		</delete>
+		<echo>Please input the environment name</echo>
+
+		<copy includeemptydirs="false" todir="${build.dir}">
+			<fileset dir="${source.dir}\\${envr}">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+
+		<mkdir dir="${deploy.dir}\\war" />
+		<copy todir="${deploy.dir}\\war\\WEB-INF">
+			<fileset dir="./WebContent/WEB-INF/">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+		<copy todir="${deploy.dir}\\war">
+			<fileset dir="./WebContent/">
+				<include name="**/*.*" />
+				<exclude name="WEB-INF/**/*.*" />
+				<exclude name="META-INF/**/*.*" />
+			</fileset>
+		</copy>
+		<copy todir="${deploy.dir}\\war\\WEB-INF">
+			<fileset dir=".\\build">
+				<include name="**/*.*" />
+				<exclude name="WEB-INF/**/*.*" />
+				<exclude name="META-INF/**/*.*" />
+			</fileset>
+		</copy>
+		<war destfile="${deploy.dir}/omega.war">
+			<fileset dir="${deploy.dir}\\war\\" />
+		</war>
+		<delete dir="${deploy.dir}\\war" />
+
+	</target>
+</project>

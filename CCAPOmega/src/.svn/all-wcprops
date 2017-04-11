@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repository/omega/!svn/ver/216/trunk/CCAPOmega/src
+END
+database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/database.properties
+END
+exception_messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/exception_messages.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/log4j.properties
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE.txt
+END
+LICENSE-AppleJavaExtensions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-AppleJavaExtensions.txt
+END
+LICENSE-jcip.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-jcip.txt
+END
+LICENSE-jaxen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-jaxen.txt
+END
+LICENSE-bcel.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-bcel.txt
+END
+LICENSE-jsr305.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-jsr305.txt
+END
+LICENSE-jFormatString.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-jFormatString.txt
+END
+LICENSE-jdepend.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-jdepend.txt
+END
+LICENSE-commons-lang.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-commons-lang.txt
+END
+LICENSE-mysql-connector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-mysql-connector.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/README.txt
+END
+LICENSE-dom4j.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-dom4j.txt
+END
+LICENSE-docbook.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-docbook.txt
+END
+LICENSE-ASM.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/LICENSE-ASM.txt
+END

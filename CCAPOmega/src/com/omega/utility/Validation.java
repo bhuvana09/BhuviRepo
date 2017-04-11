@@ -1,0 +1,158 @@
+/*
+ * IVehicleDAO.java 7:44:54 PM Apr 30, 2010 version 1.0
+ * 
+ * Copyright (c) 1998-2010 Cognizant Technology Solutions, Inc. All Rights
+ * Reserved.
+ * 
+ * This software is the confidential and proprietary information of Cognizant
+ * Technology Solutions. ("Confidential Information"). You shall not disclose
+ * such Confidential Information and shall use it only in accordance with the
+ * terms of the license agreement you entered into with Cognizant.
+ */
+
+package com.omega.utility;
+
+import com.omega.dtd.Vehicle;
+
+import com.omega.exception.InValidVehicleException;
+
+import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Date;
+
+import javax.servlet.http.HttpServletRequest;
+
+/**
+ * 
+ * @author Java CoE
+ * 
+ *         Contains methods for validating vehicle user input.
+ * @version 1.0
+ */
+public class Validation
+{
+    
+
+    /** Logger */
+    private static final Logger LOGGER =
+            LoggerFactory.getLogger(Validation.class.getName());
+    
+    /**
+     * constructValidVehicle validates and constructs the vehicle object Age
+     * should be more than 20 else considered as in experienced driver Should
+     * not have more than 5 accident in the last recent year.
+     * @param request HTTPServletRequest object
+     * @return valid data in the request object and constructs the Vehicle
+     *         entity
+     * @throws InValidVehicleException thrown if not valid business data
+     */
+    public Vehicle constructValidVehicle(HttpServletRequest request)
+            throws InValidVehicleException
+    {
+
+        if (LOGGER.isInfoEnabled())
+        {
+            LOGGER.info("[CollectionController].[doGet] Entered the method{}");
+        }
+        
+        Vehicle vehicleDetails = new Vehicle();
+        vehicleDetails.setName(this.getString(request, "name"));
+        vehicleDetails.setSsn(this.getInteger(request, "SSN"));
+        vehicleDetails.setAge(this.getInteger(request, "age"));
+        vehicleDetails.setGender(this.getString(request, "gender"));
+        vehicleDetails.setVehicleModel(this.getString(request, "model"));
+        vehicleDetails.setMake(this.getString(request, "make"));
+        vehicleDetails.setDate(new Date());
+        vehicleDetails.setYear(this.getInteger(request, "year"));
+        vehicleDetails.setLicenseNumber(this
+                .getString(request, "licenseNumber"));
+        vehicleDetails.setLstYearAccidents(this.getInteger(request,
+                "noOfAccidents"));
+        vehicleDetails.setCoverageAmount(this.getInteger(request, "amount"));
+        vehicleDetails.setCoverageType(this.getString(request, "coverageType"));
+        // check if more than 5 accidents last year
+        if (isVechileRisky(vehicleDetails))
+        {
+            throw new InValidVehicleException("FS_101", vehicleDetails
+                    .getLstYearAccidents().toString());
+        }
+        if (LOGGER.isDebugEnabled())
+        { 
+            LOGGER.error("[Validation].[constructValidVehicle] Driver is risky Age = {}",
+                    new Object[] { vehicleDetails.getAge()});
+            LOGGER.debug("[Validation].[constructValidVehicle] Vehicle is not risky Accidents = {}",
+                    new Object[] { vehicleDetails.getLstYearAccidents()});
+        }
+        // check if the age is less than 20.
+        if (isUnderAge(vehicleDetails))
+        {
+            LOGGER.error("[Validation].[constructValidVehicle] Driver is risky Age = {}",
+                    new Object[] { vehicleDetails.getAge()});
+            throw new InValidVehicleException("FS_102", vehicleDetails.getAge()
+                    .toString());
+        }
+        if (LOGGER.isDebugEnabled())
+        { 
+            LOGGER.debug("[Validation].[constructValidVehicle] Driver is not risky Age = {}",
+                    new Object[] { vehicleDetails.getAge()});
+        }
+        return vehicleDetails;
+    }
+    
+    private Boolean isUnderAge(Vehicle vehicleDetails)
+    {
+
+        return vehicleDetails.getAge() < 20 ? Boolean.TRUE : Boolean.FALSE;
+    }
+    
+    private Boolean isVechileRisky(Vehicle vehicleDetails)
+    {
+
+        return vehicleDetails.getLstYearAccidents() > 5 ? Boolean.TRUE
+                : Boolean.FALSE;
+    }
+    
+    /*
+     * method used for extracting the given parameter form the request.return
+     * null if empty
+     */
+    private String getString(HttpServletRequest request, String param)
+    {
+
+        String value = null;
+        value = request.getParameter(param);
+        
+        if (StringUtils.isBlank(value))
+        {
+            value = null;
+        }
+        
+        return value;
+    }
+    
+    /*
+     * method used for extracting the given parameter form the request.return
+     * null if empty
+     */
+    private Integer getInteger(HttpServletRequest request, String param)
+    {
+
+        Integer value = null;
+        
+        if ((request.getParameter(param) != null)
+                && (request.getParameter(param).length() > 0))
+        {
+            try
+            {
+                value = Integer.parseInt(request.getParameter(param));
+            } catch (NumberFormatException e)
+            {
+                value = null;
+            }
+        }
+        
+        return value;
+    }
+}

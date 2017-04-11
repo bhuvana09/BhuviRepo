@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura
+END
+log4j-1.2.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura/log4j-1.2.9.jar
+END
+cobertura.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura/cobertura.jar
+END
+asm-tree-3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura/asm-tree-3.0.jar
+END
+jakarta-oro-2.0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura/jakarta-oro-2.0.8.jar
+END
+asm-3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/cobertura/asm-3.0.jar
+END

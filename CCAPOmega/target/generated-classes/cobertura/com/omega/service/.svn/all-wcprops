@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/service
+END
+MasterCalculations.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/service/MasterCalculations.class
+END
+PremiumCalculation.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/service/PremiumCalculation.class
+END
+IPremiumCalculation.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/service/IPremiumCalculation.class
+END

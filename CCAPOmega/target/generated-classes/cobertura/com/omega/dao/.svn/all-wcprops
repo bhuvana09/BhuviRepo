@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/dao
+END
+IVehicleDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/dao/IVehicleDAO.class
+END
+LookupDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/dao/LookupDAO.class
+END
+VehicleDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/dao/VehicleDAO.class
+END
+ILookupDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/dao/ILookupDAO.class
+END

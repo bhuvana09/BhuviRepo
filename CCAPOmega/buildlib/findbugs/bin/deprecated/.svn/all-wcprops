@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/deprecated
+END
+bugHistory
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/deprecated/bugHistory
+END
+updateBugs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/deprecated/updateBugs
+END
+unionBugs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/deprecated/unionBugs
+END
+unionResults
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/deprecated/unionResults
+END

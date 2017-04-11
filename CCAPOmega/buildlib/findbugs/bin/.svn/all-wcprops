@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin
+END
+addMessages
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/addMessages
+END
+fbwrap
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/fbwrap
+END
+printClass
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/printClass
+END
+findbugs2
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/findbugs2
+END
+xpathFind
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/xpathFind
+END
+copyBuggySource
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/copyBuggySource
+END
+setBugDatabaseInfo
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/setBugDatabaseInfo
+END
+defectDensity
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/defectDensity
+END
+computeBugHistory
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/computeBugHistory
+END
+findbugs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/findbugs
+END
+printAppVersion
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/printAppVersion
+END
+findbugs-dbStats
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/findbugs-dbStats
+END
+findbugs-msv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/findbugs-msv
+END
+filterBugs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/filterBugs
+END
+findbugs.bat
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/findbugs.bat
+END
+mineBugHistory
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/mineBugHistory
+END
+convertXmlToText
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/convertXmlToText
+END
+unionBugs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/unionBugs
+END
+listBugDatabaseInfo
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/listBugDatabaseInfo
+END
+rejarForAnalysis
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/findbugs/bin/rejarForAnalysis
+END

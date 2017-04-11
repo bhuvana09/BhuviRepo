@@ -1,0 +1,6 @@
+CCAPWEB_URL=http\://localhost\:8080/CCAPWeb/
+CCAP_URL=http\://10.223.66.65\:8080/ccap
+ENABLE_LOG=true
+USER_LOGINID=368837
+USER_PASSWORD=theriadhu@09
+eclipse.preferences.version=1

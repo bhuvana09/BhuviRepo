@@ -1,0 +1,41 @@
+#sonar-project.properties
+#Mon Apr 03 15:34:11 IST 2017
+sonar.projectName=sampleProjectGit
+sonar.working.directory=D\:\\Workspace\\runtime-EclipseApplication\\git\\BhuviRepo\\sampleProjectGit\\.sonar1491213851335
+sonar.projectVersion=sampleProjectGit+1491213851332
+sonar.profile=Sonar way
+sonar.projectKey=
+sonar.projectBaseDir=D\:\\Workspace\\runtime-EclipseApplication\\git\\BhuviRepo\\sampleProjectGit
+sonar.sources=/src,
+
+
+
+#For multi module projects follow the below configuration.
+
+# List of the module identifiers
+# sonar.modules=module1,module2 
+
+# Properties can obviously be overriden for
+# each module - just prefix them with the module ID
+# module1.sonar.projectName=Module 1
+# module2.sonar.projectName=Module 2 
+
+
+#For the additional configuration please check sonar website 
+#http://docs.codehaus.org/display/SONAR/Analyzing+with+Sonar+Runner 
+
+
+#Tells Sonar to reuse existing reports for Unit Tests execution and coverage reports 
+#sonar.dynamicAnalysis=reuseReports 
+
+
+#Tells Sonar where the Unit Tests execution reports are 
+#sonar.surefire.reportsPath=target/surefire-reports 
+
+
+#Tells Sonar that the code coverage tool used by Unit Tests are cobertura 
+#sonar.java.coveragePlugin=cobertura 
+
+
+#Tells Sonar where the Unit Tests code coverage report is 
+#sonar.cobertura.reportPath=target/site/cobertura/coverage.xml
