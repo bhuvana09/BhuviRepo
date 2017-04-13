@@ -62,7 +62,7 @@ public class CollectionController extends javax.servlet.http.HttpServlet
         if (LOGGER.isDebugEnabled())
         {
             LOGGER
-                    .debug("[CollectionController].df gd[doGet] Receiving Vechile form datas");
+                    .debug("[CollectionController].df gd[doGet] Receiving Vechile form data");
         }
         Validation validation = new Validation();
         IPremiumCalculation premium = new PremiumCalculation();
