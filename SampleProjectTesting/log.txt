@@ -1,0 +1,66 @@
+D:\sonar-runner-2.4_int\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_91 Oracle Corporation (64-bit)
+Windows 7 6.1 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: D:\sonar-runner-2.4_int\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: D:\Workspace\git_plugins\SampleProjectTesting\sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: D:\Workspace\git_plugins\SampleProjectTesting\.\.sonar
+INFO: SonarQube Server 5.6.6
+DEBUG: Download http://localhost:9000/batch/sonar-scanner-engine-shaded-5.6.6.jar to C:\Users\368837\.sonar\cache\_tmp\1497613054031-575
+17:07:35.557 DEBUG - Publish global mode
+17:07:36.282 INFO  - Load global repositories
+17:07:37.975 DEBUG - GET 200 http://localhost:9000/batch/global | time=1691ms
+17:07:38.048 INFO  - Load global repositories (done) | time=1767ms
+17:07:38.078 INFO  - User cache: C:\Users\368837\.sonar\cache
+17:07:38.418 INFO  - Load plugins index
+17:07:38.427 DEBUG - GET 200 http://localhost:9000/deploy/plugins/index.txt | time=9ms
+17:07:38.428 INFO  - Load plugins index (done) | time=10ms
+17:07:38.429 DEBUG - Load plugins
+17:07:38.431 DEBUG - Download plugin sonar-java-plugin-4.10.0.10260.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache8223090108948963577.tmp
+17:07:38.439 DEBUG - GET 200 http://localhost:9000/deploy/plugins/java/sonar-java-plugin-4.10.0.10260.jar | time=6ms
+17:07:38.602 DEBUG - Download plugin sonar-ldap-plugin-2.1.0.507.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache4762597200627181513.tmp
+17:07:38.604 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ldap/sonar-ldap-plugin-2.1.0.507.jar | time=2ms
+17:07:38.621 DEBUG - Download plugin sonar-scm-git-plugin-1.2.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache1440523451251644589.tmp
+17:07:38.624 DEBUG - GET 200 http://localhost:9000/deploy/plugins/scmgit/sonar-scm-git-plugin-1.2.jar | time=3ms
+17:07:38.724 DEBUG - Download plugin ccap-devcockpit-plugin-4.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache5193821749272446693.tmp
+17:07:38.726 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ccapdevcockpitplugin/ccap-devcockpit-plugin-4.0.jar | time=2ms
+17:07:38.939 DEBUG - Download plugin file-level-analysis-server-plugin-4.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache3225429438307420554.tmp
+17:07:38.942 DEBUG - GET 200 http://localhost:9000/deploy/plugins/filelevelanalysisserverplugin/file-level-analysis-server-plugin-4.0.jar | time=3ms
+17:07:39.539 DEBUG - Download plugin ccapvalidation-1.0.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache1041204113374220255.tmp
+17:07:39.543 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ccapvalidation/ccapvalidation-1.0.0.jar | time=3ms
+17:07:39.587 DEBUG - Load plugins (done) | time=1158ms
+17:07:39.684 DEBUG - API compatibility mode is enabled on plugin Git [scmgit] (built with API lower than 5.2)
+17:07:40.084 DEBUG - API compatibility mode is enabled on plugin ccapvalidation [ccapvalidation] (built with API lower than 5.2)
+17:07:40.205 DEBUG - Plugins:
+17:07:40.205 DEBUG -   * SonarJava 4.10.0.10260 (java)
+17:07:40.206 DEBUG -   * LDAP 2.1.0.507 (ldap)
+17:07:40.206 DEBUG -   * Git 1.2 (scmgit)
+17:07:40.206 DEBUG -   * CCAP Developer Cockpit Plugin 4.0 (ccapdevcockpitplugin)
+17:07:40.206 DEBUG -   * file-level-analysis-server-plugin 4.0 (filelevelanalysisserverplugin)
+17:07:40.206 DEBUG -   * ccapvalidation 1.0.0 (ccapvalidation)
+17:07:40.547 INFO  - Process project properties
+17:07:40.549 DEBUG - Process project properties (done) | time=2ms
+17:07:40.705 INFO  - Load project repositories
+17:07:43.104 DEBUG - GET 200 http://localhost:9000/batch/project.protobuf?key=com.cognizant.internal.gtointernal.ccap.59911.ccapomega.java | time=2397ms
+17:07:43.212 INFO  - Load project repositories (done) | time=2507ms
+17:07:43.718 DEBUG - Available languages:
+17:07:43.718 DEBUG -   * Java => "java"
+17:07:43.722 INFO  - Load quality profiles
+17:07:43.723 WARN  - Ability to set quality profile from command line using 'sonar.profile' is deprecated and will be dropped in a future SonarQube version. Please configure quality profile used by your project on SonarQube server.
+17:07:46.076 DEBUG - GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=com.cognizant.internal.gtointernal.ccap.59911.ccapomega.java&profileName=Sonar+way | time=2353ms
+17:07:46.082 INFO  - Load quality profiles (done) | time=2360ms
+17:07:46.088 INFO  - Load active rules
+17:07:49.212 DEBUG - GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=java-sonar-way-57185&p=1&ps=500 | time=3123ms
+17:07:49.284 INFO  - Load active rules (done) | time=3196ms
+17:07:49.295 DEBUG - SCM Step is disabled by configuration
+17:07:49.295 INFO  - Publish mode
+17:07:49.296 DEBUG - Start recursive analysis of project modules
+17:07:49.297 INFO  - -------------  Scan CCAPOmega_GIT
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+Total time: 15.991s
+Final Memory: 7M/132M
+INFO: ------------------------------------------------------------------------

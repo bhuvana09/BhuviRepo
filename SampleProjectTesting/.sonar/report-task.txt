@@ -1,0 +1,5 @@
+projectKey=com.cognizant.internal.gtointernal.ccap.59911.ccapomega.java
+serverUrl=http://10.223.66.65:9000
+dashboardUrl=http://10.223.66.65:9000/dashboard/index/com.cognizant.internal.gtointernal.ccap.59911.ccapomega.java
+ceTaskId=AVyw2047FuWQ0s9M1Dr_
+ceTaskUrl=http://10.223.66.65:9000/api/ce/task?id=AVyw2047FuWQ0s9M1Dr_

@@ -1,0 +1,361 @@
+	<resource Name="src/com/cognizant/ccap/testing/FileReading.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="62.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="52.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="4.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="26.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="2.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Move this &quot;catch&quot; on the same line that the previous closing curly brace." RulePlugin="squid" Rule="RightCurlyBraceSameLineAsNextBlockCheck" Severity="MINOR" isNew="true" Line="24" />
+			<violation Message="Move this &quot;catch&quot; on the same line that the previous closing curly brace." RulePlugin="squid" Rule="RightCurlyBraceSameLineAsNextBlockCheck" Severity="MINOR" isNew="true" Line="39" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="9" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="13" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="14" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="20" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="24" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="30" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="31" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="39" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="45" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="48" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="58" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.FileNotFoundException&apos; which is a subclass of &apos;java.io.IOException&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="13" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.FileNotFoundException&apos; which is a subclass of &apos;java.io.IOException&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="30" />
+			<violation Message="Remove the redundant &apos;java.io.IOException&apos; thrown exception declaration(s)." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="45" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.FileNotFoundException&apos; which is a subclass of &apos;java.io.IOException&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="45" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.lang.ArrayIndexOutOfBoundsException&apos; which is a runtime exception." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="58" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.FileNotFoundException&apos; which is a subclass of &apos;java.io.IOException&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="58" />
+			<violation Message="Make this line start at column 3." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="11" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="14" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="15" />
+			<violation Message="Make this line start at column 9." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="21" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="25" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="31" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="33" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="40" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="46" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="49" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="59" />
+			<violation Message="Add or update the header of this file." RulePlugin="squid" Rule="S1451" Severity="BLOCKER" isNew="true" Line="0" />
+			<violation Message="Remove this throws clause." RulePlugin="squid" Rule="S2096" Severity="BLOCKER" isNew="true" Line="45" />
+			<violation Message="Close this &quot;FileOutputStream&quot; in a &quot;finally&quot; clause." RulePlugin="squid" Rule="S2095" Severity="BLOCKER" isNew="true" Line="34" />
+			<violation Message="Close this &quot;FileOutputStream&quot; in a &quot;finally&quot; clause." RulePlugin="squid" Rule="S2095" Severity="BLOCKER" isNew="true" Line="53" />
+			<violation Message="Replace this use of System.out or System.err by a logger." RulePlugin="squid" Rule="S106" Severity="MAJOR" isNew="true" Line="40" />
+			<violation Message="Either log or rethrow this exception." RulePlugin="squid" Rule="S1166" Severity="MAJOR" isNew="true" Line="24" />
+			<violation Message="Either log or rethrow this exception." RulePlugin="squid" Rule="S1166" Severity="MAJOR" isNew="true" Line="39" />
+			<violation Message="Replace all tab characters in this file by sequences of white-spaces." RulePlugin="squid" Rule="S00105" Severity="MINOR" isNew="true" Line="0" />
+			<violation Message="Remove this useless assignment to local variable &quot;fileName&quot;." RulePlugin="squid" Rule="S1854" Severity="MAJOR" isNew="true" Line="21" />
+			<violation Message="Use a logger to log this exception." RulePlugin="squid" Rule="S1148" Severity="MINOR" isNew="true" Line="26" />
+			<violation Message="Use a logger to log this exception." RulePlugin="squid" Rule="S1148" Severity="MINOR" isNew="true" Line="41" />
+			<violation Message="Remove this use of constructor &quot;OutputStreamWriter(OutputStream)&quot;" RulePlugin="squid" Rule="S1943" Severity="MINOR" isNew="true" Line="34" />
+			<violation Message="Remove this use of constructor &quot;OutputStreamWriter(OutputStream)&quot;" RulePlugin="squid" Rule="S1943" Severity="MINOR" isNew="true" Line="53" />
+		</violations>
+		<checkinFailures resource="src/com/cognizant/ccap/testing/FileReading.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/cognizant/ccap/testing/SampleProject.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="51.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="34.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="4.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="16.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="5.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="7.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="3.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="10" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="12" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="18" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="23" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="32" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="35" />
+			<violation Message="Move this left curly brace to the beginning of next line of code." RulePlugin="squid" Rule="LeftCurlyBraceStartLineCheck" Severity="MINOR" isNew="true" Line="45" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.FileNotFoundException&apos; which is a subclass of &apos;java.io.IOException&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="23" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.lang.Exception&apos; which is a subclass of &apos;java.lang.Throwable&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="32" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.io.IOException&apos; which is a subclass of &apos;java.lang.Throwable&apos;." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="32" />
+			<violation Message="Remove the declaration of thrown exception &apos;java.lang.ArrayIndexOutOfBoundsException&apos; which is a runtime exception." RulePlugin="squid" Rule="RedundantThrowsDeclarationCheck" Severity="MINOR" isNew="true" Line="45" />
+			<violation Message="Make this line start at column 3." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="12" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="14" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="19" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="25" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="33" />
+			<violation Message="Make this line start at column 7." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="36" />
+			<violation Message="Make this line start at column 5." RulePlugin="squid" Rule="IndentationCheck" Severity="MINOR" isNew="true" Line="46" />
+			<violation Message="Add or update the header of this file." RulePlugin="squid" Rule="S1451" Severity="BLOCKER" isNew="true" Line="0" />
+			<violation Message="Remove this throws clause." RulePlugin="squid" Rule="S2096" Severity="BLOCKER" isNew="true" Line="32" />
+			<violation Message="Close this &quot;FileOutputStream&quot; in a &quot;finally&quot; clause." RulePlugin="squid" Rule="S2095" Severity="BLOCKER" isNew="true" Line="40" />
+			<violation Message="Close this &quot;FileOutputStream&quot; in a &quot;finally&quot; clause." RulePlugin="squid" Rule="S2095" Severity="BLOCKER" isNew="true" Line="26" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="16" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="29" />
+			<violation Message="Remove this unused &quot;fileName&quot; local variable." RulePlugin="squid" Rule="S1481" Severity="MINOR" isNew="true" Line="15" />
+			<violation Message="Replace all tab characters in this file by sequences of white-spaces." RulePlugin="squid" Rule="S00105" Severity="MINOR" isNew="true" Line="0" />
+			<violation Message="Add a new line at the end of this file." RulePlugin="squid" Rule="S00113" Severity="MINOR" isNew="true" Line="0" />
+			<violation Message="Remove this useless assignment to local variable &quot;fileName&quot;." RulePlugin="squid" Rule="S1854" Severity="MAJOR" isNew="true" Line="19" />
+			<violation Message="Remove this use of constructor &quot;OutputStreamWriter(OutputStream)&quot;" RulePlugin="squid" Rule="S1943" Severity="MINOR" isNew="true" Line="26" />
+			<violation Message="Remove this use of constructor &quot;OutputStreamWriter(OutputStream)&quot;" RulePlugin="squid" Rule="S1943" Severity="MINOR" isNew="true" Line="40" />
+		</violations>
+		<checkinFailures resource="src/com/cognizant/ccap/testing/SampleProject.java">
+		</checkinFailures>
+	</resource>

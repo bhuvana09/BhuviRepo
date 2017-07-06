@@ -1,0 +1,831 @@
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\Development_Avecto\sonar-runner-2.4_prod\bin\sonar-runner.bat -X >log1.txt
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\Development_Avecto\sonar-runner-2.4_prod\bin\sonar-runner.bat developerdashboard -X
+D:\Development_Avecto\sonar-runner-2.4_prod\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_91 Oracle Corporation (64-bit)
+Windows 7 6.1 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: D:\Development_Avecto\sonar-runner-2.4_prod\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: D:\Workspace\git_plugins\SampleProjectTesting\sonar-project.properties
+INFO: SonarQube Server 4.5.6
+11:36:12.419 INFO  - Load global referentials...
+11:36:12.691 DEBUG - Download: http://10.223.66.65:8080/ccap/batch/global (no proxy)
+11:36:16.074 INFO  - Load global referentials done: 3682 ms
+11:36:16.224 INFO  - User cache: C:\Users\368837\.sonar\cache
+11:36:16.271 INFO  - Install plugins
+11:36:16.272 DEBUG - Download index of plugins
+11:36:16.273 DEBUG - Download: http://10.223.66.65:8080/ccap/deploy/plugins/index.txt (no proxy)
+11:36:27.055 INFO  - Install JDBC driver
+11:36:27.056 DEBUG - Download index of jdbc-driver
+11:36:27.057 DEBUG - Download: http://10.223.66.65:8080/ccap/deploy/jdbc-driver.txt (no proxy)
+11:36:27.160 DEBUG - initProperties | Host:Dev
+11:36:27.161 DEBUG - initProperties | isLocalAnalysis :false
+11:36:27.161 DEBUG - initProperties | Calling ccap server for database configuration
+11:36:27.163 INFO  - Communicating with CCAP Server..................
+11:36:28.231 INFO  - Received message from CCAP Server
+11:36:28.244 INFO  - Communication with CCAP Server Successful!
+11:36:28.290 INFO  - Create JDBC datasource for jdbc:jtds:sqlserver://10.223.66.65:1433;databaseName=v555newone_test;SelectMethod=Cursor
+11:36:28.487 DEBUG - Testing JDBC connection
+11:36:31.946 INFO  - Initializing Hibernate
+11:36:31.970 DEBUG - hibernate.generate_statistics: false
+11:36:31.970 DEBUG - hibernate.dialect: org.sonar.core.persistence.dialect.MsSql$MsSqlDialect
+11:36:31.970 DEBUG - hibernate.connection.provider_class: org.sonar.jpa.session.CustomHibernateConnectionProvider
+11:36:45.183 DEBUG - Loaded 3424 properties from l10n bundles
+11:36:48.579 INFO  - CCAP Sqale plugin, getExtensions method...
+11:36:50.529 DEBUG - validated today once
+11:36:50.529 DEBUG - CCAP license :ccapdevcockpitplugin , validated...
+11:36:50.530 DEBUG - Acquiring semaphore on developer cockpit aggregation task: devcockpit.semaphore
+11:36:51.387 DEBUG - ==>  Preparing: select * from projects p WHERE p.qualifier in (?)
+11:36:51.420 DEBUG - ==> Parameters: DEV(String)
+11:36:51.542 DEBUG - <==      Total: 17
+11:36:51.584 INFO  - Loading projects
+11:36:52.837 INFO  - Loading measures of 410 projects
+11:37:01.293 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:11.681 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:21.888 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:32.096 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:40.784 INFO  - Generating measures of 17 developers
+11:37:40.784 INFO  - Generating measures for 'muruganandam periyasamy' (1/17)
+11:37:42.318 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:43.030 INFO  - Generating measures for 'uma l' (2/17)
+11:37:44.554 INFO  - Generating measures for 'bhuvaneswari muthusamy' (3/17)
+11:37:45.965 INFO  - Generating measures for ' muruganandam periyasamy' (4/17)
+11:37:47.480 INFO  - Generating measures for '  muruganandam periyasamy' (5/17)
+11:37:48.897 INFO  - Generating measures for ' uma l                  ' (6/17)
+11:37:50.398 INFO  - Generating measures for '  uma l' (7/17)
+11:37:51.777 INFO  - Generating measures for '   muruganandam periyasamy' (8/17)
+11:37:52.535 DEBUG - Updating semaphore devcockpit.semaphore
+11:37:53.161 INFO  - Generating measures for '   uma l' (9/17)
+11:37:54.297 INFO  - Generating measures for ' bhuvaneswari muthusamy ' (10/17)
+11:37:55.624 INFO  - Generating measures for 'chethan haladappa narayana' (11/17)
+11:37:57.002 INFO  - Generating measures for ' dinesh krishnan arumugam' (12/17)
+11:37:58.489 INFO  - Generating measures for 'dinesh krishnan arumugam' (13/17)
+11:38:00.061 INFO  - Generating measures for '  dinesh krishnan arumugam' (14/17)
+11:38:01.504 INFO  - Generating measures for '   dinesh krishnan arumugam' (15/17)
+11:38:02.745 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:02.834 INFO  - Generating measures for 'suresh ponnuswamy       ' (16/17)
+11:38:04.091 INFO  - Generating measures for ' suresh ponnuswamy       ' (17/17)
+11:38:06.314 INFO  - Purging old measures of 17 developers
+11:38:06.328 INFO  - Purging measures for 'muruganandam periyasamy' (1/17)
+11:38:06.743 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:06.748 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:06.752 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:06.756 INFO  - -> Delete data prior to: 2012-06-08
+11:38:06.850 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:06.854 DEBUG - ==> Parameters: 38235(Long)
+11:38:06.941 DEBUG - <==      Total: 1
+11:38:06.945 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:06.949 DEBUG - ==> Parameters: 38235(Long)
+11:38:07.042 DEBUG - <==      Total: 3
+11:38:07.047 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:07.053 DEBUG - ==> Parameters: 38236(Long)
+11:38:07.097 DEBUG - <==      Total: 0
+11:38:07.101 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:07.105 DEBUG - ==> Parameters: 38878(Long)
+11:38:07.163 DEBUG - <==      Total: 0
+11:38:07.167 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:07.171 DEBUG - ==> Parameters: 39380(Long)
+11:38:07.216 DEBUG - <==      Total: 0
+11:38:07.222 INFO  - -> Clean muruganandam periyasamy [id=38235]
+11:38:07.392 INFO  - <- Clean snapshot 453159
+11:38:09.907 INFO  - -> Clean CCAPWeb [id=38236]
+11:38:09.992 INFO  - -> Clean CCAPWeb_DevDashboard5_dont_use_this_key [id=38878]
+11:38:10.079 INFO  - -> Clean CQWeb [id=39380]
+11:38:10.627 INFO  - Purging measures for 'uma l' (2/17)
+11:38:10.849 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:10.853 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:10.857 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:10.864 INFO  - -> Delete data prior to: 2012-06-08
+11:38:10.949 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:10.954 DEBUG - ==> Parameters: 38463(Long)
+11:38:11.000 DEBUG - <==      Total: 1
+11:38:11.004 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:11.008 DEBUG - ==> Parameters: 38463(Long)
+11:38:11.054 DEBUG - <==      Total: 1
+11:38:11.059 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:11.063 DEBUG - ==> Parameters: 38465(Long)
+11:38:11.107 DEBUG - <==      Total: 0
+11:38:11.112 INFO  - -> Clean uma l [id=38463]
+11:38:11.198 INFO  - <- Clean snapshot 453164
+11:38:12.768 INFO  - -> Clean CCAPWeb [id=38465]
+11:38:12.966 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:13.098 INFO  - Purging measures for 'bhuvaneswari muthusamy' (3/17)
+11:38:13.305 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:13.308 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:13.314 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:13.318 INFO  - -> Delete data prior to: 2012-06-08
+11:38:13.416 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:13.420 DEBUG - ==> Parameters: 38464(Long)
+11:38:13.464 DEBUG - <==      Total: 1
+11:38:13.469 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:13.484 DEBUG - ==> Parameters: 38464(Long)
+11:38:13.536 DEBUG - <==      Total: 1
+11:38:13.540 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:13.544 DEBUG - ==> Parameters: 38466(Long)
+11:38:13.590 DEBUG - <==      Total: 0
+11:38:13.594 INFO  - -> Clean bhuvaneswari muthusamy [id=38464]
+11:38:13.682 INFO  - <- Clean snapshot 453166
+11:38:15.192 INFO  - -> Clean CCAPWeb [id=38466]
+11:38:15.524 INFO  - Purging measures for ' muruganandam periyasamy' (4/17)
+11:38:15.736 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:15.740 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:15.744 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:15.748 INFO  - -> Delete data prior to: 2012-06-08
+11:38:15.834 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:15.837 DEBUG - ==> Parameters: 38644(Long)
+11:38:15.886 DEBUG - <==      Total: 1
+11:38:15.890 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:15.894 DEBUG - ==> Parameters: 38644(Long)
+11:38:15.950 DEBUG - <==      Total: 2
+11:38:15.954 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:15.958 DEBUG - ==> Parameters: 38880(Long)
+11:38:16.005 DEBUG - <==      Total: 0
+11:38:16.009 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:16.014 DEBUG - ==> Parameters: 39381(Long)
+11:38:16.060 DEBUG - <==      Total: 0
+11:38:16.064 INFO  - -> Clean  muruganandam periyasamy [id=38644]
+11:38:16.149 INFO  - <- Clean snapshot 453168
+11:38:17.990 INFO  - -> Clean CCAPWeb [id=38880]
+11:38:18.085 INFO  - -> Clean CQWeb [id=39381]
+11:38:18.467 INFO  - Purging measures for '  muruganandam periyasamy' (5/17)
+11:38:18.674 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:18.678 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:18.682 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:18.687 INFO  - -> Delete data prior to: 2012-06-08
+11:38:18.776 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:18.780 DEBUG - ==> Parameters: 38645(Long)
+11:38:18.826 DEBUG - <==      Total: 1
+11:38:18.829 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:18.834 DEBUG - ==> Parameters: 38645(Long)
+11:38:18.880 DEBUG - <==      Total: 1
+11:38:18.886 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:18.894 DEBUG - ==> Parameters: 38881(Long)
+11:38:18.940 DEBUG - <==      Total: 0
+11:38:18.945 INFO  - -> Clean   muruganandam periyasamy [id=38645]
+11:38:19.029 INFO  - <- Clean snapshot 453170
+11:38:20.568 INFO  - -> Clean CCAPWeb [id=38881]
+11:38:20.901 INFO  - Purging measures for ' uma l                  ' (6/17)
+11:38:21.115 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:21.119 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:21.123 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:21.127 INFO  - -> Delete data prior to: 2012-06-08
+11:38:21.216 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:21.221 DEBUG - ==> Parameters: 38646(Long)
+11:38:21.264 DEBUG - <==      Total: 1
+11:38:21.268 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:21.272 DEBUG - ==> Parameters: 38646(Long)
+11:38:21.317 DEBUG - <==      Total: 1
+11:38:21.321 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:21.326 DEBUG - ==> Parameters: 38882(Long)
+11:38:21.371 DEBUG - <==      Total: 0
+11:38:21.374 INFO  - -> Clean  uma l                   [id=38646]
+11:38:21.460 INFO  - <- Clean snapshot 453172
+11:38:23.009 INFO  - -> Clean CCAPWeb [id=38882]
+11:38:23.180 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:23.353 INFO  - Purging measures for '  uma l' (7/17)
+11:38:23.571 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:23.575 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:23.579 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:23.583 INFO  - -> Delete data prior to: 2012-06-08
+11:38:23.668 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:23.672 DEBUG - ==> Parameters: 38647(Long)
+11:38:23.717 DEBUG - <==      Total: 1
+11:38:23.721 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:23.725 DEBUG - ==> Parameters: 38647(Long)
+11:38:23.769 DEBUG - <==      Total: 1
+11:38:23.773 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:23.777 DEBUG - ==> Parameters: 38883(Long)
+11:38:23.823 DEBUG - <==      Total: 0
+11:38:23.827 INFO  - -> Clean   uma l [id=38647]
+11:38:23.913 INFO  - <- Clean snapshot 453174
+11:38:25.471 INFO  - -> Clean CCAPWeb [id=38883]
+11:38:25.794 INFO  - Purging measures for '   muruganandam periyasamy' (8/17)
+11:38:26.007 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:26.011 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:26.015 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:26.020 INFO  - -> Delete data prior to: 2012-06-08
+11:38:26.119 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:26.122 DEBUG - ==> Parameters: 38648(Long)
+11:38:26.167 DEBUG - <==      Total: 1
+11:38:26.170 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:26.174 DEBUG - ==> Parameters: 38648(Long)
+11:38:26.219 DEBUG - <==      Total: 1
+11:38:26.222 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:26.226 DEBUG - ==> Parameters: 38884(Long)
+11:38:26.271 DEBUG - <==      Total: 0
+11:38:26.275 INFO  - -> Clean    muruganandam periyasamy [id=38648]
+11:38:26.360 INFO  - <- Clean snapshot 453176
+11:38:28.182 INFO  - -> Clean CCAPWeb [id=38884]
+11:38:28.543 INFO  - Purging measures for '   uma l' (9/17)
+11:38:28.748 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:28.752 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:28.757 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:28.761 INFO  - -> Delete data prior to: 2012-06-08
+11:38:28.852 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:28.856 DEBUG - ==> Parameters: 38649(Long)
+11:38:28.900 DEBUG - <==      Total: 1
+11:38:28.904 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:28.910 DEBUG - ==> Parameters: 38649(Long)
+11:38:28.956 DEBUG - <==      Total: 1
+11:38:28.960 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:28.965 DEBUG - ==> Parameters: 38885(Long)
+11:38:29.009 DEBUG - <==      Total: 0
+11:38:29.013 INFO  - -> Clean    uma l [id=38649]
+11:38:29.099 INFO  - <- Clean snapshot 453178
+11:38:30.636 INFO  - -> Clean CCAPWeb [id=38885]
+11:38:30.964 INFO  - Purging measures for ' bhuvaneswari muthusamy ' (10/17)
+11:38:31.174 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:31.180 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:31.184 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:31.188 INFO  - -> Delete data prior to: 2012-06-08
+11:38:31.273 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:31.277 DEBUG - ==> Parameters: 38650(Long)
+11:38:31.322 DEBUG - <==      Total: 1
+11:38:31.327 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:31.331 DEBUG - ==> Parameters: 38650(Long)
+11:38:31.377 DEBUG - <==      Total: 1
+11:38:31.380 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:31.384 DEBUG - ==> Parameters: 38886(Long)
+11:38:31.429 DEBUG - <==      Total: 0
+11:38:31.433 INFO  - -> Clean  bhuvaneswari muthusamy  [id=38650]
+11:38:31.521 INFO  - <- Clean snapshot 453180
+11:38:33.180 INFO  - -> Clean CCAPWeb [id=38886]
+11:38:33.411 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:33.525 INFO  - Purging measures for 'chethan haladappa narayana' (11/17)
+11:38:33.735 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:33.739 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:33.743 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:33.750 INFO  - -> Delete data prior to: 2012-06-08
+11:38:33.836 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:33.842 DEBUG - ==> Parameters: 38872(Long)
+11:38:33.886 DEBUG - <==      Total: 1
+11:38:33.890 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:33.895 DEBUG - ==> Parameters: 38872(Long)
+11:38:33.941 DEBUG - <==      Total: 1
+11:38:33.945 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:33.949 DEBUG - ==> Parameters: 38879(Long)
+11:38:33.997 DEBUG - <==      Total: 0
+11:38:34.001 INFO  - -> Clean chethan haladappa narayana [id=38872]
+11:38:34.088 INFO  - <- Clean snapshot 453161
+11:38:35.591 INFO  - -> Clean CCAPWeb_DevDashboard5_dont_use_this_key [id=38879]
+11:38:35.923 INFO  - Purging measures for ' dinesh krishnan arumugam' (12/17)
+11:38:36.133 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:36.137 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:36.141 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:36.145 INFO  - -> Delete data prior to: 2012-06-08
+11:38:36.230 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:36.236 DEBUG - ==> Parameters: 39374(Long)
+11:38:36.282 DEBUG - <==      Total: 1
+11:38:36.289 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:36.295 DEBUG - ==> Parameters: 39374(Long)
+11:38:36.341 DEBUG - <==      Total: 1
+11:38:36.346 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:36.350 DEBUG - ==> Parameters: 39382(Long)
+11:38:36.395 DEBUG - <==      Total: 0
+11:38:36.398 INFO  - -> Clean  dinesh krishnan arumugam [id=39374]
+11:38:36.486 INFO  - <- Clean snapshot 453184
+11:38:37.997 INFO  - -> Clean CQWeb [id=39382]
+11:38:38.349 INFO  - Purging measures for 'dinesh krishnan arumugam' (13/17)
+11:38:38.570 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:38.574 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:38.578 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:38.584 INFO  - -> Delete data prior to: 2012-06-08
+11:38:38.675 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:38.680 DEBUG - ==> Parameters: 39375(Long)
+11:38:38.725 DEBUG - <==      Total: 1
+11:38:38.729 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:38.733 DEBUG - ==> Parameters: 39375(Long)
+11:38:38.781 DEBUG - <==      Total: 1
+11:38:38.785 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:38.789 DEBUG - ==> Parameters: 39383(Long)
+11:38:38.833 DEBUG - <==      Total: 0
+11:38:38.840 INFO  - -> Clean dinesh krishnan arumugam [id=39375]
+11:38:38.929 INFO  - <- Clean snapshot 453186
+11:38:40.739 INFO  - -> Clean CQWeb [id=39383]
+11:38:41.080 INFO  - Purging measures for '  dinesh krishnan arumugam' (14/17)
+11:38:41.285 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:41.289 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:41.294 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:41.298 INFO  - -> Delete data prior to: 2012-06-08
+11:38:41.384 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:41.388 DEBUG - ==> Parameters: 39376(Long)
+11:38:41.434 DEBUG - <==      Total: 1
+11:38:41.438 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:41.442 DEBUG - ==> Parameters: 39376(Long)
+11:38:41.487 DEBUG - <==      Total: 1
+11:38:41.492 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:41.495 DEBUG - ==> Parameters: 39384(Long)
+11:38:41.540 DEBUG - <==      Total: 0
+11:38:41.543 INFO  - -> Clean   dinesh krishnan arumugam [id=39376]
+11:38:41.627 INFO  - <- Clean snapshot 453188
+11:38:43.164 INFO  - -> Clean CQWeb [id=39384]
+11:38:43.487 INFO  - Purging measures for '   dinesh krishnan arumugam' (15/17)
+11:38:43.645 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:43.696 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:43.701 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:43.706 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:43.709 INFO  - -> Delete data prior to: 2012-06-08
+11:38:43.793 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:43.797 DEBUG - ==> Parameters: 39377(Long)
+11:38:43.841 DEBUG - <==      Total: 1
+11:38:43.847 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:43.851 DEBUG - ==> Parameters: 39377(Long)
+11:38:43.896 DEBUG - <==      Total: 1
+11:38:43.900 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:43.904 DEBUG - ==> Parameters: 39385(Long)
+11:38:43.950 DEBUG - <==      Total: 0
+11:38:43.953 INFO  - -> Clean    dinesh krishnan arumugam [id=39377]
+11:38:44.037 INFO  - <- Clean snapshot 453190
+11:38:45.540 INFO  - -> Clean CQWeb [id=39385]
+11:38:45.868 INFO  - Purging measures for 'suresh ponnuswamy       ' (16/17)
+11:38:46.077 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:46.081 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:46.085 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:46.089 INFO  - -> Delete data prior to: 2012-06-08
+11:38:46.176 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:46.180 DEBUG - ==> Parameters: 39378(Long)
+11:38:46.225 DEBUG - <==      Total: 1
+11:38:46.230 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:46.235 DEBUG - ==> Parameters: 39378(Long)
+11:38:46.285 DEBUG - <==      Total: 1
+11:38:46.288 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:46.292 DEBUG - ==> Parameters: 39386(Long)
+11:38:46.338 DEBUG - <==      Total: 0
+11:38:46.342 INFO  - -> Clean suresh ponnuswamy        [id=39378]
+11:38:46.426 INFO  - <- Clean snapshot 453192
+11:38:47.938 INFO  - -> Clean CQWeb [id=39386]
+11:38:48.266 INFO  - Purging measures for ' suresh ponnuswamy       ' (17/17)
+11:38:48.469 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+11:38:48.473 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+11:38:48.477 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+11:38:48.481 INFO  - -> Delete data prior to: 2012-06-08
+11:38:48.570 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+11:38:48.574 DEBUG - ==> Parameters: 39379(Long)
+11:38:48.617 DEBUG - <==      Total: 1
+11:38:48.621 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:48.625 DEBUG - ==> Parameters: 39379(Long)
+11:38:48.671 DEBUG - <==      Total: 1
+11:38:48.675 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+11:38:48.679 DEBUG - ==> Parameters: 39387(Long)
+11:38:48.724 DEBUG - <==      Total: 0
+11:38:48.727 INFO  - -> Clean  suresh ponnuswamy        [id=39379]
+11:38:48.811 INFO  - <- Clean snapshot 453194
+11:38:50.305 INFO  - -> Clean CQWeb [id=39387]
+11:38:50.716 DEBUG - ==>  Preparing: select p.id from projects p WHERE p.qualifier in (?)
+11:38:50.720 DEBUG - ==> Parameters: DEV(String)
+11:38:50.821 DEBUG - <==      Total: 17
+11:38:50.892 INFO  - Indexing 17 developers
+11:38:50.896 DEBUG - Indexing muruganandam periyasamy(id=38235)
+11:38:51.282 DEBUG - Indexing uma l(id=38463)
+11:38:51.449 DEBUG - Indexing bhuvaneswari muthusamy(id=38464)
+11:38:51.617 DEBUG - Indexing  muruganandam periyasamy(id=38644)
+11:38:51.783 DEBUG - Indexing   muruganandam periyasamy(id=38645)
+11:38:51.962 DEBUG - Indexing  uma l                  (id=38646)
+11:38:52.126 DEBUG - Indexing   uma l(id=38647)
+11:38:52.309 DEBUG - Indexing    muruganandam periyasamy(id=38648)
+11:38:52.475 DEBUG - Indexing    uma l(id=38649)
+11:38:52.652 DEBUG - Indexing  bhuvaneswari muthusamy (id=38650)
+11:38:52.824 DEBUG - Indexing chethan haladappa narayana(id=38872)
+11:38:52.987 DEBUG - Indexing  dinesh krishnan arumugam(id=39374)
+11:38:53.154 DEBUG - Indexing dinesh krishnan arumugam(id=39375)
+11:38:53.337 DEBUG - Indexing   dinesh krishnan arumugam(id=39376)
+11:38:53.509 DEBUG - Indexing    dinesh krishnan arumugam(id=39377)
+11:38:53.671 DEBUG - Indexing suresh ponnuswamy       (id=39378)
+11:38:53.837 DEBUG - Indexing  suresh ponnuswamy       (id=39379)
+11:38:53.851 DEBUG - Updating semaphore devcockpit.semaphore
+11:38:54.002 DEBUG - Developers indexed
+11:38:54.307 DEBUG - Released semaphore: devcockpit.semaphore
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 2:50.192s
+Final Memory: 22M/451M
+INFO: ------------------------------------------------------------------------
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\Development_Avecto\sonar-runner-2.4_prod\bin\sonar-runner.bat -X >log2.txt
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\Development_Avecto\sonar-runner-2.4_prod\bin\sonar-runner.bat developerdashboard -X
+D:\Development_Avecto\sonar-runner-2.4_prod\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_91 Oracle Corporation (64-bit)
+Windows 7 6.1 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: D:\Development_Avecto\sonar-runner-2.4_prod\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: D:\Workspace\git_plugins\SampleProjectTesting\sonar-project.properties
+INFO: SonarQube Server 4.5.6
+12:01:49.247 INFO  - Load global referentials...
+12:01:49.370 DEBUG - Download: http://10.223.66.65:8080/ccap/batch/global (no proxy)
+12:01:50.076 INFO  - Load global referentials done: 857 ms
+12:01:50.135 INFO  - User cache: C:\Users\368837\.sonar\cache
+12:01:50.148 INFO  - Install plugins
+12:01:50.148 DEBUG - Download index of plugins
+12:01:50.149 DEBUG - Download: http://10.223.66.65:8080/ccap/deploy/plugins/index.txt (no proxy)
+12:01:50.728 INFO  - Install JDBC driver
+12:01:50.730 DEBUG - Download index of jdbc-driver
+12:01:50.731 DEBUG - Download: http://10.223.66.65:8080/ccap/deploy/jdbc-driver.txt (no proxy)
+12:01:50.739 DEBUG - initProperties | Host:Dev
+12:01:50.739 DEBUG - initProperties | isLocalAnalysis :false
+12:01:50.742 DEBUG - initProperties | Calling ccap server for database configuration
+12:01:50.746 INFO  - Communicating with CCAP Server..................
+12:01:50.825 INFO  - Received message from CCAP Server
+12:01:50.829 INFO  - Communication with CCAP Server Successful!
+12:01:50.833 INFO  - Create JDBC datasource for jdbc:jtds:sqlserver://10.223.66.65:1433;databaseName=v555newone_test;SelectMethod=Cursor
+12:01:50.843 DEBUG - Testing JDBC connection
+12:01:52.521 INFO  - Initializing Hibernate
+12:01:52.526 DEBUG - hibernate.generate_statistics: false
+12:01:52.527 DEBUG - hibernate.dialect: org.sonar.core.persistence.dialect.MsSql$MsSqlDialect
+12:01:52.528 DEBUG - hibernate.connection.provider_class: org.sonar.jpa.session.CustomHibernateConnectionProvider
+12:01:54.139 DEBUG - Loaded 3424 properties from l10n bundles
+12:01:54.494 INFO  - CCAP Sqale plugin, getExtensions method...
+12:01:54.791 DEBUG - return  datedate date
+12:01:54.793 DEBUG - validated today once
+12:01:54.794 DEBUG - CCAP license :ccapdevcockpitplugin , validated...
+12:01:54.794 DEBUG - Acquiring semaphore on developer cockpit aggregation task: devcockpit.semaphore
+12:01:55.273 DEBUG - ==>  Preparing: select * from projects p WHERE p.qualifier in (?)
+12:01:55.295 DEBUG - ==> Parameters: DEV(String)
+12:01:55.416 DEBUG - <==      Total: 18
+12:01:55.458 INFO  - Loading projects
+12:01:55.904 INFO  - Loading measures of 410 projects
+12:02:05.149 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:15.553 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:25.774 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:36.300 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:46.520 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:47.132 INFO  - Generating measures of 18 developers
+12:02:47.132 INFO  - Generating measures for 'muruganandam periyasamy' (1/18)
+12:02:49.047 INFO  - Generating measures for 'uma l' (2/18)
+12:02:50.555 INFO  - Generating measures for 'bhuvaneswari muthusamy' (3/18)
+12:02:51.936 INFO  - Generating measures for ' muruganandam periyasamy' (4/18)
+12:02:53.611 INFO  - Generating measures for '  muruganandam periyasamy' (5/18)
+12:02:55.081 INFO  - Generating measures for ' uma l                  ' (6/18)
+12:02:56.582 INFO  - Generating measures for '  uma l' (7/18)
+12:02:56.737 DEBUG - Updating semaphore devcockpit.semaphore
+12:02:57.980 INFO  - Generating measures for '   muruganandam periyasamy' (8/18)
+12:02:59.396 INFO  - Generating measures for '   uma l' (9/18)
+12:03:00.742 INFO  - Generating measures for ' bhuvaneswari muthusamy ' (10/18)
+12:03:02.093 INFO  - Generating measures for 'chethan haladappa narayana' (11/18)
+12:03:03.481 INFO  - Generating measures for ' dinesh krishnan arumugam' (12/18)
+12:03:04.966 INFO  - Generating measures for 'dinesh krishnan arumugam' (13/18)
+12:03:06.483 INFO  - Generating measures for '  dinesh krishnan arumugam' (14/18)
+12:03:07.004 DEBUG - Updating semaphore devcockpit.semaphore
+12:03:07.831 INFO  - Generating measures for '   dinesh krishnan arumugam' (15/18)
+12:03:09.414 INFO  - Generating measures for 'suresh ponnuswamy       ' (16/18)
+12:03:10.808 INFO  - Generating measures for ' suresh ponnuswamy       ' (17/18)
+12:03:11.983 INFO  - Generating measures for '368837@pc237361.cts.com' (18/18)
+12:03:14.315 INFO  - Purging old measures of 18 developers
+12:03:14.315 INFO  - Purging measures for 'muruganandam periyasamy' (1/18)
+12:03:14.621 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:14.623 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:14.623 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:14.624 INFO  - -> Delete data prior to: 2012-06-08
+12:03:14.705 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:14.706 DEBUG - ==> Parameters: 38235(Long)
+12:03:14.797 DEBUG - <==      Total: 1
+12:03:14.799 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:14.799 DEBUG - ==> Parameters: 38235(Long)
+12:03:14.884 DEBUG - <==      Total: 3
+12:03:14.885 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:14.885 DEBUG - ==> Parameters: 38236(Long)
+12:03:14.927 DEBUG - <==      Total: 0
+12:03:14.928 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:14.929 DEBUG - ==> Parameters: 38878(Long)
+12:03:14.973 DEBUG - <==      Total: 0
+12:03:14.977 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:14.979 DEBUG - ==> Parameters: 39380(Long)
+12:03:15.022 DEBUG - <==      Total: 0
+12:03:15.025 INFO  - -> Clean muruganandam periyasamy [id=38235]
+12:03:15.208 INFO  - <- Clean snapshot 490247
+12:03:17.242 DEBUG - Updating semaphore devcockpit.semaphore
+12:03:17.726 INFO  - -> Clean CCAPWeb [id=38236]
+12:03:17.815 INFO  - -> Clean CCAPWeb_DevDashboard5_dont_use_this_key [id=38878]
+12:03:17.911 INFO  - -> Clean CQWeb [id=39380]
+12:03:18.485 INFO  - Purging measures for 'uma l' (2/18)
+12:03:18.709 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:18.711 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:18.715 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:18.718 INFO  - -> Delete data prior to: 2012-06-08
+12:03:18.803 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:18.805 DEBUG - ==> Parameters: 38463(Long)
+12:03:18.850 DEBUG - <==      Total: 1
+12:03:18.853 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:18.856 DEBUG - ==> Parameters: 38463(Long)
+12:03:18.905 DEBUG - <==      Total: 1
+12:03:18.908 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:18.912 DEBUG - ==> Parameters: 38465(Long)
+12:03:18.958 DEBUG - <==      Total: 0
+12:03:18.960 INFO  - -> Clean uma l [id=38463]
+12:03:19.114 INFO  - <- Clean snapshot 490252
+12:03:20.710 INFO  - -> Clean CCAPWeb [id=38465]
+12:03:21.038 INFO  - Purging measures for 'bhuvaneswari muthusamy' (3/18)
+12:03:21.253 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:21.256 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:21.261 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:21.268 INFO  - -> Delete data prior to: 2012-06-08
+12:03:21.352 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:21.355 DEBUG - ==> Parameters: 38464(Long)
+12:03:21.402 DEBUG - <==      Total: 1
+12:03:21.405 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:21.409 DEBUG - ==> Parameters: 38464(Long)
+12:03:21.455 DEBUG - <==      Total: 1
+12:03:21.456 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:21.458 DEBUG - ==> Parameters: 38466(Long)
+12:03:21.501 DEBUG - <==      Total: 0
+12:03:21.503 INFO  - -> Clean bhuvaneswari muthusamy [id=38464]
+12:03:21.588 INFO  - <- Clean snapshot 490254
+12:03:23.187 INFO  - -> Clean CCAPWeb [id=38466]
+12:03:23.526 INFO  - Purging measures for ' muruganandam periyasamy' (4/18)
+12:03:24.172 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:24.175 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:24.178 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:24.182 INFO  - -> Delete data prior to: 2012-06-08
+12:03:24.269 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:24.272 DEBUG - ==> Parameters: 38644(Long)
+12:03:24.318 DEBUG - <==      Total: 1
+12:03:24.322 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:24.325 DEBUG - ==> Parameters: 38644(Long)
+12:03:24.372 DEBUG - <==      Total: 2
+12:03:24.374 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:24.377 DEBUG - ==> Parameters: 38880(Long)
+12:03:24.424 DEBUG - <==      Total: 0
+12:03:24.427 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:24.430 DEBUG - ==> Parameters: 39381(Long)
+12:03:24.475 DEBUG - <==      Total: 0
+12:03:24.479 INFO  - -> Clean  muruganandam periyasamy [id=38644]
+12:03:24.566 INFO  - <- Clean snapshot 490256
+12:03:26.442 INFO  - -> Clean CCAPWeb [id=38880]
+12:03:26.529 INFO  - -> Clean CQWeb [id=39381]
+12:03:26.921 INFO  - Purging measures for '  muruganandam periyasamy' (5/18)
+12:03:27.145 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:27.145 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:27.146 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:27.146 INFO  - -> Delete data prior to: 2012-06-08
+12:03:27.230 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:27.231 DEBUG - ==> Parameters: 38645(Long)
+12:03:27.463 DEBUG - Updating semaphore devcockpit.semaphore
+12:03:27.503 DEBUG - <==      Total: 1
+12:03:27.503 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:27.504 DEBUG - ==> Parameters: 38645(Long)
+12:03:27.548 DEBUG - <==      Total: 1
+12:03:27.548 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:27.549 DEBUG - ==> Parameters: 38881(Long)
+12:03:27.591 DEBUG - <==      Total: 0
+12:03:27.591 INFO  - -> Clean   muruganandam periyasamy [id=38645]
+12:03:27.675 INFO  - <- Clean snapshot 490258
+12:03:29.323 INFO  - -> Clean CCAPWeb [id=38881]
+12:03:29.667 INFO  - Purging measures for ' uma l                  ' (6/18)
+12:03:29.883 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:29.884 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:29.885 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:29.886 INFO  - -> Delete data prior to: 2012-06-08
+12:03:29.971 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:29.972 DEBUG - ==> Parameters: 38646(Long)
+12:03:30.015 DEBUG - <==      Total: 1
+12:03:30.016 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:30.017 DEBUG - ==> Parameters: 38646(Long)
+12:03:30.064 DEBUG - <==      Total: 1
+12:03:30.065 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:30.065 DEBUG - ==> Parameters: 38882(Long)
+12:03:30.107 DEBUG - <==      Total: 0
+12:03:30.108 INFO  - -> Clean  uma l                   [id=38646]
+12:03:30.191 INFO  - <- Clean snapshot 490260
+12:03:32.036 INFO  - -> Clean CCAPWeb [id=38882]
+12:03:32.381 INFO  - Purging measures for '  uma l' (7/18)
+12:03:32.626 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:32.627 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:32.628 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:32.629 INFO  - -> Delete data prior to: 2012-06-08
+12:03:32.713 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:32.713 DEBUG - ==> Parameters: 38647(Long)
+12:03:32.756 DEBUG - <==      Total: 1
+12:03:32.756 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:32.757 DEBUG - ==> Parameters: 38647(Long)
+12:03:32.802 DEBUG - <==      Total: 1
+12:03:32.803 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:32.804 DEBUG - ==> Parameters: 38883(Long)
+12:03:32.845 DEBUG - <==      Total: 0
+12:03:32.846 INFO  - -> Clean   uma l [id=38647]
+12:03:32.936 INFO  - <- Clean snapshot 490262
+12:03:34.538 INFO  - -> Clean CCAPWeb [id=38883]
+12:03:34.865 INFO  - Purging measures for '   muruganandam periyasamy' (8/18)
+12:03:35.073 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:35.074 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:35.075 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:35.075 INFO  - -> Delete data prior to: 2012-06-08
+12:03:35.159 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:35.160 DEBUG - ==> Parameters: 38648(Long)
+12:03:35.204 DEBUG - <==      Total: 1
+12:03:35.204 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:35.205 DEBUG - ==> Parameters: 38648(Long)
+12:03:35.248 DEBUG - <==      Total: 1
+12:03:35.248 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:35.249 DEBUG - ==> Parameters: 38884(Long)
+12:03:35.295 DEBUG - <==      Total: 0
+12:03:35.295 INFO  - -> Clean    muruganandam periyasamy [id=38648]
+12:03:35.377 INFO  - <- Clean snapshot 490264
+12:03:36.943 INFO  - -> Clean CCAPWeb [id=38884]
+12:03:37.284 INFO  - Purging measures for '   uma l' (9/18)
+12:03:37.498 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:37.500 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:37.504 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:37.507 INFO  - -> Delete data prior to: 2012-06-08
+12:03:37.594 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:37.594 DEBUG - ==> Parameters: 38649(Long)
+12:03:37.635 DEBUG - <==      Total: 1
+12:03:37.636 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:37.636 DEBUG - ==> Parameters: 38649(Long)
+12:03:37.678 DEBUG - <==      Total: 1
+12:03:37.681 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:37.684 DEBUG - ==> Parameters: 38885(Long)
+12:03:37.684 DEBUG - Updating semaphore devcockpit.semaphore
+12:03:37.727 DEBUG - <==      Total: 0
+12:03:37.730 INFO  - -> Clean    uma l [id=38649]
+12:03:37.815 INFO  - <- Clean snapshot 490266
+12:03:39.554 INFO  - -> Clean CCAPWeb [id=38885]
+12:03:39.925 INFO  - Purging measures for ' bhuvaneswari muthusamy ' (10/18)
+12:03:40.139 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:40.140 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:40.140 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:40.141 INFO  - -> Delete data prior to: 2012-06-08
+12:03:40.226 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:40.226 DEBUG - ==> Parameters: 38650(Long)
+12:03:40.268 DEBUG - <==      Total: 1
+12:03:40.269 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:40.271 DEBUG - ==> Parameters: 38650(Long)
+12:03:40.316 DEBUG - <==      Total: 1
+12:03:40.319 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:40.322 DEBUG - ==> Parameters: 38886(Long)
+12:03:40.365 DEBUG - <==      Total: 0
+12:03:40.367 INFO  - -> Clean  bhuvaneswari muthusamy  [id=38650]
+12:03:40.452 INFO  - <- Clean snapshot 490268
+12:03:42.115 INFO  - -> Clean CCAPWeb [id=38886]
+12:03:42.460 INFO  - Purging measures for 'chethan haladappa narayana' (11/18)
+12:03:42.689 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:42.689 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:42.690 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:42.690 INFO  - -> Delete data prior to: 2012-06-08
+12:03:42.774 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:42.776 DEBUG - ==> Parameters: 38872(Long)
+12:03:42.820 DEBUG - <==      Total: 1
+12:03:42.823 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:42.826 DEBUG - ==> Parameters: 38872(Long)
+12:03:42.873 DEBUG - <==      Total: 1
+12:03:42.876 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:42.879 DEBUG - ==> Parameters: 38879(Long)
+12:03:42.924 DEBUG - <==      Total: 0
+12:03:42.926 INFO  - -> Clean chethan haladappa narayana [id=38872]
+12:03:43.026 INFO  - <- Clean snapshot 490249
+12:03:44.607 INFO  - -> Clean CCAPWeb_DevDashboard5_dont_use_this_key [id=38879]
+12:03:44.939 INFO  - Purging measures for ' dinesh krishnan arumugam' (12/18)
+12:03:45.153 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:45.154 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:45.154 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:45.154 INFO  - -> Delete data prior to: 2012-06-08
+12:03:45.237 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:45.238 DEBUG - ==> Parameters: 39374(Long)
+12:03:45.282 DEBUG - <==      Total: 1
+12:03:45.284 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:45.287 DEBUG - ==> Parameters: 39374(Long)
+12:03:45.338 DEBUG - <==      Total: 1
+12:03:45.340 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:45.343 DEBUG - ==> Parameters: 39382(Long)
+12:03:45.388 DEBUG - <==      Total: 0
+12:03:45.390 INFO  - -> Clean  dinesh krishnan arumugam [id=39374]
+12:03:45.479 INFO  - <- Clean snapshot 490272
+12:03:47.030 INFO  - -> Clean CQWeb [id=39382]
+12:03:47.359 INFO  - Purging measures for 'dinesh krishnan arumugam' (13/18)
+12:03:47.578 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:47.581 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:47.584 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:47.588 INFO  - -> Delete data prior to: 2012-06-08
+12:03:47.674 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:47.676 DEBUG - ==> Parameters: 39375(Long)
+12:03:47.718 DEBUG - <==      Total: 1
+12:03:47.721 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:47.724 DEBUG - ==> Parameters: 39375(Long)
+12:03:47.771 DEBUG - <==      Total: 1
+12:03:47.773 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:47.776 DEBUG - ==> Parameters: 39383(Long)
+12:03:47.820 DEBUG - <==      Total: 0
+12:03:47.822 INFO  - -> Clean dinesh krishnan arumugam [id=39375]
+12:03:47.910 DEBUG - Updating semaphore devcockpit.semaphore
+12:03:47.914 INFO  - <- Clean snapshot 490274
+12:03:49.524 INFO  - -> Clean CQWeb [id=39383]
+12:03:49.855 INFO  - Purging measures for '  dinesh krishnan arumugam' (14/18)
+12:03:50.065 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:50.067 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:50.071 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:50.074 INFO  - -> Delete data prior to: 2012-06-08
+12:03:50.158 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:50.161 DEBUG - ==> Parameters: 39376(Long)
+12:03:50.205 DEBUG - <==      Total: 1
+12:03:50.208 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:50.211 DEBUG - ==> Parameters: 39376(Long)
+12:03:50.256 DEBUG - <==      Total: 1
+12:03:50.259 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:50.262 DEBUG - ==> Parameters: 39384(Long)
+12:03:50.305 DEBUG - <==      Total: 0
+12:03:50.307 INFO  - -> Clean   dinesh krishnan arumugam [id=39376]
+12:03:50.392 INFO  - <- Clean snapshot 490276
+12:03:51.922 INFO  - -> Clean CQWeb [id=39384]
+12:03:52.256 INFO  - Purging measures for '   dinesh krishnan arumugam' (15/18)
+12:03:52.462 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:52.464 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:52.468 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:52.471 INFO  - -> Delete data prior to: 2012-06-08
+12:03:52.588 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:52.591 DEBUG - ==> Parameters: 39377(Long)
+12:03:52.636 DEBUG - <==      Total: 1
+12:03:52.638 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:52.641 DEBUG - ==> Parameters: 39377(Long)
+12:03:52.687 DEBUG - <==      Total: 1
+12:03:52.689 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:52.692 DEBUG - ==> Parameters: 39385(Long)
+12:03:52.736 DEBUG - <==      Total: 0
+12:03:52.738 INFO  - -> Clean    dinesh krishnan arumugam [id=39377]
+12:03:52.825 INFO  - <- Clean snapshot 490278
+12:03:54.399 INFO  - -> Clean CQWeb [id=39385]
+12:03:54.828 INFO  - Purging measures for 'suresh ponnuswamy       ' (16/18)
+12:03:55.038 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:55.041 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:55.044 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:55.047 INFO  - -> Delete data prior to: 2012-06-08
+12:03:55.132 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:55.134 DEBUG - ==> Parameters: 39378(Long)
+12:03:55.180 DEBUG - <==      Total: 1
+12:03:55.182 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:55.186 DEBUG - ==> Parameters: 39378(Long)
+12:03:55.230 DEBUG - <==      Total: 1
+12:03:55.232 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:55.236 DEBUG - ==> Parameters: 39386(Long)
+12:03:55.281 DEBUG - <==      Total: 0
+12:03:55.284 INFO  - -> Clean suresh ponnuswamy        [id=39378]
+12:03:55.385 INFO  - <- Clean snapshot 490280
+12:03:57.237 INFO  - -> Clean CQWeb [id=39386]
+12:03:57.570 INFO  - Purging measures for ' suresh ponnuswamy       ' (17/18)
+12:03:57.777 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:03:57.778 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:03:57.778 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:03:57.779 INFO  - -> Delete data prior to: 2012-06-08
+12:03:57.859 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:03:57.860 DEBUG - ==> Parameters: 39379(Long)
+12:03:57.900 DEBUG - <==      Total: 1
+12:03:57.901 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:57.903 DEBUG - ==> Parameters: 39379(Long)
+12:03:57.947 DEBUG - <==      Total: 1
+12:03:57.950 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:03:57.953 DEBUG - ==> Parameters: 39387(Long)
+12:03:57.996 DEBUG - <==      Total: 0
+12:03:57.999 INFO  - -> Clean  suresh ponnuswamy        [id=39379]
+12:03:58.085 INFO  - <- Clean snapshot 490282
+12:03:58.140 DEBUG - Updating semaphore devcockpit.semaphore
+12:04:00.156 INFO  - -> Clean CQWeb [id=39387]
+12:04:00.486 INFO  - Purging measures for '368837@pc237361.cts.com' (18/18)
+12:04:00.697 INFO  - -> Keep one snapshot per day between 2017-05-05 and 2017-06-01
+12:04:00.700 INFO  - -> Keep one snapshot per week between 2016-06-03 and 2017-05-05
+12:04:00.703 INFO  - -> Keep one snapshot per month between 2012-06-08 and 2016-06-03
+12:04:00.706 INFO  - -> Delete data prior to: 2012-06-08
+12:04:00.792 DEBUG - ==>  Preparing: select * from projects p where p.id=?
+12:04:00.796 DEBUG - ==> Parameters: 40808(Long)
+12:04:00.840 DEBUG - <==      Total: 1
+12:04:00.843 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:04:00.846 DEBUG - ==> Parameters: 40808(Long)
+12:04:00.890 DEBUG - <==      Total: 1
+12:04:00.893 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=?
+12:04:00.896 DEBUG - ==> Parameters: 40809(Long)
+12:04:00.939 DEBUG - <==      Total: 0
+12:04:00.942 INFO  - -> Clean 368837@pc237361.cts.com [id=40808]
+12:04:01.027 INFO  - -> Clean CCAPOmega_GIT [id=40809]
+12:04:01.444 DEBUG - ==>  Preparing: select p.id from projects p WHERE p.qualifier in (?)
+12:04:01.447 DEBUG - ==> Parameters: DEV(String)
+12:04:01.540 DEBUG - <==      Total: 18
+12:04:01.588 INFO  - Indexing 18 developers
+12:04:01.591 DEBUG - Indexing muruganandam periyasamy(id=38235)
+12:04:01.804 DEBUG - Indexing uma l(id=38463)
+12:04:01.966 DEBUG - Indexing bhuvaneswari muthusamy(id=38464)
+12:04:02.139 DEBUG - Indexing  muruganandam periyasamy(id=38644)
+12:04:02.304 DEBUG - Indexing   muruganandam periyasamy(id=38645)
+12:04:02.475 DEBUG - Indexing  uma l                  (id=38646)
+12:04:02.660 DEBUG - Indexing   uma l(id=38647)
+12:04:02.827 DEBUG - Indexing    muruganandam periyasamy(id=38648)
+12:04:02.996 DEBUG - Indexing    uma l(id=38649)
+12:04:03.168 DEBUG - Indexing  bhuvaneswari muthusamy (id=38650)
+12:04:03.334 DEBUG - Indexing chethan haladappa narayana(id=38872)
+12:04:03.501 DEBUG - Indexing  dinesh krishnan arumugam(id=39374)
+12:04:03.669 DEBUG - Indexing dinesh krishnan arumugam(id=39375)
+12:04:03.835 DEBUG - Indexing   dinesh krishnan arumugam(id=39376)
+12:04:04.002 DEBUG - Indexing    dinesh krishnan arumugam(id=39377)
+12:04:04.175 DEBUG - Indexing suresh ponnuswamy       (id=39378)
+12:04:04.366 DEBUG - Indexing  suresh ponnuswamy       (id=39379)
+12:04:04.535 DEBUG - Indexing 368837@pc237361.cts.com(id=40808)
+12:04:05.960 DEBUG - Developers indexed
+12:04:06.221 DEBUG - Released semaphore: devcockpit.semaphore
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 2:19.057s
+Final Memory: 22M/445M
+INFO: ------------------------------------------------------------------------
+
+D:\Workspace\git_plugins\SampleProjectTesting>

@@ -1,0 +1,337 @@
+D:\sonar-runner-2.4_int\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_91 Oracle Corporation (64-bit)
+Windows 7 6.1 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: D:\sonar-runner-2.4_int\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: D:\Workspace\git_plugins\SampleProjectTesting\sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: D:\Workspace\git_plugins\SampleProjectTesting\.\.sonar
+INFO: SonarQube Server 5.6.6
+DEBUG: Download http://localhost:9000/batch/sonar-scanner-engine-shaded-5.6.6.jar to C:\Users\368837\.sonar\cache\_tmp\1496410540393-175
+19:05:41.698 DEBUG - Publish global mode
+19:05:41.983 INFO  - Load global repositories
+19:05:43.669 DEBUG - GET 200 http://localhost:9000/batch/global | time=1685ms
+19:05:43.749 INFO  - Load global repositories (done) | time=1767ms
+19:05:43.760 INFO  - User cache: C:\Users\368837\.sonar\cache
+19:05:44.089 INFO  - Load plugins index
+19:05:44.100 DEBUG - GET 200 http://localhost:9000/deploy/plugins/index.txt | time=11ms
+19:05:44.100 INFO  - Load plugins index (done) | time=11ms
+19:05:44.101 DEBUG - Load plugins
+19:05:44.104 DEBUG - Download plugin sonar-java-plugin-4.9.0.9858.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache7865137567236185123.tmp
+19:05:44.113 DEBUG - GET 200 http://localhost:9000/deploy/plugins/java/sonar-java-plugin-4.9.0.9858.jar | time=7ms
+19:05:44.378 DEBUG - Download plugin sonar-ldap-plugin-2.1.0.507.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache6678982240419705143.tmp
+19:05:44.378 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ldap/sonar-ldap-plugin-2.1.0.507.jar | time=0ms
+19:05:44.398 DEBUG - Download plugin sonar-scm-git-plugin-1.2.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache2300413800458279712.tmp
+19:05:44.399 DEBUG - GET 200 http://localhost:9000/deploy/plugins/scmgit/sonar-scm-git-plugin-1.2.jar | time=1ms
+19:05:44.516 DEBUG - Download plugin ccap-devcockpit-plugin-4.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache5672176161119456387.tmp
+19:05:44.528 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ccapdevcockpitplugin/ccap-devcockpit-plugin-4.0.jar | time=12ms
+19:05:44.548 DEBUG - Download plugin file-level-analysis-server-plugin-4.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache8218286604986585407.tmp
+19:05:44.548 DEBUG - GET 200 http://localhost:9000/deploy/plugins/filelevelanalysisserverplugin/file-level-analysis-server-plugin-4.0.jar | time=0ms
+19:05:45.056 DEBUG - Download plugin ccapvalidation-1.0.0.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache5132733086527202814.tmp
+19:05:45.059 DEBUG - GET 200 http://localhost:9000/deploy/plugins/ccapvalidation/ccapvalidation-1.0.0.jar | time=3ms
+19:05:45.106 DEBUG - Download plugin sonar-scm-svn-plugin-1.4.0.522.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache1703389113082267095.tmp
+19:05:45.109 DEBUG - GET 200 http://localhost:9000/deploy/plugins/scmsvn/sonar-scm-svn-plugin-1.4.0.522.jar | time=3ms
+19:05:45.367 DEBUG - Download plugin sonar-javascript-plugin-2.11.jar to C:\Users\368837\.sonar\cache\_tmp\fileCache2984755674771884085.tmp
+19:05:45.367 DEBUG - GET 200 http://localhost:9000/deploy/plugins/javascript/sonar-javascript-plugin-2.11.jar | time=0ms
+19:05:45.408 DEBUG - Load plugins (done) | time=1307ms
+19:05:45.628 DEBUG - API compatibility mode is enabled on plugin Git [scmgit] (built with API lower than 5.2)
+19:05:46.129 DEBUG - API compatibility mode is enabled on plugin ccapvalidation [ccapvalidation] (built with API lower than 5.2)
+19:05:46.289 DEBUG - API compatibility mode is enabled on plugin SVN [scmsvn] (built with API lower than 5.2)
+19:05:46.328 DEBUG - API compatibility mode is enabled on plugin JavaScript [javascript] (built with API lower than 5.2)
+19:05:46.468 DEBUG - Plugins:
+19:05:46.468 DEBUG -   * SonarJava 4.9.0.9858 (java)
+19:05:46.468 DEBUG -   * LDAP 2.1.0.507 (ldap)
+19:05:46.468 DEBUG -   * Git 1.2 (scmgit)
+19:05:46.468 DEBUG -   * CCAP Developer Cockpit Plugin 4.0 (ccapdevcockpitplugin)
+19:05:46.468 DEBUG -   * file-level-analysis-server-plugin 4.0 (filelevelanalysisserverplugin)
+19:05:46.468 DEBUG -   * ccapvalidation 1.0.0 (ccapvalidation)
+19:05:46.468 DEBUG -   * SVN 1.4.0.522 (scmsvn)
+19:05:46.468 DEBUG -   * JavaScript 2.11 (javascript)
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+Total time: 6.807s
+Final Memory: 5M/121M
+INFO: ------------------------------------------------------------------------
+
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\sonar-runner-2.4_int\bin\sonar-runner.bat -X >lognew.txt
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+        at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+        at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+        at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+        at org.sonar.runner.api.Runner.execute(Runner.java:100)
+        at org.sonar.runner.Main.executeTask(Main.java:70)
+        at org.sonar.runner.Main.execute(Main.java:59)
+        at org.sonar.runner.Main.main(Main.java:53)
+Caused by: java.lang.IllegalStateException: Unable to register extension com.cognizant.gto.devcockpit.task.PastSnapshotMeasure
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:248)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.doInstall(ExtensionInstaller.java:76)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.install(ExtensionInstaller.java:57)
+        at org.sonar.batch.task.TaskContainer.addTaskExtensions(TaskContainer.java:62)
+        at org.sonar.batch.task.TaskContainer.doBeforeStart(TaskContainer.java:49)
+        at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:140)
+        at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:127)
+        at org.sonar.batch.bootstrap.GlobalContainer.executeTask(GlobalContainer.java:106)
+        at org.sonar.batch.bootstrapper.Batch.executeTask(Batch.java:119)
+        at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:79)
+        at org.sonar.runner.batch.IsolatedLauncher.execute(IsolatedLauncher.java:48)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:87)
+        ... 9 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/sonar/batch/components/PastMeasuresLoader;
+        at java.lang.Class.getDeclaredFields0(Native Method)
+        at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+        at java.lang.Class.getDeclaredFields(Class.java:1916)
+        at org.picocontainer.injectors.AdaptingInjection$2.run(AdaptingInjection.java:217)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.picocontainer.injectors.AdaptingInjection.injectionFieldAnnotated(AdaptingInjection.java:209)
+        at org.picocontainer.injectors.AdaptingInjection.fieldAnnotatedInjectionAdapter(AdaptingInjection.java:188)
+        at org.picocontainer.injectors.AdaptingInjection.createComponentAdapter(AdaptingInjection.java:57)
+        at org.picocontainer.behaviors.AbstractBehaviorFactory.createComponentAdapter(AbstractBehaviorFactory.java:44)
+        at org.picocontainer.behaviors.OptInCaching.createComponentAdapter(OptInCaching.java:45)
+        at org.picocontainer.DefaultPicoContainer.addComponent(DefaultPicoContainer.java:536)
+        at org.picocontainer.DefaultPicoContainer.access$300(DefaultPicoContainer.java:84)
+        at org.picocontainer.DefaultPicoContainer$AsPropertiesPicoContainer.addComponent(DefaultPicoContainer.java:1149)
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:246)
+        ... 24 more
+Caused by: java.lang.ClassNotFoundException: org.sonar.batch.components.PastMeasuresLoader
+        at org.sonar.classloader.ParentFirstStrategy.loadClass(ParentFirstStrategy.java:39)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:87)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:76)
+        ... 38 more
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\sonar-runner-2.4_int\bin\sonar-runner.bat -X >lognew.txt
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+        at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+        at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+        at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+        at org.sonar.runner.api.Runner.execute(Runner.java:100)
+        at org.sonar.runner.Main.executeTask(Main.java:70)
+        at org.sonar.runner.Main.execute(Main.java:59)
+        at org.sonar.runner.Main.main(Main.java:53)
+Caused by: java.lang.IllegalStateException: Unable to register extension com.cognizant.gto.devcockpit.task.DeveloperProject
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:248)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.doInstall(ExtensionInstaller.java:76)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.install(ExtensionInstaller.java:57)
+        at org.sonar.batch.task.TaskContainer.addTaskExtensions(TaskContainer.java:62)
+        at org.sonar.batch.task.TaskContainer.doBeforeStart(TaskContainer.java:49)
+        at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:140)
+        at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:127)
+        at org.sonar.batch.bootstrap.GlobalContainer.executeTask(GlobalContainer.java:106)
+        at org.sonar.batch.bootstrapper.Batch.executeTask(Batch.java:119)
+        at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:79)
+        at org.sonar.runner.batch.IsolatedLauncher.execute(IsolatedLauncher.java:48)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:87)
+        ... 9 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/sonar/api/database/DatabaseSession;
+        at java.lang.Class.getDeclaredFields0(Native Method)
+        at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+        at java.lang.Class.getDeclaredFields(Class.java:1916)
+        at org.picocontainer.injectors.AdaptingInjection$2.run(AdaptingInjection.java:217)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.picocontainer.injectors.AdaptingInjection.injectionFieldAnnotated(AdaptingInjection.java:209)
+        at org.picocontainer.injectors.AdaptingInjection.fieldAnnotatedInjectionAdapter(AdaptingInjection.java:188)
+        at org.picocontainer.injectors.AdaptingInjection.createComponentAdapter(AdaptingInjection.java:57)
+        at org.picocontainer.behaviors.AbstractBehaviorFactory.createComponentAdapter(AbstractBehaviorFactory.java:44)
+        at org.picocontainer.behaviors.OptInCaching.createComponentAdapter(OptInCaching.java:45)
+        at org.picocontainer.DefaultPicoContainer.addComponent(DefaultPicoContainer.java:536)
+        at org.picocontainer.DefaultPicoContainer.access$300(DefaultPicoContainer.java:84)
+        at org.picocontainer.DefaultPicoContainer$AsPropertiesPicoContainer.addComponent(DefaultPicoContainer.java:1149)
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:246)
+        ... 24 more
+Caused by: java.lang.ClassNotFoundException: org.sonar.api.database.DatabaseSession
+        at org.sonar.classloader.ParentFirstStrategy.loadClass(ParentFirstStrategy.java:39)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:87)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:76)
+        ... 38 more
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\sonar-runner-2.4_int\bin\sonar-runner.bat -X >lognew1.txt
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+        at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+        at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+        at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+        at org.sonar.runner.api.Runner.execute(Runner.java:100)
+        at org.sonar.runner.Main.executeTask(Main.java:70)
+        at org.sonar.runner.Main.execute(Main.java:59)
+        at org.sonar.runner.Main.main(Main.java:53)
+Caused by: java.lang.IllegalStateException: Unable to register extension com.cognizant.gto.devcockpit.task.PresistDevloprMeasures
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:248)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.doInstall(ExtensionInstaller.java:76)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.install(ExtensionInstaller.java:57)
+        at org.sonar.batch.task.TaskContainer.addTaskExtensions(TaskContainer.java:62)
+        at org.sonar.batch.task.TaskContainer.doBeforeStart(TaskContainer.java:49)
+        at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:140)
+        at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:127)
+        at org.sonar.batch.bootstrap.GlobalContainer.executeTask(GlobalContainer.java:106)
+        at org.sonar.batch.bootstrapper.Batch.executeTask(Batch.java:119)
+        at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:79)
+        at org.sonar.runner.batch.IsolatedLauncher.execute(IsolatedLauncher.java:48)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:87)
+        ... 9 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/sonar/core/resource/ResourceDao;
+        at java.lang.Class.getDeclaredFields0(Native Method)
+        at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+        at java.lang.Class.getDeclaredFields(Class.java:1916)
+        at org.picocontainer.injectors.AdaptingInjection$2.run(AdaptingInjection.java:217)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.picocontainer.injectors.AdaptingInjection.injectionFieldAnnotated(AdaptingInjection.java:209)
+        at org.picocontainer.injectors.AdaptingInjection.fieldAnnotatedInjectionAdapter(AdaptingInjection.java:188)
+        at org.picocontainer.injectors.AdaptingInjection.createComponentAdapter(AdaptingInjection.java:57)
+        at org.picocontainer.behaviors.AbstractBehaviorFactory.createComponentAdapter(AbstractBehaviorFactory.java:44)
+        at org.picocontainer.behaviors.OptInCaching.createComponentAdapter(OptInCaching.java:45)
+        at org.picocontainer.DefaultPicoContainer.addComponent(DefaultPicoContainer.java:536)
+        at org.picocontainer.DefaultPicoContainer.access$300(DefaultPicoContainer.java:84)
+        at org.picocontainer.DefaultPicoContainer$AsPropertiesPicoContainer.addComponent(DefaultPicoContainer.java:1149)
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:246)
+        ... 24 more
+Caused by: java.lang.ClassNotFoundException: org.sonar.core.resource.ResourceDao
+        at org.sonar.classloader.ParentFirstStrategy.loadClass(ParentFirstStrategy.java:39)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:87)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:76)
+        ... 38 more
+
+D:\Workspace\git_plugins\SampleProjectTesting>
+
+
+
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\sonar-runner-2.4_int\bin\sonar-runner.bat -X >log2.txt
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+        at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+        at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+        at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+        at org.sonar.runner.api.Runner.execute(Runner.java:100)
+        at org.sonar.runner.Main.executeTask(Main.java:70)
+        at org.sonar.runner.Main.execute(Main.java:59)
+        at org.sonar.runner.Main.main(Main.java:53)
+Caused by: java.lang.IllegalStateException: Unable to register extension com.cognizant.gto.devcockpit.task.TaskDBSession
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:248)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.doInstall(ExtensionInstaller.java:76)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.install(ExtensionInstaller.java:57)
+        at org.sonar.batch.task.TaskContainer.addTaskExtensions(TaskContainer.java:62)
+        at org.sonar.batch.task.TaskContainer.doBeforeStart(TaskContainer.java:49)
+        at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:140)
+        at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:127)
+        at org.sonar.batch.bootstrap.GlobalContainer.executeTask(GlobalContainer.java:106)
+        at org.sonar.batch.bootstrapper.Batch.executeTask(Batch.java:119)
+        at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:79)
+        at org.sonar.runner.batch.IsolatedLauncher.execute(IsolatedLauncher.java:48)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:87)
+        ... 9 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/sonar/api/database/DatabaseSession;
+        at java.lang.Class.getDeclaredFields0(Native Method)
+        at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+        at java.lang.Class.getDeclaredFields(Class.java:1916)
+        at org.picocontainer.injectors.AdaptingInjection$2.run(AdaptingInjection.java:217)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.picocontainer.injectors.AdaptingInjection.injectionFieldAnnotated(AdaptingInjection.java:209)
+        at org.picocontainer.injectors.AdaptingInjection.fieldAnnotatedInjectionAdapter(AdaptingInjection.java:188)
+        at org.picocontainer.injectors.AdaptingInjection.createComponentAdapter(AdaptingInjection.java:57)
+        at org.picocontainer.behaviors.AbstractBehaviorFactory.createComponentAdapter(AbstractBehaviorFactory.java:44)
+        at org.picocontainer.behaviors.OptInCaching.createComponentAdapter(OptInCaching.java:45)
+        at org.picocontainer.DefaultPicoContainer.addComponent(DefaultPicoContainer.java:536)
+        at org.picocontainer.DefaultPicoContainer.access$300(DefaultPicoContainer.java:84)
+        at org.picocontainer.DefaultPicoContainer$AsPropertiesPicoContainer.addComponent(DefaultPicoContainer.java:1149)
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:246)
+        ... 24 more
+Caused by: java.lang.ClassNotFoundException: org.sonar.api.database.DatabaseSession
+        at org.sonar.classloader.ParentFirstStrategy.loadClass(ParentFirstStrategy.java:39)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:87)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:76)
+        ... 38 more
+
+D:\Workspace\git_plugins\SampleProjectTesting>
+
+
+
+D:\Workspace\git_plugins\SampleProjectTesting>D:\sonar-runner-2.4_int\bin\sonar-runner.bat -X >log2.txt
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+        at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+        at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+        at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+        at org.sonar.runner.api.Runner.execute(Runner.java:100)
+        at org.sonar.runner.Main.executeTask(Main.java:70)
+        at org.sonar.runner.Main.execute(Main.java:59)
+        at org.sonar.runner.Main.main(Main.java:53)
+Caused by: java.lang.IllegalStateException: Unable to register extension com.cognizant.gto.devcockpit.task.DevCockpitTask
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:248)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.doInstall(ExtensionInstaller.java:76)
+        at org.sonar.batch.bootstrap.ExtensionInstaller.install(ExtensionInstaller.java:57)
+        at org.sonar.batch.task.TaskContainer.addTaskExtensions(TaskContainer.java:62)
+        at org.sonar.batch.task.TaskContainer.doBeforeStart(TaskContainer.java:49)
+        at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:140)
+        at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:127)
+        at org.sonar.batch.bootstrap.GlobalContainer.executeTask(GlobalContainer.java:106)
+        at org.sonar.batch.bootstrapper.Batch.executeTask(Batch.java:119)
+        at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:79)
+        at org.sonar.runner.batch.IsolatedLauncher.execute(IsolatedLauncher.java:48)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:87)
+        ... 9 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/sonar/core/resource/ResourceIndexerDao;
+        at java.lang.Class.getDeclaredFields0(Native Method)
+        at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+        at java.lang.Class.getDeclaredFields(Class.java:1916)
+        at org.picocontainer.injectors.AdaptingInjection$2.run(AdaptingInjection.java:217)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.picocontainer.injectors.AdaptingInjection.injectionFieldAnnotated(AdaptingInjection.java:209)
+        at org.picocontainer.injectors.AdaptingInjection.fieldAnnotatedInjectionAdapter(AdaptingInjection.java:188)
+        at org.picocontainer.injectors.AdaptingInjection.createComponentAdapter(AdaptingInjection.java:57)
+        at org.picocontainer.behaviors.AbstractBehaviorFactory.createComponentAdapter(AbstractBehaviorFactory.java:44)
+        at org.picocontainer.behaviors.OptInCaching.createComponentAdapter(OptInCaching.java:45)
+        at org.picocontainer.DefaultPicoContainer.addComponent(DefaultPicoContainer.java:536)
+        at org.picocontainer.DefaultPicoContainer.access$300(DefaultPicoContainer.java:84)
+        at org.picocontainer.DefaultPicoContainer$AsPropertiesPicoContainer.addComponent(DefaultPicoContainer.java:1149)
+        at org.sonar.core.platform.ComponentContainer.addExtension(ComponentContainer.java:246)
+        ... 24 more
+Caused by: java.lang.ClassNotFoundException: org.sonar.core.resource.ResourceIndexerDao
+        at org.sonar.classloader.ParentFirstStrategy.loadClass(ParentFirstStrategy.java:39)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:87)
+        at org.sonar.classloader.ClassRealm.loadClass(ClassRealm.java:76)
+        ... 38 more
+
+D:\Workspace\git_plugins\SampleProjectTesting>
