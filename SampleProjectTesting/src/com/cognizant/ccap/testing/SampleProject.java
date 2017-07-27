@@ -13,10 +13,16 @@ public class SampleProject {
 	private static final Logger LOGGER = Logger.getLogger("com.cognizant.ccap.testing.SampleProject");
 
 	void bar(){
-		LOGGER.info("new issue1");
-		LOGGER.info("new changeset");
-		LOGGER.info("new changeset1");
+		System.out.println("new issue1");
+		System.out.println("new changeset");
+		System.out.println("new changeset1");
 		String zzz1 = "asdfge";
+		System.out.println("new changeset");
+		System.out.println("new issue1");
+		System.out.println("new changeset");
+		LOGGER.info("new changeset1");
+		String zzz2 = "asdfge";
+		LOGGER.info("new changeset");
 		String fileName = null;
 		if (zzz1 != null) {
 			fileName = zzz1;
