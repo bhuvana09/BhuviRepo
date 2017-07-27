@@ -17,18 +17,6 @@ public class SampleProject {
 		System.out.println("new changeset");
 		System.out.println("new changeset1");
 		String zzz1 = "asdfge";
-		System.out.println("new changeset");
-		System.out.println("new issue1");
-		System.out.println("new changeset");
-		System.out.println("new changeset");
-		System.out.println("new issue1");
-		System.out.println("new changeset");
-		System.out.println("new changeset");
-		System.out.println("new issue1");
-		System.out.println("new changeset");
-		System.out.println("new changeset");
-		System.out.println("new issue1");
-		System.out.println("new changeset");
 		LOGGER.info("new changeset1");
 		String zzz2 = "asdfge";
 		LOGGER.info("new changeset");
