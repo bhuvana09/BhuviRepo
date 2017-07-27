@@ -5,16 +5,19 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.util.logging.Logger;
 
 
 public class SampleProject {
 
+	private static final Logger LOGGER = Logger.getLogger("com.cognizant.ccap.testing.SampleProject");
+
 	void bar(){
-		
-		String zzz1 = "bhuvi";
+		LOGGER.info("new issue1");
+		LOGGER.info("new changeset");
+		LOGGER.info("new changeset1");
+		String zzz1 = "asdfge";
 		String fileName = null;
-	//	baz(fileName);
-	//	secondMethod();
 		if (zzz1 != null) {
 			fileName = zzz1;
 		}
