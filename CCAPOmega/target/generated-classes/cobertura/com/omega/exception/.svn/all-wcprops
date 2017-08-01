@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/exception
+END
+ServiceException.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/exception/ServiceException.class
+END
+InValidVehicleException.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/generated-classes/cobertura/com/omega/exception/InValidVehicleException.class
+END

@@ -1,0 +1,5 @@
+projectKey=com.cognizant.internal.gtointernal.ccap.59911.masterprojectkey.java
+serverUrl=http://10.223.66.65:9000
+dashboardUrl=http://10.223.66.65:9000/dashboard/index/com.cognizant.internal.gtointernal.ccap.59911.masterprojectkey.java
+ceTaskId=AVv1_3tyIE9qCT59Xz3p
+ceTaskUrl=http://10.223.66.65:9000/api/ce/task?id=AVv1_3tyIE9qCT59Xz3p

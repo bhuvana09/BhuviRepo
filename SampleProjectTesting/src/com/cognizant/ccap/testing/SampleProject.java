@@ -16,7 +16,7 @@ public class SampleProject {
 		System.out.println("new issue1");
 		System.out.println("new changeset");
 		System.out.println("new changeset1");
-		System.out.println("new issue1");
+		System.out.println("new issue2");
 		System.out.println("new changeset");
 		String zzz1 = "asdfge";
 		LOGGER.info("new changeset1");

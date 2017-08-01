@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports
+END
+com.omega.dao.test.LookupDAOTest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/com.omega.dao.test.LookupDAOTest.txt
+END
+TEST-com.omega.dao.test.VehicleDAOTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/TEST-com.omega.dao.test.VehicleDAOTest.xml
+END
+com.omega.dao.test.VehicleDAOTest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/com.omega.dao.test.VehicleDAOTest.txt
+END
+TEST-com.omega.service.test.MasterCalculationsTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/TEST-com.omega.service.test.MasterCalculationsTest.xml
+END
+TEST-com.omega.service.test.PremiumCalculationTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/TEST-com.omega.service.test.PremiumCalculationTest.xml
+END
+com.omega.service.test.MasterCalculationsTest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/com.omega.service.test.MasterCalculationsTest.txt
+END
+com.omega.service.test.PremiumCalculationTest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/com.omega.service.test.PremiumCalculationTest.txt
+END
+TEST-com.omega.dao.test.LookupDAOTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/target/surefire-reports/TEST-com.omega.dao.test.LookupDAOTest.xml
+END

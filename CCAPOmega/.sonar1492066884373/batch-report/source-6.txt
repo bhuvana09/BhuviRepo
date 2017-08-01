@@ -1,0 +1,39 @@
+/*
+ * IVehicleDAO.java 7:44:54 PM Apr 30, 2010 version 1.0
+ * 
+ * Copyright (c) 1998-2010 Cognizant Technology Solutions, Inc. All Rights
+ * Reserved.
+ * 
+ * This software is the confidential and proprietary information of Cognizant
+ * Technology Solutions. ("Confidential Information"). You shall not disclose
+ * such Confidential Information and shall use it only in accordance with the
+ * terms of the license agreement you entered into with Cognizant.
+ */
+
+package com.omega.dao;
+
+import java.sql.SQLException;
+
+import com.omega.dtd.Vehicle;
+
+/**
+ * 
+ * @author Java CoE
+ * 
+ *         Contains methods for persisting , editing vehicles detials
+ * @version 1.0
+ */
+public interface IVehicleDAO
+{
+    
+
+    /**
+     * saveVechicleQuotation stores valid vehicle details along with the
+     * required premium
+     * 
+     * @param vehicle vehicle containing the calculated premium
+     * @throws SQLException if any of the vehicle data is invalid or if dao is
+     *             not able to connect to the database
+     */
+    void saveVechicleQuotation(Vehicle vehicle) throws SQLException;
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/rulesets
+END
+pmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/rulesets/pmd.xml
+END
+sun_checks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/rulesets/sun_checks.xml
+END
+checkstyle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/buildlib/rulesets/checkstyle.xml
+END

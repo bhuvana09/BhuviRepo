@@ -1,0 +1,2437 @@
+	<resource Name="src/com/omega/controller/CollectionController.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="221.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="164.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="8.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="114.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="11.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="6.3" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="50.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="1.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="13.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="13.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="13.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="13.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="1.6" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="330.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="110.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="110.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="110.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="7.875" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="167" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="144" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="163" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="166" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="176" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="175" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="145" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="130" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="150" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="209" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="197" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="137" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="127" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="107" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="143" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="196" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="112" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="189" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="120" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="173" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="199" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="182" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="122" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="132" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="110" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="160" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName121()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="195" />
+			<violation Message="The String literal &quot;sds2&quot; appears 6 times in this file; the first occurrence is on line 167" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="167" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName3()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="213" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="142" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="146" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="157" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="115" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName1()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="180" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="103" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="151" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="158" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="128" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="165" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="135" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="138" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="124" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="203" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="134" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="200" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="116" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="154" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="149" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="106" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="177" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="216" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="168" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="136" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="214" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="129" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="184" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="155" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="208" />
+			<violation Message="The String literal &quot;sds1111111111111111111111111111111111111&quot; appears 36 times in this file; the first occurrence is on line 104" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="104" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="171" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="113" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="131" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="191" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="156" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="125" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="201" />
+			<violation Message="The String literal &quot;sds3&quot; appears 6 times in this file; the first occurrence is on line 168" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="168" />
+			<violation Message="The String literal &quot;sds&quot; appears 40 times in this file; the first occurrence is on line 141" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="141" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="114" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="139" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="170" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="217" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="162" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="202" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="174" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="152" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="108" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="161" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="117" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="153" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="198" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="190" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="215" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="207" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="123" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="141" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="105" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="109" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="148" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="181" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="121" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="210" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="172" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="133" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="147" />
+			<violation Message="The method setMyName() has an NCSS line count of 75" RulePlugin="pmd" Rule="Ncss Method Count" Severity="MAJOR" isNew="true" Line="103" />
+			<violation Message="The String literal &quot;sds4&quot; appears 6 times in this file; the first occurrence is on line 169" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="169" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="140" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="104" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName2()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="206" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="164" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="183" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName1208()&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="188" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="159" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="119" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="192" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="118" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="169" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="126" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="111" />
+		</violations>
+		<checkinFailures resource="src/com/omega/controller/CollectionController.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/ILookupDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="40.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="6.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="11.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="64.7" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="100.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.0" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/ILookupDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/IVehicleDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="40.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="7.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="8.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="53.3" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="100.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.0" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/IVehicleDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/LookupDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="158.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="105.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="57.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="12.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="10.3" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="93.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="11.4" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="31.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="31.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="31.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="2.6875" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="51" />
+			<violation Message="Cyclomatic Complexity is 15 (max allowed is 10)." RulePlugin="checkstyle" Rule="Cyclomatic Complexity" Severity="MAJOR" isNew="true" Line="42" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="87" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="71" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---LOG&quot; appears 21 times in this file; the first occurrence is on line 48" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="52" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="58" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="65" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="66" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="84" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="90" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="63" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---TYPE NULLLLLLLLLLLLLL&quot; appears 4 times in this file; the first occurrence is on line 81" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="81" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="64" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="68" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="55" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="67" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="53" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="56" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="81" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="113" />
+			<violation Message="The method lookupBasePremium() has an NCSS line count of 58" RulePlugin="pmd" Rule="Ncss Method Count" Severity="MAJOR" isNew="true" Line="42" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="50" />
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/LookupDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/VehicleDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="155.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="109.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="51.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="12.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="9.9" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="117.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="39.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="39.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="39.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="2.9375" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="71" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="79" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="89" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="80" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="78" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="72" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="69" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="68" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="84" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="76" />
+			<violation Message="The String literal &quot;testing&quot; appears 25 times in this file; the first occurrence is on line 67" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="67" />
+			<violation Message="Avoid unused local variables such as &apos;count&apos;." RulePlugin="pmd" Rule="Unused local variable" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="64" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="70" />
+			<violation Message="The String literal &quot;Added by Uma SCM comments&quot; appears 6 times in this file; the first occurrence is on line 60" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="77" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="83" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="65" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="87" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="74" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="90" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="75" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="67" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="81" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="86" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="63" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="Avoid commented-out lines of code" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="88" />
+			<violation Message="The method saveVechicleQuotation() has an NCSS line count of 52" RulePlugin="pmd" Rule="Ncss Method Count" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="46" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="91" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="73" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="85" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="82" />
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/VehicleDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dtd/Vehicle.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="273.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="124.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="28.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="34.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="3.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="35.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="22.0" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="33.3" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="2.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="2.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="98.4" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.125" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="&apos;37&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="245" />
+			<violation Message="&apos;17&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="245" />
+		</violations>
+		<checkinFailures resource="src/com/omega/dtd/Vehicle.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/exception/InValidVehicleException.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="188.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="71.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="7.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="16.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="5.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="45.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="38.8" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="1.4" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="97.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="1.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="1.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="51.6" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="100.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.0" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/exception/InValidVehicleException.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/exception/ServiceException.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="188.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="71.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="7.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="16.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="5.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="45.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="38.8" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="10.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="1.4" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="97.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="1.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="1.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="51.6" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="100.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.0" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/exception/ServiceException.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/IPremiumCalculation.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="39.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="7.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="7.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="50.0" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="100.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.0" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/service/IPremiumCalculation.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/MasterCalculations.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="44.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="26.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="9.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="4.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="13.3" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="4.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="6.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="76.9" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.125" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Avoid unused private fields such as &apos;name&apos;." RulePlugin="pmd" Rule="Unused Private Field" Severity="MAJOR" isNew="true" Line="12" />
+			<violation Message="Utility classes should not have a public or default constructor." RulePlugin="checkstyle" Rule="Hide Utility Class Constructor" Severity="MAJOR" isNew="true" Line="9" />
+		</violations>
+		<checkinFailures resource="src/com/omega/service/MasterCalculations.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/PremiumCalculation.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="89.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="48.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="16.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="13.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="21.3" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="6.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="87.5" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="1.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="3.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.3125" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="&apos;10&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="52" />
+			<violation Message="&apos;22&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="52" />
+			<violation Message="&apos;10&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="53" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="Avoid commented-out lines of code" Severity="MAJOR" isNew="true" Line="67" />
+		</violations>
+		<checkinFailures resource="src/com/omega/service/PremiumCalculation.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/DBConnection.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="115.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="60.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="3.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="33.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="3.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="17.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="22.1" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="2.7" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="51.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="15.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="17.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="17.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="17.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="1.20833" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Name &apos;DBConnection&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." RulePlugin="checkstyle" Rule="Parameter Name" Severity="MAJOR" isNew="true" Line="107" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="56" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!&quot; appears 13 times in this file; the first occurrence is on line 54" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="Avoid commented-out lines of code" Severity="MAJOR" isNew="true" Line="75" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="109" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="Avoid commented-out lines of code" Severity="MAJOR" isNew="true" Line="20" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="112" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="111" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="58" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="55" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="110" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="60" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/DBConnection.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/Validation.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="159.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="96.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="5.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="39.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="2.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="17.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="15.0" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="18.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="18.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="18.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="18.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="3.6" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="97.9" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="2.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="0.125" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="&apos;20&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="107" />
+			<violation Message="&apos;5&apos; is a magic number." RulePlugin="checkstyle" Rule="Magic Number" Severity="MINOR" isNew="true" Line="113" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/Validation.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/ValidationHelper.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="Lines" Value="55.0" />
+			<metric Metric_Domain="Size" Name="Generated Lines" Value="" />
+			<metric Metric_Domain="Size" Name="Lines of code" Value="25.0" />
+			<metric Metric_Domain="Size" Name="Generated lines of code" Value="" />
+			<metric Metric_Domain="Size" Name="Classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Files" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Directories" Value="" />
+			<metric Metric_Domain="Size" Name="Packages" Value="" />
+			<metric Metric_Domain="Size" Name="Functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Accessors" Value="0.0" />
+			<metric Metric_Domain="Size" Name="Statements" Value="9.0" />
+			<metric Metric_Domain="Size" Name="Public API" Value="1.0" />
+			<metric Metric_Domain="Size" Name="Projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="Comment lines" Value="4.0" />
+			<metric Metric_Domain="Documentation" Name="Comments (%)" Value="13.8" />
+			<metric Metric_Domain="Documentation" Name="Blank comments" Value="" />
+			<metric Metric_Domain="Documentation" Name="Public documented API (%)" Value="100.0" />
+			<metric Metric_Domain="Documentation" Name="Public undocumented API" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="Commented-out LOC" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /file" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in classes" Value="" />
+			<metric Metric_Domain="Complexity" Name="Complexity /class" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity in functions" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="Complexity /function" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="Classes distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Functions distribution /complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="Files distribution /complexity" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests duration" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test errors" Value="" />
+			<metric Metric_Domain="Tests" Name="Skipped unit tests" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test failures" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit test success (%)" Value="" />
+			<metric Metric_Domain="Tests" Name="Unit tests details" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover" Value="" />
+			<metric Metric_Domain="Tests" Name="Branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches" Value="" />
+			<metric Metric_Domain="Tests" Name="Uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests" Name="Branch coverage hits" Value="" />
+			<metric Metric_Domain="Tests" Name="Conditions by line" Value="" />
+			<metric Metric_Domain="Tests" Name="Covered conditions by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Lines to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered lines by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT line coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Line coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT coverage hits data" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branches to cover by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Uncovered branches by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="Branch coverage by IT on new code" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT branches by line" Value="" />
+			<metric Metric_Domain="Tests (Integration)" Name="IT covered branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall lines to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered lines on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall line coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall coverage hits by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches to cover on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall uncovered branches on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branch coverage on new code" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall branches by line" Value="" />
+			<metric Metric_Domain="Tests (Overall)" Name="Overall covered branches by line" Value="" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated blocks" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated files" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplicated lines (%)" Value="0.0" />
+			<metric Metric_Domain="Duplication" Name="Duplications details" Value="" />
+			<metric Metric_Domain="Issues" Name="Weighted issues" Value="42.0" />
+			<metric Metric_Domain="Issues" Name="Rules compliance" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Issues" Value="18.0" />
+			<metric Metric_Domain="Issues" Name="Blocker issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Critical issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Major issues" Value="14.0" />
+			<metric Metric_Domain="Issues" Name="Minor issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Info issues" Value="4.0" />
+			<metric Metric_Domain="Issues" Name="New issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Blocker issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Critical issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Major issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Minor issues" Value="" />
+			<metric Metric_Domain="Issues" Name="New Info issues" Value="" />
+			<metric Metric_Domain="Issues" Name="False positive issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Open issues" Value="18.0" />
+			<metric Metric_Domain="Issues" Name="Reopened issues" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="Confirmed issues" Value="0.0" />
+			<metric Metric_Domain="Design" Name="Abstractness" Value="" />
+			<metric Metric_Domain="Design" Name="Instability" Value="" />
+			<metric Metric_Domain="Design" Name="Distance" Value="" />
+			<metric Metric_Domain="Design" Name="Depth in Tree" Value="" />
+			<metric Metric_Domain="Design" Name="Number of Children" Value="" />
+			<metric Metric_Domain="Design" Name="RFC" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /RFC" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="LCOM4 blocks" Value="" />
+			<metric Metric_Domain="Design" Name="Class distribution /LCOM4" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect LCOM4 density" Value="" />
+			<metric Metric_Domain="Design" Name="Afferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Efferent couplings" Value="" />
+			<metric Metric_Domain="Design" Name="Dependency Matrix" Value="" />
+			<metric Metric_Domain="Design" Name="Package cycles" Value="" />
+			<metric Metric_Domain="Design" Name="Package tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package dependencies to cut" Value="" />
+			<metric Metric_Domain="Design" Name="Package edges weight" Value="" />
+			<metric Metric_Domain="Design" Name="File cycles" Value="" />
+			<metric Metric_Domain="Design" Name="File tangle index" Value="" />
+			<metric Metric_Domain="Design" Name="File tangles" Value="" />
+			<metric Metric_Domain="Design" Name="Suspect file dependencies" Value="" />
+			<metric Metric_Domain="Design" Name="File edges weight" Value="" />
+			<metric Metric_Domain="SCM" Name="Authors by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Revisions by line" Value="" />
+			<metric Metric_Domain="SCM" Name="Last commit dates by line" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="New unreviewed violations" Value="" />
+			<metric Metric_Domain="Reviews" Name="False-positive reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Active reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unassigned reviews" Value="" />
+			<metric Metric_Domain="Reviews" Name="Unplanned reviews" Value="" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt" Value="1.0625" />
+			<metric Metric_Domain="Technical Debt" Name="Technical Debt on new code" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="" />
+			<metric Metric_Domain="General" Name="Alert" Value="" />
+			<metric Metric_Domain="General" Name="Profile" Value="" />
+			<metric Metric_Domain="General" Name="Profile version" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Avoid unused method parameters such as &apos;request&apos;." RulePlugin="pmd" Rule="Unused formal parameter" Severity="MAJOR" isNew="true" Line="41" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="Avoid unused private fields such as &apos;LOGGER&apos;." RulePlugin="pmd" Rule="Unused Private Field" Severity="MAJOR" isNew="true" Line="39" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="47" />
+			<violation Message="The String literal &quot;This is a test from UMA Id&quot; appears 4 times in this file; the first occurrence is on line 44" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="Unused import - org.apache.commons.lang.StringUtils." RulePlugin="checkstyle" Rule="Unused Imports" Severity="INFO" isNew="true" Line="19" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="45" />
+			<violation Message="Unused import - com.omega.dtd.Vehicle." RulePlugin="checkstyle" Rule="Unused Imports" Severity="INFO" isNew="true" Line="15" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="50" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="51" />
+			<violation Message="Avoid unused method parameters such as &apos;param&apos;." RulePlugin="pmd" Rule="Unused formal parameter" Severity="MAJOR" isNew="true" Line="41" />
+			<violation Message="The String literal &quot;This is a test from Sampath Id&quot; appears 4 times in this file; the first occurrence is on line 48" RulePlugin="pmd" Rule="Avoid Duplicate Literals" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="Unused import - com.omega.exception.InValidVehicleException." RulePlugin="checkstyle" Rule="Unused Imports" Severity="INFO" isNew="true" Line="17" />
+			<violation Message="System.out.print is used" RulePlugin="pmd" Rule="System Println" Severity="MAJOR" isNew="true" Line="46" />
+			<violation Message="Unused import - java.util.Date." RulePlugin="checkstyle" Rule="Unused Imports" Severity="INFO" isNew="true" Line="23" />
+			<violation Message="Avoid unused private methods such as &apos;getInteger(HttpServletRequest,String)&apos;." RulePlugin="pmd" Rule="Unused private method" Severity="MAJOR" isNew="true" Line="41" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/ValidationHelper.java">
+		</checkinFailures>
+	</resource>

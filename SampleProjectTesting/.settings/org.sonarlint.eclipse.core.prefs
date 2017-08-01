@@ -1,5 +1,5 @@
 autoEnabled=true
 eclipse.preferences.version=1
 extraProperties=
-moduleKey=com.cognizant.internal.gtointernal.ccap.59911.sample.java
-serverId=CCAP
+moduleKey=com.cognizant.internal.gtointernal.ccap.59911.ccapomega.java
+serverId=codebuddy

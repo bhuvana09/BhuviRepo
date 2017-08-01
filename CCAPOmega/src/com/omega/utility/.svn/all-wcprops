@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/com/omega/utility
+END
+DBConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/com/omega/utility/DBConnection.java
+END
+Validation.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/com/omega/utility/Validation.java
+END
+ValidationHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/src/com/omega/utility/ValidationHelper.java
+END

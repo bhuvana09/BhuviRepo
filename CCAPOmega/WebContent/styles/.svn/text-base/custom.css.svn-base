@@ -1,0 +1,236 @@
+/***************************************************************
+ * Top-level style sheet.  Make general CSS changes here and
+ * use the browser/platform-specific CCS files for specific
+ * changes.
+ *
+ * Note: Do NOT specify fonts in points/pixel sizes.  Use
+ *       percentages only as this will ensure the browser gets
+ *       the option of using user-specified font sizes.  This
+ *       is important for those who have better or worse vision
+ *       than yourself.
+ **************************************************************/
+
+/* Set the normal page background color to white, the font color
+   to black, and use a sans serif font by default. */
+BODY
+  { background-color: #FFFFFF;
+    color:            #000000;
+    font-family:      Arial, Helvetica, Sans-Serif; font-size: 80%;}
+/* Set the page background color to a light red/pink for the
+   Edit page to distinguish it from a "regular" page. */
+BODY.edit
+  { background-color: #CCCCCC; }
+
+
+/* Adjust the margins for headings. */
+H1, H2, H3, H4, H5, H6
+  { margin-top: 5pt;
+    margin-bottom: 3pt; }
+/* H1.pagename */
+/* H3.leftmenuheading */
+
+
+/* Monospace fonts.  */
+TT
+  { font-family: Lucida Console, Courier New, Courier, Sans-Serif;
+    font-size: 90%; }
+DT
+  { color: #0000BB; }
+
+/* List margin settings. */
+OL, UL
+  { margin-top: 0pt; }
+
+
+/* Make the horizontal rule fairly tight. */
+HR
+  { size: 1; }
+
+
+/* Make BR tags clear floating elements by default, but provide escapes.
+   for the left/right/none versions, specify an id="right", etc. on the
+   BR tag. */
+BR
+  { clear: left; }
+BR#left
+  { clear: left; }
+BR#right
+  { clear: right; }
+BR#none
+  { clear: none; }
+
+
+/* Currently unused? */
+IMG.inline {}
+
+
+/* Allow for a smaller font in some divisions.  Should this
+   just be a .small setting? */
+DIV.small { font-size: 70%; }
+DIV.error { font-size: 80%; color: red}
+
+/* Normal link colors (inside the main content view). */
+A:link    { color: #A22D17; text-decoration: none; }
+A:visited { color: #A22D17; text-decoration: none; }
+A:active  { color: #A22D17; text-decoration: none; }
+A:hover   { color: #FF2222; text-decoration: none; }
+A.title   { text-decoration: none; }
+
+/* The link colors for the LeftMenu (the DIV tag uses
+   "bordermenu" as it's class). */
+.bordermenu a:link    { color: #FF7700; text-decoration : none;  }
+.bordermenu a:visited { color: #FF7700; text-decoration : none; }
+.bordermenu a:hover   { color: #FF2222; text-decoration : none; }
+
+/* Footnotes. */
+A.footnoteref
+  { vertical-align: super; 
+    font-size: 70%; }
+A.footnote
+  { color: #0044AA; }
+
+/* You can alter these if needed -- if you really want more
+   control or different colors for the links, but keep in mind
+   they'll overwrite the above settings.  Plus you might want
+   to define the link/vistied/active/hover settings, too.  */
+A.my_page  { } /* Normal, internal reference */
+A.external  { } /* External reference */
+
+
+/* Our standard table options. */
+TABLE.my_table
+  { empty-cells: show; 
+	border-width: 1px;
+	border-collapse: collapse;
+	border-color: #000000;
+	
+}
+TABLE.my_table * TD
+  { padding:    3;
+    text-align: left; 
+    border-width: 1px;
+    border-color: #000000;
+  }
+TABLE.my_table * TH
+  { padding:    3;
+    text-align: left; 
+    border-width: 1px;
+    background-color:#C0C0C0;
+    border-color: #000000;
+  }
+
+/* This is the "header" table cell where the page's title
+   appears.  We want it bigger and to show up against the
+   background. */
+TD.header
+  { color:         #ffffff;
+    font-size:     180%;
+    margin-bottom: 0; }
+
+TD.controls { text-align: right; font-size: 75%; font-style: italic; }
+
+/* Change colors/fonts when looking at differences between
+   the page versions. */
+TD.diffadd
+  { background:  #99FF99; 
+    font-family: monospace; }
+TD.diffrem
+  { background:  #FF9933; 
+    font-family: monospace; }
+TD.diff
+  { background:  #FFFFFF; 
+    font-family: monospace; }
+
+/* For the CalendarTag */
+TABLE.calendar
+  { font-size: 80%; }
+TABLE.calendar TD
+  { text-align: center; }
+TABLE.calendar TD.othermonth
+  { color: #707070; }
+TABLE.calendar TD.link
+  { background: #E0E0E0; }
+TABLE.calendar TR.month
+  { font-size:   120%;
+    font-family: sans-serif; }
+TABLE.calendar TR.weekdays
+  { font-color: #FF0000; }
+
+/* For the ListLocksPlugin */
+/* TABLE.listlocksplugin { empty-cells: show; }
+TABLE.listlocksplugin * TD { padding: 4; text-align: left; }
+TABLE.listlocksplugin * TH { padding: 4; text-align: left; } */
+
+/* Not used now? */
+TD.leftmenu { } /* Left menu */
+TD.page     { } /* Page data area */
+
+
+/* This is the Edit.jsp editor style. */
+TEXTAREA.editor {}
+
+
+/* These were originally on the <P> tag, but I made it more
+   general.  They are used to highlight and offset important
+   messages displayed in the page. */
+.locknote, .versionnote
+  { color: red;
+    font-size: 130%;
+    text-align: center; 
+    background: #EAEAEA;
+    padding: 12px 12px 12px 12px; }
+
+/* How the "This is a preview" comment should be shown. */
+.previewnote
+  { color:      red;
+    font-size:  150%;
+    text-align: center; }
+
+/* How the preview content and system messages (from
+   DisplayMessage.jsp) should be shown. */
+.previewcontent, .messagecontent
+  { background: #E0E0E0; }
+
+/* How the "This page has been modified..." comment should
+   be shown. */
+.conflictnote { }
+
+/* This setting effects the background color in the table
+   cells for the top and left border. */
+.border { background: #003366; }
+
+/* Make sure the DIV tag surrounding the LeftMenu changes
+   the text color to white (or some other color) to make it
+   visible against the darker border color. */
+.border DIV
+  { color: #ffffff; }
+
+/* For the BreadcrumbsTag */
+.history
+  { font-size: 100%; }
+
+/* For the left-menu footer (or any "footer"). */
+.footer { font-size: 75%; }
+
+/* For the weblog plugin */
+.weblog
+  { margin-left: 20px; }
+.weblogheading
+  { background:  #E0E0E0;
+    font-size:   120%;
+    font-family: sans-serif; 
+    margin-top:  2ex; }
+.weblogentry
+  { font-family: sans-serif; 
+    font-size:   85%; 
+    margin-left: 10px; }
+.weblogpermalink
+  { font-size:   8px; 
+    margin-left: 10px; }
+
+/* For the BreadcrumbsTag */
+/* No longer used?  .breadcrumbs { font-size: 60%; } */
+
+/* The page title where "Page: <pageName>" is shown*/
+.pagetitle {font-size: 60%;}
+

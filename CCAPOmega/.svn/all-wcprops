@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repository/omega/!svn/ver/216/trunk/CCAPOmega
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/.classpath
+END
+s101plugin.state
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/s101plugin.state
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/.project
+END
+.fbprefs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/.fbprefs
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/pom.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/build.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repository/omega/!svn/ver/214/trunk/CCAPOmega/build.xml
+END
