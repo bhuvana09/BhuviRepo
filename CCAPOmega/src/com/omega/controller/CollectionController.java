@@ -61,7 +61,6 @@ public class CollectionController extends javax.servlet.http.HttpServlet
         	System.out.println("sds1111fghdf");
         	System.out.println("sds1111fghdf");
         	System.out.println("sds1111fghdf");
-        	System.out.println("sds1111fghdf");
             // validate data for correcteness and business conditions
             vehicleDetails = validation.constructValidVehicle(request);
             // calculate premium.
