@@ -1,0 +1,227 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\368837\git\git\CCAPOmega
+  - ALLUSERSPROFILE=C:\ProgramData
+  - ANT_HOME=D:\DataBackup\DDrive\apache-ant-1.9.3\apache-ant-1.9.3
+  - APPDATA=C:\Users\368837\AppData\Roaming
+  - COMPUTERNAME=PC237361
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+  - ERROR_CODE=0
+  - FP_NO_HOST_CHECK=NO
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\368837
+  - JAVA_EXEC="D:\DataBackup\DDrive\aa\jdk1.8.0_91\bin\java.exe"
+  - JAVA_HOME=D:\DataBackup\DDrive\aa\jdk1.8.0_91
+  - JAVA_OPTS=-XX:MaxPermSize=512m
+  - JRE_HOME=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre
+  - LOCALAPPDATA=C:\Users\368837\AppData\Local
+  - LOGONSERVER=\\CTSINMMCVADB
+  - M2_Home=D:\DataBackup\DDrive\aa\apache-maven-3.2.1\apache-maven-3.2.1
+  - NUMBER_OF_PROCESSORS=4
+  - OS=Windows_NT
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=2a07
+  - PROJECT_HOME=C:\Users\368837\git\git\CCAPOmega
+  - PROMPT=$P$G
+  - PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+  - PUBLIC=C:\Users\Public
+  - Path=C:\Program Files\Java\jre7\bin;C:\Windows\System32;D:\Git\cmd;D:\DataBackup\DDrive\aa\jdk1.8.0_91\bin;D:\DataBackup\DDrive\aa\apache-maven-3.2.1\apache-maven-3.2.1\bin;C:\Windows\System32;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\bin;D:\DataBackup\DDrive\apache-ant-1.9.3\apache-ant-1.9.3\bin;
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SCM_HOME= D:\DataBackup\DDrive\aa\RTC-scmTools-Win-4.0.6\jazz\scmtools\eclipse
+  - SESSIONNAME=Console
+  - SONAR_RUNNER_HOME=D:\sonar-runner-2.4_int\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\368837\AppData\Local\Temp
+  - TMP=C:\Users\368837\AppData\Local\Temp
+  - UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+  - USERDNSDOMAIN=CTS.COM
+  - USERDOMAIN=CTS
+  - USERDOMAIN_ROAMINGPROFILE=CTS
+  - USERNAME=368837
+  - USERPROFILE=C:\Users\368837
+  - VSEDEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+  - windir=C:\WINDOWS
+  - windows_tracing_flags=3
+  - windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log
+System properties:
+  - ROOT_LOGGER_LEVEL=DEBUG
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=D:\sonar-runner-2.4_int\bin\..\lib\sonar-runner-dist-2.4.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\endorsed
+  - java.ext.dirs=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+  - java.home=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre
+  - java.io.tmpdir=C:\Users\368837\AppData\Local\Temp\
+  - java.library.path=D:\DataBackup\DDrive\aa\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre7\bin;C:\Windows\System32;D:\Git\cmd;D:\DataBackup\DDrive\aa\jdk1.8.0_91\bin;D:\DataBackup\DDrive\aa\apache-maven-3.2.1\apache-maven-3.2.1\bin;C:\Windows\System32;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\bin;D:\DataBackup\DDrive\apache-ant-1.9.3\apache-ant-1.9.3\bin;;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_91-b14
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_91
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.91-b14
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 7
+  - os.version=6.1
+  - path.separator=;
+  - project.home=C:\Users\368837\git\git\CCAPOmega
+  - runner.home=D:\sonar-runner-2.4_int\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\resources.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\rt.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\sunrsasign.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\jsse.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\jce.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\charsets.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\lib\jfr.jar;D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\classes
+  - sun.boot.library.path=D:\DataBackup\DDrive\aa\jdk1.8.0_91\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonar.runner.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=Service Pack 1
+  - sun.stderr.encoding=cp437
+  - sun.stdout.encoding=cp437
+  - user.country=US
+  - user.dir=C:\Users\368837\git\git\CCAPOmega
+  - user.home=C:\Users\368837
+  - user.language=en
+  - user.name=368837
+  - user.script=
+  - user.timezone=Asia/Calcutta
+  - user.variant=
+SonarQube plugins:
+  - CVS 1.0 (scmcvs)
+  - Cobertura 1.7 (cobertura)
+  - CSS / SCSS / Less 3.1 (css)
+  - ReSharper 2.0 (resharper)
+  - SonarQube PMD Plugin 2.6 (pmd)
+  - Android 1.1 (android)
+  - SVN 1.4.0.522 (scmsvn)
+  - C# 6.3 (csharp)
+  - Jazz RTC 1.2-SNAPSHOT (scmjazzrtc)
+  - SonarJava 4.10.0.10260 (java)
+  - Views plugin 4.2 (ccapviewsplugin)
+  - LDAP 2.1.0.507 (ldap)
+  - Web 2.5.0.476 (web)
+  - SonarXML 1.4.2.885 (xml)
+  - CCAPMainframe 5.6.6 (ccapmainframeplugin)
+  - CCAPSequality 5.6.6 (ccapsequalityplugin)
+  - Checkstyle 3.7 (checkstyle)
+  - VBNet 6.3 (vbnet)
+  - PDF Report 5.6.6 (ccappdfextensionplugin)
+  - CCAP PMD Plugin 5.1 (ccappmdplugin)
+  - StyleCop 1.1 (stylecop)
+  - FxCop 1.0 (fxcop)
+  - Sonargraph 3.5 (Sonargraph)
+  - Motion Chart 1.7 (motionchart)
+  - Widget Lab 1.8.1 (widgetlab)
+  - SonarJS 3.1.0.5111 (javascript)
+  - Findbugs 3.4.4 (findbugs)
+  - Groovy 1.6-SNAPSHOT (groovy)
+  - Git 1.2 (scmgit)
+  - SonarPHP 2.10.0.2087 (php)
+  - Timeline 1.5 (timeline)
+  - File-level-analysis 4.0 (filelevelanalysisserverplugin)
+  - ccapvalidation 1.0.0 (ccapvalidation)
+Global properties:
+  - Design DIT=2
+  - devcockpit.status=D,20140130T06:34:22+0000
+  - email.from=ccap@cognizant.com
+  - email.prefix=[CCAP]
+  - email.smtp_password.secured=******
+  - email.smtp_port.secured=******
+  - email.smtp_username.secured=******
+  - report.type=executive
+  - sonar.abap.license.secured=******
+  - sonar.abap.licenseHash.secured=******
+  - sonar.autocontrol.license.secured=******
+  - sonar.branding.link=http://ccap.cognizant.com/ccap
+  - sonar.branding.logo.location=TOP
+  - sonar.checkstyle.filters=<module name="SuppressionFilter"/>
+  - sonar.cobol.licenseHash.secured=******
+  - sonar.core.id=20170803154810
+  - sonar.core.serverBaseURL=http://ccap.cognizant.com/ccap
+  - sonar.core.startTime=2017-08-03T15:48:10+0530
+  - sonar.core.version=5.6.6
+  - sonar.dbcleaner.daysBeforeDeletingClosedIssues=720
+  - sonar.dbcleaner.hoursBeforeKeepingOnlyOneSnapshotByDay=48
+  - sonar.dbcleaner.monthsBeforeDeletingAllSnapshots=12
+  - sonar.dbcleaner.monthsBeforeKeepingOnlyOneSnapshotByMonth=6
+  - sonar.dbcleaner.monthsBeforeKeepingOnlyOneSnapshotByWeek=1
+  - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=100
+  - sonar.devcockpit.licenseHash.secured=******
+  - sonar.devcockpit.userAutoMapping=false
+  - sonar.findbugs.timeout=1000000
+  - sonar.forceAuthentication=true
+  - sonar.java.coveragePlugin=jacoco
+  - sonar.lf.logoUrl=http://ccap.cognizant.com/CCAPWeb/images/ccap.png
+  - sonar.ndeps.timeoutMinutes=60
+  - sonar.pdf.password=******
+  - sonar.pdf.skip=false
+  - sonar.permission.template.TRK.default=default_template_for_projects
+  - sonar.permission.template.VW.default=default_template_for_views
+  - sonar.permission.template.default=default_template_for_projects
+  - sonar.qualitygate=4
+  - sonar.resharper.inspectCodePath=C:/Cognizant_Resharper/inspectcode.exe
+  - sonar.scm.disabled=true
+  - sonar.scm.enabled=false
+  - sonar.scm.password.secured=******
+  - sonar.scm.threadCount=1
+  - sonar.scm.user.secured=******
+  - sonar.sqale.licenseHash.secured=******
+  - sonar.stylecop.installDirectory=C:/Program Files/StyleCop 4.7
+  - sonar.timemachine.period2=5
+  - sonar.timemachine.period3=30
+  - sonar.vb.licenseHash.secured=******
+  - sonar.views.licenseHash.secured=******
+  - sonar.web.file.suffixes=.html,.xhtml,.rhtml,.shtml
+  - sonarsource.cobol.license.secured=******
+  - sonarsource.vb.license.secured=******
+  - sqale.license.secured=******
+  - technicaldebt.daily.rate=240
+  - timemachine.chartMetrics=complexity,violations_density,coverage
+  - tq.tq.formula=ARCH=0.10 DESIGN=0.34 CODE=0.41 TESTS=0.15
+  - views.def=<views><vw key="_Farmers_PLA_Analysis"><name><![CDATA[Farmers PLA Analysis]]></name><desc><![CDATA[Farmers PLA Analysis]]></desc><p>insurance.farmers.insurance.group:1000008131.69320.farmers.pla.management.java</p><p>insurance.farmers.insurance.group:1000008131.69320.express.java</p><p>insurance.farmers.insurance.group:1000008131.69320.run.java</p></vw><vw key="CCAP_v3_Projects"><name><![CDATA[CCAP v3 Projects]]></name><desc><![CDATA[All components of CCAP v3 source in RTC]]></desc><p>com.cognizant.ccap:ccap-cast-rules-impl</p><p>internal.gto.internal:1000060316.59911.ccapcheckinplugin.java</p><p>internal.gto.internal:1000060316.59911.ccapeclipseplugin.java</p><p>com.cognizant.ccap:ccap-pmd-metrics-impl</p><p>com.cognizant.gto.ccap.plugin:ccap-design-cumulative</p><p>internal.gto.internal:1000060316.59911.ccapwebapplication.java</p><p>org.codehaus.sonar-plugins.dotnet:dotnet</p><p>com.cognizant.gto.ccap.plugin:ccap-mainframe-plugin</p><p>com.cognizant.gto.sonar.plugin:ccap-sast-plugin</p><p>com.cognizant.gto.ccap.plugin:ccap-sequality-plugin</p><p>com.cognizant.gto.ccap.plugin:file-level-analysis-server-plugin</p></vw><vw key="Ally_VSC_New"><name><![CDATA[Ally_VSC_New]]></name><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.afs.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.oss.web.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.forms.service.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.qps.interface.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.qps.service.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.qps.service.implementation.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.qps.web.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.dealer.admin.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.dealer.admin.service.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.oca.service.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.oca.web.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.bcd.web.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.bdc.reports.java</p><p>bfs.ally.financial.inc:1000092831.129722.ally.vsc.bcd.java</p></vw><vw key="testkey"><name><![CDATA[test]]></name><desc><![CDATA[test]]></desc><p>internal.gto.internal:1000060316.59911.ccap.java</p></vw></views>
+  - views.license.secured=******
+  - views.status=D,20140903T05:26:25+0000
+Settings for module: com.cognizant.internal.gtointernal.ccap.59911.versionsixtesting.java
+  - sonar.host.url=http://ccap.cognizant.com/ccap
+  - sonar.java.binaries=build
+  - sonar.language=java
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.profile=Sonar way
+  - sonar.projectBaseDir=C:\Users\368837\git\git\CCAPOmega\.
+  - sonar.projectKey=com.cognizant.internal.gtointernal.ccap.59911.versionsixtesting.java
+  - sonar.projectName=CCAPOmega
+  - sonar.projectVersion=CCAPOmega+1501579220467
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=src
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\368837\git\git\CCAPOmega\.\.sonar

@@ -57,10 +57,6 @@ public class CollectionController extends javax.servlet.http.HttpServlet
         Vehicle vehicleDetails;
         try
         {
-        	System.out.println("sds1111fghdf");
-        	System.out.println("sds1111fghdf");
-        	System.out.println("sds1111fghdf");
-        	System.out.println("sds1111fghdf");
             // validate data for correcteness and business conditions
             vehicleDetails = validation.constructValidVehicle(request);
             // calculate premium.
@@ -90,80 +86,6 @@ public class CollectionController extends javax.servlet.http.HttpServlet
          return clz.isAssignableFrom(LookupDAO.class); 
     } 
 				 
-				 
-    private void setMyName(){
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	System.out.println("sds1111111111111111111111111111111111111");
-    	LOGGER.info("sds1111111111111111111111111111111111111");
-    	LOGGER.info("sds1111111111111111111111111111111111111");
 
-    }
-
-    private void setMyName1(){
-		LOGGER.info("sds1");
-    	LOGGER.info("sds2");
-    	LOGGER.info("sds3");
-    	LOGGER.info("sds4");
-
-    }
-
-    private void setMyName1208(){
-    	LOGGER.info("sds");
-    	LOGGER.info("sds2");
-    	LOGGER.info("sds3");
-    	LOGGER.info("sds4");
-    	LOGGER.info("sds4");
-    }
-
-    private void setMyName121(){
-    	LOGGER.info("sds");
-    	LOGGER.info("sds2");
-    	LOGGER.info("sds3");
-    	LOGGER.info("sds4");
-    	LOGGER.info("sds");
-    	LOGGER.info("sds2");
-    	LOGGER.info("sds3");
-    	LOGGER.info("sds4");
-    }
-
-    private void setMyName2(){
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    }
-
-    private void setMyName3(){
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    	LOGGER.info("sds");
-    }
 
 }

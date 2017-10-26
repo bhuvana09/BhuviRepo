@@ -27,6 +27,7 @@ public class FileReading {
 		}
 	}
 
+	
 	void baz(String fileName) throws IOException, FileNotFoundException{
 		try{
 		// Read the file and write some text into the file.
@@ -42,6 +43,7 @@ public class FileReading {
 		}
 	}
 
+	
 	public static void main(String[] args) throws IOException, FileNotFoundException, IOException {
 		String fileName = null;
 

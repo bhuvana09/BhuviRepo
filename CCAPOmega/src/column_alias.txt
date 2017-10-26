@@ -1,0 +1,14 @@
+Create procedure usp_vinithasampleprocedure
+
+
+as
+
+begin
+
+select dummy d FROM projects where  auditid=12;
+select dummy as d FROM projects where  auditid=12;
+SELECT * 
+FROM all_tables tabs
+WHERE tabs.table_name IN (SELECT cols.table_name
+                          FROM all_tab_columns cols
+                          WHERE cols.column_name = 'SUPPLIER_ID');end

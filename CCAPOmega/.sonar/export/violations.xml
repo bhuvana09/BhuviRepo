@@ -1,0 +1,2182 @@
+	<resource Name="src/com/omega/controller/CollectionController.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="178.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="134.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="8.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="84.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="6.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="9.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="9.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="9.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="53.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="The String literal &quot;sds1111fghdf&quot; appears 5 times in this file; the first occurrence is on line 60" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="63" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="64" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="95" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="96" />
+			<violation Message="The String literal &quot;sds1111111111111111111111111111111111111&quot; appears 38 times in this file; the first occurrence is on line 96" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="96" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="97" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="98" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="99" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="100" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="101" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="102" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="103" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="104" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="105" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="106" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="107" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="108" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="109" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="110" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="111" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="112" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="113" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="114" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="115" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="116" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="117" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="118" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="119" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="120" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="121" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="122" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="123" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="124" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="125" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="126" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="127" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="128" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="129" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="130" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="131" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName1()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="137" />
+			<violation Message="The String literal &quot;sds2&quot; appears 4 times in this file; the first occurrence is on line 139" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="139" />
+			<violation Message="The String literal &quot;sds3&quot; appears 4 times in this file; the first occurrence is on line 140" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="140" />
+			<violation Message="The String literal &quot;sds4&quot; appears 5 times in this file; the first occurrence is on line 141" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="141" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName1208()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="145" />
+			<violation Message="The String literal &quot;sds&quot; appears 11 times in this file; the first occurrence is on line 146" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="146" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName121()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="153" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName2()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="164" />
+			<violation Message="Avoid unused private methods such as &apos;setMyName3()&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="171" />
+		</violations>
+		<checkinFailures resource="src/com/omega/controller/CollectionController.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>53.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/ILookupDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="40.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="6.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="11.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/ILookupDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/IVehicleDAO.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="40.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="7.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="8.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/IVehicleDAO.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/LookupDAO.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="150.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="96.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="48.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="12.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="14.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="14.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="14.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="21.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Assign this magic number 2 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="109" />
+			<violation Message="The Cyclomatic Complexity of this method &quot;lookupBasePremium&quot; is 14 which is greater than 10 authorized." RulePlugin="squid" Rule="MethodCyclomaticComplexity" Severity="MAJOR" isNew="true" Line="42" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---LOG&quot; appears 12 times in this file; the first occurrence is on line 48" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="50" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="51" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="52" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="53" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="55" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="56" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="58" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="63" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="73" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---TYPE NULLLLLLLLLLLLLL&quot; appears 4 times in this file; the first occurrence is on line 73" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="73" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="76" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="79" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="82" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="105" />
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/LookupDAO.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>21.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dao/VehicleDAO.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="156.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="111.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="53.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="12.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="41.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="The method saveVechicleQuotation() has an NCSS line count of 54" RulePlugin="pmd" Rule="NcssMethodCount" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="46" />
+			<violation Message="Avoid unused local variables such as &apos;count&apos;." RulePlugin="pmd" Rule="UnusedLocalVariable" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="The String literal &quot;Added by Uma SCM comments&quot; appears 8 times in this file; the first occurrence is on line 60" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="63" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="64" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="65" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="66" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="67" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="68" />
+			<violation Message="The String literal &quot;testing&quot; appears 25 times in this file; the first occurrence is on line 68" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="68" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="69" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="70" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="71" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="72" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="73" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="74" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="75" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="76" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="77" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="78" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="79" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="80" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="81" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="82" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="83" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="84" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="85" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="86" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="87" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="88" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="89" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="90" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="91" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="92" />
+		</violations>
+		<checkinFailures resource="src/com/omega/dao/VehicleDAO.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>41.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/dtd/Vehicle.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="273.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="124.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="30.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="34.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="35.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="32.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="32.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="32.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/dtd/Vehicle.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/exception/InValidVehicleException.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="188.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="71.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="9.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="16.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="45.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/exception/InValidVehicleException.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/exception/ServiceException.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="188.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="71.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="9.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="16.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="45.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="11.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/exception/ServiceException.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/IPremiumCalculation.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="39.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="7.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="7.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+		</violations>
+		<checkinFailures resource="src/com/omega/service/IPremiumCalculation.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/MasterCalculations.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="67.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="48.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="2.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="19.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="4.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="8.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="3.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Add a private constructor to hide the implicit public one." RulePlugin="squid" Rule="S1118" Severity="MAJOR" isNew="true" Line="9" />
+			<violation Message="Avoid unused private fields such as &apos;name&apos;." RulePlugin="pmd" Rule="UnusedPrivateField" Severity="MAJOR" isNew="true" Line="12" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="60" />
+		</violations>
+		<checkinFailures resource="src/com/omega/service/MasterCalculations.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>3.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/service/PremiumCalculation.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="89.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="48.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="16.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="13.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="3.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="1.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Assign this magic number 22 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="52" />
+			<violation Message="Assign this magic number 10 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="52" />
+			<violation Message="Assign this magic number 10 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="53" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="67" />
+		</violations>
+		<checkinFailures resource="src/com/omega/service/PremiumCalculation.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>1.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/DBConnection.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="115.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="60.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="3.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="33.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="17.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="5.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="16.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Rename this local variable to match the regular expression &apos;^[a-z][a-zA-Z0-9]*$&apos;." RulePlugin="squid" Rule="S00117" Severity="MINOR" isNew="true" Line="107" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="20" />
+			<violation Message="This block of commented-out lines of code should be removed." RulePlugin="squid" Rule="CommentedOutCodeLine" Severity="MAJOR" isNew="true" Line="75" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="The String literal &quot;!!!!!!!!!!!!!!!!!!!!!!&quot; appears 13 times in this file; the first occurrence is on line 54" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="54" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="55" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="56" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="57" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="58" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="59" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="60" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="61" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="62" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="109" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="110" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="111" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="112" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/DBConnection.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>16.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/Validation.java" checkin="true">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="159.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="96.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="5.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="39.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="17.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="15.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Assign this magic number 20 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="107" />
+			<violation Message="Assign this magic number 5 to a well-named constant, and use the constant instead." RulePlugin="squid" Rule="S109" Severity="MINOR" isNew="true" Line="113" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/Validation.java">
+		</checkinFailures>
+	</resource>
+	<resource Name="src/com/omega/utility/ValidationHelper.java" checkin="false">
+		<metrics>
+			<metric Metric_Domain="Size" Name="lines" Value="55.0" />
+			<metric Metric_Domain="Size" Name="generated_lines" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc" Value="25.0" />
+			<metric Metric_Domain="Size" Name="ncloc_language_distribution" Value="" />
+			<metric Metric_Domain="Size" Name="generated_ncloc" Value="" />
+			<metric Metric_Domain="Size" Name="classes" Value="1.0" />
+			<metric Metric_Domain="Size" Name="files" Value="" />
+			<metric Metric_Domain="Size" Name="directories" Value="" />
+			<metric Metric_Domain="Size" Name="packages" Value="" />
+			<metric Metric_Domain="Size" Name="functions" Value="1.0" />
+			<metric Metric_Domain="Size" Name="accessors" Value="" />
+			<metric Metric_Domain="Size" Name="statements" Value="9.0" />
+			<metric Metric_Domain="Documentation" Name="public_api" Value="" />
+			<metric Metric_Domain="Size" Name="projects" Value="" />
+			<metric Metric_Domain="Documentation" Name="comment_lines" Value="4.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_documented_api_density" Value="" />
+			<metric Metric_Domain="Documentation" Name="public_undocumented_api" Value="" />
+			<metric Metric_Domain="Documentation" Name="commented_out_code_lines" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_classes" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="class_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="complexity_in_functions" Value="1.0" />
+			<metric Metric_Domain="Complexity" Name="function_complexity" Value="" />
+			<metric Metric_Domain="Complexity" Name="class_complexity_distribution" Value="" />
+			<metric Metric_Domain="Complexity" Name="function_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Complexity" Name="file_complexity_distribution" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_execution_time" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_errors" Value="" />
+			<metric Metric_Domain="Coverage" Name="skipped_tests" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_failures" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_success_density" Value="" />
+			<metric Metric_Domain="Coverage" Name="test_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_it_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="it_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_lines_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_lines" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_line_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_coverage_line_hits_data" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_conditions_to_cover" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_uncovered_conditions" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="new_overall_branch_coverage" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_conditions_by_line" Value="" />
+			<metric Metric_Domain="Coverage" Name="overall_covered_conditions_by_line" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_blocks" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_files" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplicated_lines_density" Value="" />
+			<metric Metric_Domain="Duplications" Name="duplications_data" Value="" />
+			<metric Metric_Domain="Issues" Name="violations" Value="" />
+			<metric Metric_Domain="Issues" Name="blocker_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="critical_violations" Value="0.0" />
+			<metric Metric_Domain="Issues" Name="major_violations" Value="14.0" />
+			<metric Metric_Domain="Issues" Name="minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_blocker_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_critical_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_major_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_minor_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="new_info_violations" Value="" />
+			<metric Metric_Domain="Issues" Name="false_positive_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="wont_fix_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="open_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="reopened_issues" Value="" />
+			<metric Metric_Domain="Issues" Name="confirmed_issues" Value="" />
+			<metric Metric_Domain="Maintainability" Name="code_smells" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_code_smells" Value="" />
+			<metric Metric_Domain="Reliability" Name="bugs" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_bugs" Value="" />
+			<metric Metric_Domain="Security" Name="vulnerabilities" Value="" />
+			<metric Metric_Domain="Security" Name="new_vulnerabilities" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_index" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_technical_debt" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_rating" Value="" />
+			<metric Metric_Domain="Maintainability" Name="development_cost" Value="" />
+			<metric Metric_Domain="Maintainability" Name="sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="new_sqale_debt_ratio" Value="" />
+			<metric Metric_Domain="Maintainability" Name="effort_to_reach_maintainability_rating_a" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="new_reliability_remediation_effort" Value="" />
+			<metric Metric_Domain="Reliability" Name="reliability_rating" Value="" />
+			<metric Metric_Domain="Security" Name="security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="new_security_remediation_effort" Value="" />
+			<metric Metric_Domain="Security" Name="security_rating" Value="" />
+			<metric Metric_Domain="Size" Name="ncloc_data" Value="0.0" />
+			<metric Metric_Domain="Documentation" Name="comment_lines_data" Value="0.0" />
+			<metric Metric_Domain="Coverage" Name="executable_lines_data" Value="" />
+			<metric Metric_Domain="Releasability" Name="alert_status" Value="" />
+			<metric Metric_Domain="General" Name="quality_gate_details" Value="" />
+			<metric Metric_Domain="General" Name="profile" Value="" />
+			<metric Metric_Domain="General" Name="profile_version" Value="" />
+			<metric Metric_Domain="General" Name="quality_profiles" Value="" />
+			<metric Metric_Domain="SCM" Name="last_commit_date" Value="" />
+		</metrics>
+		<violations>
+			<violation Message="Remove this unused import &apos;org.apache.commons.lang.StringUtils&apos;." RulePlugin="squid" Rule="UselessImportCheck" Severity="MINOR" isNew="true" Line="19" />
+			<violation Message="Remove this unused import &apos;java.util.Date&apos;." RulePlugin="squid" Rule="UselessImportCheck" Severity="MINOR" isNew="true" Line="23" />
+			<violation Message="Remove this unused import &apos;com.omega.exception.InValidVehicleException&apos;." RulePlugin="squid" Rule="UselessImportCheck" Severity="MINOR" isNew="true" Line="17" />
+			<violation Message="Avoid unused private fields such as &apos;LOGGER&apos;." RulePlugin="pmd" Rule="UnusedPrivateField" Severity="MAJOR" isNew="true" Line="39" />
+			<violation Message="Avoid unused method parameters such as &apos;param&apos;." RulePlugin="pmd" Rule="UnusedFormalParameter" Severity="MAJOR" isNew="true" Line="41" />
+			<violation Message="Avoid unused method parameters such as &apos;request&apos;." RulePlugin="pmd" Rule="UnusedFormalParameter" Severity="MAJOR" isNew="true" Line="41" />
+			<violation Message="Avoid unused private methods such as &apos;getInteger(HttpServletRequest,String)&apos;." RulePlugin="pmd" Rule="UnusedPrivateMethod" Severity="MAJOR" isNew="true" Line="41" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="The String literal &quot;This is a test from UMA Id&quot; appears 4 times in this file; the first occurrence is on line 44" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="44" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="45" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="46" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="47" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="The String literal &quot;This is a test from Sampath Id&quot; appears 4 times in this file; the first occurrence is on line 48" RulePlugin="pmd" Rule="AvoidDuplicateLiterals" Severity="MAJOR" isNew="true" Line="48" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="49" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="50" />
+			<violation Message="System.out.println is used" RulePlugin="pmd" Rule="SystemPrintln" Severity="MAJOR" isNew="true" Line="51" />
+		</violations>
+		<checkinFailures resource="src/com/omega/utility/ValidationHelper.java">
+			<failureDetail><ruleDomain>Issues</ruleDomain><ruleName>major_violations</ruleName><metricValue>14.0</metricValue><operator>GT</operator><expectedMaxValue>0.0</expectedMaxValue><lineNo></lineNo></failureDetail>
+		</checkinFailures>
+	</resource>

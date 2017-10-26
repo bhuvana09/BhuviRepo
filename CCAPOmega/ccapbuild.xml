@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="coverage" name="omegatestant">
+	<property environment="env" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property file="./ccapbuild.properties" />
+	<property name="target" value="${target.java.version}" />
+	<property name="source" value="${source.java.version}" />
+
+	<path id="buildlib">
+		<fileset dir="${build.lib}" includes="**/*.jar" />
+	</path>
+
+	<path id="project.classpath">
+		<pathelement location="${build.dir}" />
+	</path>
+
+	<path id="cobertura.classpath">
+		<fileset dir="${cobertura.dir}">
+			<include name="cobertura.jar" />
+			<include name="**/*.jar" />
+		</fileset>
+
+	</path>
+
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+
+<!-- clean reports directory  -->
+
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${report.dir}" />
+	</target>
+
+	<!-- To create all required directories -->
+
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${report.dir}/junit" />
+		<mkdir dir="${instrumented.dir}" />
+		<copy includeemptydirs="false" todir="${build.dir}">
+			<fileset dir="${source.dir}">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="${build.dir}">
+			<fileset dir="${test.dir}">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- To build the project -->
+
+	<target name="build" depends="init">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<echo message="Building Source....." />
+		<javac srcDir="${source.dir}" destdir="${build.dir}" source="${source}" target="${target}">
+			<classpath refid="project.classpath" />
+
+
+		</javac>
+		<echo message="Building test....." />
+		<javac srcDir="${test.dir}" destdir="${build.dir}" source="${source}" target="${target}">
+			<classpath refid="project.classpath" />
+			<classpath refid="buildlib" />
+		</javac>
+	</target>
+
+	<!-- It will perform intrumentation of java files -->
+
+	<target name="instrument" depends="init,build">
+		<delete file="cobertura.ser" />
+		<delete dir="${instrumented.dir}" />
+		<cobertura-instrument todir="${instrumented.dir}">
+			<ignore regex="org.apache.log4j.*" />
+			<fileset dir="${build.dir}">
+				<include name="**/*.class" />
+				<exclude name="**/*Test.class" />
+				<exclude name="**/All*.class" />
+			</fileset>
+		</cobertura-instrument>
+	</target>
+	
+	<!-- To run junit test files -->
+
+	<target name="test" depends="init,build">
+		<junit fork="yes" dir="${basedir}" printsummary="yes" failureProperty="test.failed">
+			<classpath location="${instrumented.dir}" />
+			<classpath location="${build.dir}" />
+			<classpath location="${build.lib}\junit-4.0.jar" />
+			<classpath refid="project.classpath" />
+			<classpath refid="cobertura.classpath" />
+			<formatter type="xml" />
+			<test name="${testcase}" todir="${report.dir}/junit" if="testcase" />
+			<batchtest todir="${report.dir}/junit">
+				<fileset dir="${test.dir}">
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+
+		<junitreport todir="${report.dir}/junit">
+			<fileset dir="${report.dir}/junit">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${report.dir}/junit" />
+		</junitreport>
+	</target>
+
+	<!-- To generate coverage.xml file  -->
+
+	<target name="coverage-report">
+		<cobertura-report srcdir="${source.dir},${test.dir}" destdir="${report.dir}\\junitCoverage" format="xml" excludes="**/*Controller.java" />
+	</target>
+	<!-- To generate all xml reports  -->
+
+	<target name="summary-coverage-report">
+		<cobertura-report srcdir="${source.dir},${test.dir}" destdir="${report.dir}\\junitCoverage" format="summaryXml" />
+	</target>
+	<!-- default target to generate code coverage  -->
+
+	<target name="coverage" depends="build,instrument,test,coverage-report,summary-coverage-report" description="Compile, instrument ourself, run the tests and generate JUnit and coverage reports." />
+	
+
+</project>

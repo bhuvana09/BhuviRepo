@@ -57,6 +57,7 @@ private static String name=null;
         }
         else
         {
+        	System.out.println("aa"+aa);
             aa = "equals";
         }
         
