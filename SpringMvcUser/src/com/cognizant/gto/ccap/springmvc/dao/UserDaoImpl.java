@@ -1,18 +1,25 @@
 package com.cognizant.gto.ccap.springmvc.dao;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.Socket;
+import java.net.UnknownHostException;
+import java.security.InvalidKeyException;
 import java.security.Key;
 import java.security.KeyPairGenerator;
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.KeyGenerator;
+import javax.crypto.NoSuchPaddingException;
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
@@ -111,7 +118,7 @@ public class UserDaoImpl implements UserDao {
 					Long valL = 12345678910L;
 					Integer intt = 123564;
 					StringBuilder stringBuilder = new StringBuilder();
-					// stringBuilder.append( Integer.toHexString( resultBytes[0] & 0xFF ) );
+					stringBuilder.append( Integer.toHexString( resultBytes[0] & 0xFF ) );
 					String sr = Integer.toHexString(intt);
 					 stringBuilder.append( Integer.toHexString(intt));
 					
@@ -121,13 +128,12 @@ public class UserDaoImpl implements UserDao {
 					 
 			  } catch (Exception e) {
 					e.printStackTrace();
-				} 
+				}
 			  
 			  
 		String sql = "select * from users where username='"+login.getUsername()+"' and password='"+login.getPassword()+"";  
 		
-		List<User> users1 = jdbcTemplate.query("select * from users where username=? and password=?",
-				new UserMapper(), login.getUsername(), login.getPassword()); 
+		List<User> users1 = jdbcTemplate.query("select * from users where username='"+login.getUsername()+"' and password='"+login.getPassword()+"", new UserMapper()); 
 	  
 		String queryone = "select * from users where username='"+login.getUsername()+"' and password='"+login.getPassword()+"";
 		List<User> users = jdbcTemplate.query(sql, new UserMapper());	  
@@ -142,7 +148,6 @@ public class UserDaoImpl implements UserDao {
 
 			@Override
 			public String extractData(ResultSet rs) throws SQLException, DataAccessException {
-				// TODO Auto-generated method stub
 				return null;
 			}
 		};
@@ -151,7 +156,6 @@ public class UserDaoImpl implements UserDao {
 
 			@Override
 			public String mapRow(ResultSet arg0, int arg1) throws SQLException {
-				// TODO Auto-generated method stub
 				return null;
 			}
 		};
@@ -160,8 +164,6 @@ public class UserDaoImpl implements UserDao {
 			
 			@Override
 			public void setValues(PreparedStatement arg0) throws SQLException {
-				
-				// TODO Auto-generated method stub
 				arg0.setString(1, login.getUsername());
 				arg0.setString(2, login.getPassword());
 			}

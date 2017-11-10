@@ -83,6 +83,7 @@ public class CollectionController extends javax.servlet.http.HttpServlet
     
 	public boolean supportsClass(Class clz) 
     { 
+		
          return clz.isAssignableFrom(LookupDAO.class); 
     } 
 				 

@@ -60,36 +60,7 @@ public class VehicleDAO implements IVehicleDAO
 	    System.out.println("Added by Uma SCM comments");
 	    System.out.println("Added by Uma SCM comments");
 	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("Added by Uma SCM comments");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
-	    System.out.println("testing");
+
 
         if (LOGGER.isInfoEnabled())
         {
